@@ -1,2 +1,4 @@
 .cache
 output
+compass/Gem
+compass/.sass-cache
