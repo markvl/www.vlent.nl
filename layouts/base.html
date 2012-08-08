@@ -4,7 +4,12 @@
     {% block head -%}
       <meta charset="utf-8" />
       <title>{% block title %}{% endblock %}</title>
-      <link media="all" href="{{ env.path + '/style.css' }}" rel="stylesheet" />
+      <link media="all" href="{{ env.path + '/css/screen.css' }}" rel="stylesheet" />
+      <link media="print" href="{{ env.path + '/css/print.css' }}" rel="stylesheet" />
+      <!--[if IE]>
+      <link media="all" href="{{ env.path + '/css/ie.css' }}" rel="stylesheet" />
+      <![endif]-->
+
       <link href="/favicon.ico" rel="shortcut icon" />
       {% if 'sitemap' in env.views -%}
         <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
@@ -13,7 +18,7 @@
       <link href="{{ env.path + '/atom/' }}" type="application/atom+xml" rel="alternate" title="Atom Feed" />
       <link href="{{ env.path + '/rss/' }}" type="application/rss+xml" rel="alternate" title="RSS Feed" />
       <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="{{ env.path + '/js/html5.js' }}"></script>
       <![endif]-->
     {%- endblock %}
   </head>
