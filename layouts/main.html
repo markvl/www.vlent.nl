@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 
 {% block title %}
-  {%- if env.type != 'entry' -%}
-    {{ conf.sitename }}
+  {%- if env.type == 'entry' -%}
+    {{ entry.title | trim }} | {{ conf.sitename }}
+  {%- elif env.type == 'tag' -%}
+    {{ env.tag }} | {{conf.sitename}}
   {%- else -%}
-    {{ entry.title }}
+    {{ conf.sitename }}
   {%- endif -%}
 {% endblock %}
 
@@ -17,6 +19,11 @@
 {% endblock %}
 
 {% block content %}
+  {% if env.type == 'index' %}
+    <h1>Weblog</h1>
+  {% elif env.type == 'tag' %}
+    <h1>Weblog entries for “{{ env.tag }}”</h1>
+  {% endif %}
   {% for entry in env.entrylist %}
     {% include 'entry.html' %}
   {% endfor %}
@@ -32,22 +39,4 @@
       </a>
     {% endif %}
   {%- endif  %}
-{% endblock %}
-
-{% block footer %}
-  {{ super() }}
-  {% if conf.disqus_shortname and type == 'index' %}
-    <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-      var disqus_shortname = '{{ conf.disqus_shortname }}'; // required: replace example with your forum shortname
-
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = '{{ env.protocol }}://' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    </script>
-  {% endif %}
 {% endblock %}

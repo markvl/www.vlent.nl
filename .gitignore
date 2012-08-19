@@ -1,4 +1,8 @@
 .cache
-output
 compass/Gem
 compass/.sass-cache
+
+# Generated output
+index.html
+*.xml
+*.css

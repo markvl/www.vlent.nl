@@ -2,26 +2,27 @@
 # This is your config file.  Please write in a valid python syntax!
 # See http://acrylamid.readthedocs.org/en/latest/conf.py.html
 
-SITENAME = 'A descriptive blog title'
-WWW_ROOT = 'http://example.com/'
+SITENAME = 'vLent.nl'
+TAGLINE = 'Practicing software development'
+WWW_ROOT = 'http://www.vlent.nl'
 
-AUTHOR = 'Anonymous'
-EMAIL = 'mail@example.com'
+AUTHOR = 'Mark van Lent'
+EMAIL = 'mark@vlent.nl'
 
-FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
+FILTERS = ['markdown', 'typography', 'h1']
 VIEWS = {
-    '/': {'filters': 'summarize', 'view': 'index',
+    '/': {'filters': 'summarize+16', 'view': 'index',
           'pagination': '/page/:num'},
 
-    '/:year/:slug/': {'view': 'entry'},
+    '/:slug/': {'view': 'page'},
 
-    '/tag/:name/': {'filters': 'summarize', 'view':'tag',
+    '/weblog/:year/:zmonth/:zday/:slug/': {'view': 'entry'},
+
+
+    '/tag/:name/': {'filters': 'summarize+16', 'view': 'tag',
                     'pagination': '/tag/:name/:num'},
 
-    '/atom/': {'filters': ['h2', 'nohyphenate'], 'view': 'atom'},
-    '/rss/': {'filters': ['h2', 'nohyphenate'], 'view': 'rss'},
-
-    '/articles/': {'view': 'articles'},
+    '/weblog/atom.xml': {'filters': ['h2', ], 'view': 'atom'},
 
     '/sitemap.xml': {'view': 'sitemap'},
 
@@ -30,14 +31,15 @@ VIEWS = {
     # # '/atom/full/' will give you a _complete_ feed of all your entries
     # '/atom/full/': {'filters': 'h2', 'view': 'atom', 'num_entries': 1000},
 
-    # # a feed containing all entries tagges with 'python'
+    # # a feed containing all entries tagged with 'python'
     # '/rss/python/': {'filters': 'h2', 'view': 'rss',
     #                  'if': lambda e: 'python' in e.tags}
 
-    # # a full typography features entry including MathML and Footnotes
-    # '/:year/:slug': {'filters': ['typography', 'Markdown+Footnotes+MathML'],
-    #                  'view': 'entry'}
 }
 
-PERMALINK_FORMAT = '/:year/:slug/index.html'
-DATE_FORMAT = '%d.%m.%Y, %H:%M'
+PERMALINK_FORMAT = '/weblog/:year/:zmonth/:zday/:slug/index.html'
+DATE_FORMAT = '%Y-%m-%d %H:%M'
+OUTPUT_IGNORE = ['/css/*', '/js/*', '/fonts/*', '/images/*', 'favicon.ico']
+ENTRIES_IGNORE = ["drafts/*", ]
+DISQUS_SHORTNAME = 'vlent'
+SUMMARIZE_LINK='<span>&#8230; <a href="%s" class="continue">Continue</a></span>'

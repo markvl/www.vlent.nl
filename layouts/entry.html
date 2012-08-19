@@ -1,17 +1,16 @@
 <article>
   <header>
-    <time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%d.%m.%Y, %H:%M") }}</time>
-    <h1>
-      <a href="{{ env.path + entry.permalink }}">{{ entry.title }}</a>
-    </h1>
+    {% if env.type in ['index', 'tag'] %}
+      <h2><a href="{{ env.path + entry.permalink }}">{{ entry.title | trim }}</a></h2>
+    {% else %}
+      <h1>{{ entry.title | trim }}</h1>
+    {% endif %}
+    <time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%B %d, %Y") }}</time>
   </header>
   {{ entry.content }}
   <footer>
-    {% if conf.disqus_shortname and env.type == 'index' %}
-      <a class="floatright" href="{{ conf.www_root + entry.permalink }}#disqus_thread">Comment</a>
-    {% endif %}
     {% if 'tag' in env.views and entry.tags %}
-      <p>tagged as
+      <p>Tagged as
         {% for link in entry.tags | tagify -%}
           <a href="{{ env.path + link.href }}">{{ link.title }}</a>
           {%- if loop.revindex > 2 -%}
@@ -22,16 +21,31 @@
         {% endfor %}
       </p>
     {% elif not entry.draft %}
-      <p>untagged</p>
+      <p>Untagged</p>
     {% endif %}
   </footer>
+  {% if env.type == 'entry' and not entry.draft %}
+    <aside>
+      <h2>About me</h2>
+      <p>
+        I am a technical consultant and Python developer. My day
+        job mainly involves Plone and Django websites or web
+        applications. On this website I like to share my thoughts
+        and findings for others to learn from and/or enjoy. Find out more about me on my
+        <a class="read-more" rel="author" href="/about/">about page</a>.
+        You can also find me on
+        <a class="icon icon-prefix" data-icon="t " href="http://twitter.com/mvlent">Twitter</a>,
+        <a class="icon icon-prefix" data-icon="g " href="https://plus.google.com/110070627222617391002">Google+</a>
+        and
+        <a class="icon icon-prefix" data-icon="l " href="http://nl.linkedin.com/in/markvanlent">LinkedIn</a>.
+      </p>
+    </aside>
+  {% endif %}
   <div class="comments">
     {%- if conf.disqus_shortname and env.type == 'entry' and not entry.draft %}
       <div id="disqus_thread"></div>
       <script type="text/javascript">
-        var disqus_shortname = '{{ conf.disqus_shortname }}'; // required: replace example with your forum shortname
-
-        // The following are highly recommended additional parameters. Remove the slashes in front to use.
+        var disqus_shortname = "{{ conf.disqus_shortname }}";
         var disqus_identifier = "{{ conf.www_root + entry.permalink }}";
         var disqus_url = "{{ conf.www_root + entry.permalink }}";
 
