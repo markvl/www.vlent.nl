@@ -16,6 +16,12 @@
     <meta name="description" content="{{ entry.description | e }}" />
     <meta name="keywords" content="{{ entry.tags | join(', ') }}" />
   {%- endif -%}
+  {%- if env.type == 'tag' -%}
+    <link href="{{ env.route + '/atom.xml' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} {{ env.tag}} Atom Feed" />
+  {%- endif %}
+  {%- if env.type in ['tag', 'index'] -%}
+    <meta name="robots" content="noindex" />
+  {%- endif -%}
 {% endblock %}
 
 {% block content %}
