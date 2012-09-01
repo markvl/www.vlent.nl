@@ -1,4 +1,5 @@
 Jinja2==2.6
+Mako==0.7.2
 Markdown==2.1.1
 smartypants==1.6.0.3
 translitcodec==0.3
