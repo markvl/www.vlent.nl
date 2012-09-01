@@ -1,0 +1,26 @@
+/* TEAM */
+
+  Author:   Mark van Lent
+  Twitter:  @mvlent
+  Location: Rotterdam area, The Netherlands
+
+
+/* THANKS */
+
+  To:   posativ
+  For:  Creating Acrylamid and actively developing it.
+  URL:  http://blog.posativ.org/
+
+  To:   HTML5 doctors
+  For:  Their invaluable articles and HTML5 reference.
+  URL:  http://html5doctor.com/
+
+
+/* SITE */
+
+  URL:         http://www.vlent.nl/
+  Standards:   HTML5, CSS3, Atom 1.0
+  Language:    English
+  Services:    TypeKit fonts, Disqus comments
+  Tools:       Acrylamid, Sass, Compass
+  IDE:         Emacs

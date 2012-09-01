@@ -12,11 +12,11 @@
       <!--[if IE]>
       <link media="all" href="{{ env.path + '/css/ie.css' }}" rel="stylesheet" />
       <![endif]-->
-
-      <link href="/favicon.ico" rel="shortcut icon" />
       {% if 'sitemap' in env.views -%}
         <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
       {%- endif%}
+      <link href="/favicon.ico" rel="shortcut icon" />
+      <link href="/humans.txt" rel="author" />
       <link href="{{ env.path + '/' }}" rel="home" />
       <link href="{{ env.path + '/atom/' }}" type="application/atom+xml" rel="alternate" title="Atom Feed" />
       <link href="{{ env.path + '/rss/' }}" type="application/rss+xml" rel="alternate" title="RSS Feed" />
