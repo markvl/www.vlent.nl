@@ -2,12 +2,14 @@
   <entry>
     <title>{{ entry.title | escape }}</title>
     <link rel="alternate" type="text/html" href="{{ conf.www_root + entry.permalink }}" />
-    <id>tag:{{ env.netloc + env.path }},{{ entry.date.strftime('%Y-%m-%d') }}:{{ entry.permalink.rstrip('/') }}</id>
+    <id>tag:{{ env.netloc + env.path }},{{ entry.date.strftime('%Y-%m-%d') }}:{{ entry.permalink }}</id>
     <updated>{{ entry.date.strftime('%Y-%m-%dT%H:%M:%SZ') }}</updated>
+    {% for tag in entry.tags | tagify -%}
+      <category term="{{ tag.title }}" />
+    {% endfor %}
     <author>
       <name>{{ entry.author }}</name>
-      <uri>{{ conf.www_root + '/' }}</uri>
-      <email>{{ entry.email }}</email>
+      <uri>{{ conf.www_root + '/about/' }}</uri>
     </author>
     <content type="html">{{ entry.content | escape }}</content>
   </entry>
@@ -16,13 +18,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ conf.lang }}">
   <author>
     <name>{{ conf.author }}</name>
-    <uri>{{ conf.www_root + '/' }}</uri>
-    <email>{{ conf.email }}</email>
+    <uri>{{ conf.www_root + '/about/' }}</uri>
   </author>
+  <rights>Copyright © Mark van Lent, Creative Commons Attribution 3.0 Unported License</rights>
   <title>{{ conf.sitename | escape }}</title>
-  <id>{{ conf.www_root + '/' }}</id>
+  <subtitle>{{ conf.tagline | escape }}</subtitle>
+  <id>tag:{{ env.netloc + env.path }},2010-02-04:{{ env.route }}</id>
   <link rel="alternate" type="text/html" href="{{ conf.www_root + '/' }}" />
-  <link rel="self" type="application/atom+xml" href="{{ conf.www_root+env.views.atom.path }}" />
+  <link rel="self" type="application/atom+xml" href="{{ conf.www_root + env.route }}" />
+  <icon>{{ conf.www_root }}/favicon.ico</icon>
+  <logo>{{ conf.www_root }}/favicon.ico</logo>
   <updated>{{ env.updated.strftime('%Y-%m-%dT%H:%M:%SZ') }}</updated>
   <generator uri="{{ env.url }}" version="{{ env.version }}">acrylamid</generator>
   {%- for entry in env.entrylist %}
