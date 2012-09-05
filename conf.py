@@ -11,35 +11,35 @@ EMAIL = 'mark@vlent.nl'
 
 FILTERS = ['markdown', 'typography', 'h1']
 VIEWS = {
+    # Article indexes
     '/': {'filters': 'summarize+16', 'view': 'index',
           'pagination': '/page/:num'},
+    '/weblog/': {'filters': 'summarize+16', 'view': 'index',
+          'pagination': '/weblog/page/:num'},
 
-    '/:slug/': {'view': 'page'},
+    # Articles
+    '/weblog/:year/:month/:day/:slug/': {'view': 'entry'},
 
-    '/weblog/:year/:zmonth/:zday/:slug/': {'view': 'entry'},
+    # Tag indexes
+    '/weblog/tag/:name/': {'filters': 'summarize+16', 'view': 'tag',
+                    'pagination': '/weblog/tag/:name/:num'},
 
-
-    '/tag/:name/': {'filters': 'summarize+16', 'view': 'tag',
-                    'pagination': '/tag/:name/:num'},
-
+    # Atom feeds
+    '/atom.xml': {'filters': ['h2', ], 'view': 'atom'},
     '/weblog/atom.xml': {'filters': ['h2', ], 'view': 'atom'},
+    '/weblog/tag/:name/atom.xml': {'filters': ['h2', ], 'view': 'atompertag'},
 
+    # Sitemap
     '/sitemap.xml': {'view': 'sitemap'},
 
-    # Here are some more examples
-
-    # # '/atom/full/' will give you a _complete_ feed of all your entries
-    # '/atom/full/': {'filters': 'h2', 'view': 'atom', 'num_entries': 1000},
-
-    # # a feed containing all entries tagged with 'python'
-    # '/rss/python/': {'filters': 'h2', 'view': 'rss',
-    #                  'if': lambda e: 'python' in e.tags}
-
+    # Pages
+    '/:slug/': {'view': 'page'},
 }
 
-PERMALINK_FORMAT = '/weblog/:year/:zmonth/:zday/:slug/index.html'
+PERMALINK_FORMAT = '/weblog/:year/:month/:day/:slug/index.html'
 DATE_FORMAT = '%Y-%m-%d %H:%M'
-OUTPUT_IGNORE = ['/css/*', '/js/*', '/fonts/*', '/images/*', 'favicon.ico']
+OUTPUT_IGNORE = ['/css/*', '/js/*', '/fonts/*', '/images/*', 'favicon.ico',
+                 'robots.txt', 'humans.txt']
 ENTRIES_IGNORE = ["drafts/*", ]
 DISQUS_SHORTNAME = 'vlent'
-SUMMARIZE_LINK='<span>&#8230; <a href="%s" class="continue">Continue</a></span>'
+SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'
