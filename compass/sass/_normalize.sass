@@ -39,20 +39,19 @@ audio:not([controls])
 //    user zoom.
 
 html
-  font-size: 100%
   // 1
+  font-size: 100%
+  // 2
   -webkit-text-size-adjust: 100%
-  // 2
   -ms-text-size-adjust: 100%
-  // 2
-  font-family: sans-serif
 
-//
++establish-baseline()
+
 // Addresses `font-family` inconsistency between `textarea` and other form
 // elements.
 
-button, input, select, textarea
-  font-family: sans-serif
+html, button, input, select, textarea
+  font-family: $base-font-family
 
 // Addresses margins handled incorrectly in IE6/7.
 
@@ -63,48 +62,57 @@ body
 // Links
 // ==========================================================================
 
-// Addresses `outline` inconsistency between Chrome and other browsers.
 
 a
+  color: $link-color
+  text-decoration: none
   &:focus
+    // Addresses `outline` inconsistency between Chrome and other browsers.
     outline: thin dotted
+    text-decoration: underline
   &:active, &:hover
+    // Improves readability when focused and also mouse hovered in all browsers.
+    // people.opera.com/patrickl/experiments/keyboard/test
     outline: 0
+    text-decoration: underline
 
-// Improves readability when focused and also mouse hovered in all browsers.
-// people.opera.com/patrickl/experiments/keyboard/test
 
 // ==========================================================================
 // Typography
 // ==========================================================================
 
-//
 // Addresses font sizes and margins set differently in IE6/7.
 // Addresses font sizes within `section` and `article` in FF4+, Chrome, S5.
 
 h1
-  font-size: 2em
-  margin: 0.67em 0
+  +adjust-font-size-to($base-font-size * 1.4)
+  font-family: $header-font-family
+  font-weight: 700
+  margin: 0
 
 h2
-  font-size: 1.5em
-  margin: 0.83em 0
+  +adjust-font-size-to($base-font-size * 1.2)
+  font-family: $header-font-family
+  font-weight: 500
+  margin: 0
 
 h3
-  font-size: 1.17em
-  margin: 1em 0
+  +adjust-font-size-to($base-font-size * .9)
+  font-family: $header-font-family
+  font-weight: 700
+  margin: 0
 
 h4
-  font-size: 1em
-  margin: 1.33em 0
+  +adjust-font-size-to($base-font-size)
+  margin: 0
 
 h5
-  font-size: 0.83em
-  margin: 1.67em 0
+  +adjust-font-size-to($base-font-size)
+  margin: 0
 
 h6
-  font-size: 0.75em
-  margin: 2.33em 0
+  +adjust-font-size-to($base-font-size * 0.875)
+  margin: 0
 
 // Addresses styling not present in IE7/8/9, S5, Chrome.
 
@@ -117,7 +125,10 @@ b, strong
   font-weight: bold
 
 blockquote
-  margin: 1em 40px
+  margin-left: 1em
+  margin-right: 1em
+  +leader()
+  +trailer()
 
 // Addresses styling not present in S5, Chrome.
 
@@ -133,47 +144,46 @@ mark
 // Addresses margins set differently in IE6/7.
 
 p, pre
-  margin: 1em 0
+  +leader(0)
+  +trailer(1)
+  margin-left: 0
+  margin-right: 0
 
 // Corrects font family set oddly in IE6, S4/5, Chrome.
 // en.wikipedia.org/wiki/User:Davidgothberg/Test59
 
-code, kbd, pre, samp
-  font-family: monospace, serif
-  _font-family: 'courier new', monospace
-  font-size: 1em
+code, kbd, samp
+  font-family: $mono-font-family
+  +adjust-font-size-to($base-font-size * .9)
 
 // Improves readability of pre-formatted text in all browsers.
 
 pre
   white-space: pre
-  white-space: pre-wrap
-  word-wrap: break-word
-
-// Addresses CSS quotes not supported in IE6/7.
 
 q
+  // Addresses CSS quotes not supported in IE6/7.
   quotes: none
-  &:before, &:after
-    content: ''
-    content: none
-
-// Addresses `quotes` property not supported in S4.
+  font-style: italic
+  &:before
+    content: '\201C'
+  &:after
+    // Addresses `quotes` property not supported in S4.
+    content: '\201D'
 
 small
-  font-size: 75%
+  +adjust-font-size-to($tiny-font-size)
 
 // Prevents `sub` and `sup` affecting `line-height` in all browsers.
 // gist.github.com/413930
-
 sub
-  font-size: 75%
+  +adjust-font-size-to($base-font-size * .75)
   line-height: 0
   position: relative
   vertical-align: baseline
 
 sup
-  font-size: 75%
+  +adjust-font-size-to($base-font-size * .75)
   line-height: 0
   position: relative
   vertical-align: baseline

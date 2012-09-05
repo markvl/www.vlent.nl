@@ -1,7 +1,134 @@
-/*
-  Welcome to Compass.
-  In this file you should write your main styles. (or centralize your imports)
-  Import this file using the following HTML or equivalent:
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+/*!
+ * You really should not be looking at this CSS file.
+ * You're better off checking out the original SASS files at
+ * https://github.com/markvl/www.vlent.nl/compass/sass
+ *
 
-@import compass/reset
+@import base
+@import normalize
+
+body
+  color: $base-font-color
+  background-color: $background-color
+  padding: .5em
+  +box-sizing(border-box)
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p,
+  +leader(0)
+
+strong
+  font-weight: bold
+
+em
+  font-style: italic
+
+cite
+  font-style: italic
+
+ol
+  list-style-type: decimal
+
+ul
+  list-style-type: disc
+
+ol, ul
+  list-style-position: inside
+
+li ul, li ol
+  margin-left: 1em
+
+
+li
+  display: list-item
+
+header[role="banner"]
+  font-family: $header-font-family
+  font-weight: 700
+  border-bottom: 1px solid $link-color
+  a, a:visited
+    color: $link-color
+    text-decoration: none
+  h1
+    +adjust-font-size-to($base-font-size * 1.25)
+    letter-spacing: -1px
+  #header-separator
+    display: none
+  #tagline
+    +adjust-font-size-to($base-font-size * .9)
+    font-weight: 500
+
+footer[role="contentinfo"]
+  color: $accessory-font-color
+
+aside
+  +adjust-font-size-to($small-font-size)
+  color: $accessory-font-color
+
+  h2
+    +adjust-font-size-to($small-font-size * 1.2)
+
+#copyright, #disclaimer
+  display: block
+
+.taglist, .publication-date
+  +adjust-font-size-to($small-font-size)
+  font-style: italic
+  color: $accessory-font-color
+
+// Tables
+
+table
+  text-align: left
+  border-spacing: 0
+  +trailer(1)
+
+  caption
+    +adjust-font-size-to($small-font-size)
+    caption-side: bottom
+    font-style: italic
+
+td, th
+  padding: 3px
+  border-bottom: 1px solid $highlight-background-color
+
+th
+  font-weight: bold
+  border-bottom: 1px solid $base-font-color
+
+.tabular-number
+  text-align: right
+
+.continue
+  display: block
+
+// Layout
+
+.pagination
+  +trailer(1)
+  overflow: auto
+
+.pagination-newer
+  float: left
+
+.pagination-older
+  float: right
+
+.clearfix
+  clear: both
+
+pre
+  overflow: auto
+  background-color: #F4F4F4
+  padding-left: .5em
+  padding-right: .5em
+
+.float-left
+  float: left
+  margin: 0 5px 10px 0
+
+img
+  padding: 3px
+  border: 1px solid #DDD
+
+img, embed, object, video
+  max-width: 100%
