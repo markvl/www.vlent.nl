@@ -9,4 +9,7 @@ fi
 
 BASE=$(dirname $(readlink -f $(which "$0")))
 cd $BASE # the directory where this script lives
-gem install -i Gem compass
+
+# Temporary version pins to get newer versions of sass and compass.
+gem install -i Gem sass --version="3.2.1"
+gem install -i Gem compass --version="0.13.alpha.0"
