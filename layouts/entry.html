@@ -1,3 +1,25 @@
+{%- macro taglist(footer) -%}
+  {% if env.type != 'page' and not entry.draft %}
+    {% if footer %}<footer>{% endif %}
+    <p class="taglist">
+      {% if 'tag' in env.views and entry.tags %}
+        Tagged as
+          {% for link in entry.tags | tagify -%}
+            <a href="{{ env.path + link.href }}">{{ link.title }}</a>
+            {%- if loop.revindex > 2 -%}
+              ,
+            {%- elif loop.revindex == 2 %}
+              and
+            {% endif %}
+          {% endfor %}
+        </p>
+      {% elif not entry.draft %}
+        Untagged
+      {% endif %}
+    </p>
+    {% if footer %}</footer>{% endif %}
+  {% endif %}
+{%- endmacro -%}
 <article>
   <header>
     {% if env.type in ['index', 'tag'] %}
@@ -6,24 +28,14 @@
       <h1>{{ entry.title | trim }}</h1>
     {% endif %}
     <time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%B %d, %Y") }}</time>
+    {% if env.type == 'entry' %}
+      {{ taglist(0) }}
+    {% endif %}
   </header>
   {{ entry.content }}
-  <footer>
-    {% if 'tag' in env.views and entry.tags %}
-      <p>Tagged as
-        {% for link in entry.tags | tagify -%}
-          <a href="{{ env.path + link.href }}">{{ link.title }}</a>
-          {%- if loop.revindex > 2 -%}
-            ,
-          {%- elif loop.revindex == 2 %}
-            and
-          {% endif %}
-        {% endfor %}
-      </p>
-    {% elif not entry.draft %}
-      <p>Untagged</p>
-    {% endif %}
-  </footer>
+  {% if env.type != 'entry' %}
+    {{ taglist(1) }}
+  {% endif %}
   {% if env.type == 'entry' and not entry.draft %}
     <aside>
       <h2>About me</h2>
