@@ -19,7 +19,7 @@
   {%- if env.type == 'tag' -%}
     <link href="{{ env.route + '/atom.xml' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} {{ env.tag}} Atom Feed" />
   {%- endif %}
-  {%- if env.type in ['tag', 'index'] -%}
+  {% if env.type in ['tag', 'index'] %}
     <meta name="robots" content="noindex" />
   {%- endif -%}
 {% endblock %}
@@ -34,15 +34,20 @@
     {% include 'entry.html' %}
   {% endfor %}
   {% if env.type in ['tag', 'index'] %}
-    {% if env.prev %}
-      <a href="{{ env.path ~ env.prev ~ '/' }}" class="page floatright">
-        Previous »
-      </a>
-    {% endif %}
-    {% if env.next is not none %}
-      <a href="{{ env.path ~ env.next ~ '/' }}" class="page floatleft">
-        « Next
-      </a>
+    {% if env.next or env.prev %}
+      <div class="pagination">
+        {% if env.next is not none %}
+          <a href="{{ env.path ~ env.next ~ '/' }}" class="pagination-newer">
+            « Newer
+          </a>
+        {% endif %}
+        {% if env.prev %}
+          <a href="{{ env.path ~ env.prev ~ '/' }}" class="pagination-older">
+            Older »
+          </a>
+        {% endif %}
+      </div>
+      <div class="clearfix" />
     {% endif %}
   {%- endif  %}
 {% endblock %}
