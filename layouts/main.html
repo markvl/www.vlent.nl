@@ -50,4 +50,11 @@
       <div class="clearfix" />
     {% endif %}
   {%- endif  %}
+  {% if env.type == 'tag' %}
+    <aside>
+      <p>If you are interested in this topic, you can also subscribe to the {{ env.tag }}
+        <a href="{{ env.route + '/atom.xml' }}">Atom feed</a>.
+      </p>
+    </aside>
+  {% endif %}
 {% endblock %}
