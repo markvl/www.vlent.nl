@@ -27,9 +27,11 @@
     {% else %}
       <h1>{{ entry.title | trim }}</h1>
     {% endif %}
-    <span class="publication-date">
-      {% if env.type == 'entry' %}Published on {% endif %}<time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%B %d, %Y") }}</time>
-    </span>
+    {% if entry.type != 'page' %}
+      <span class="publication-date">
+        {% if env.type == 'entry' %}Published on {% endif %}<time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%B %d, %Y") }}</time>
+      </span>
+    {% endif %}
     {% if env.type == 'entry' %}
       {{ taglist(0) }}
     {% endif %}
