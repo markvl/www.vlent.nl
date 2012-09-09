@@ -1,6 +1,5 @@
 .cache
-compass/Gem
-compass/.sass-cache
+.sass-cache
 
 # Generated output
 index.html
