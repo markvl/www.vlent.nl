@@ -24,3 +24,9 @@
   Services:    TypeKit fonts, Disqus comments
   Tools:       Acrylamid, Sass, Compass
   IDE:         Emacs
+
+
+/* HUMANS.TXT */
+
+For more information about this file, please visit
+http://humanstxt.org/
