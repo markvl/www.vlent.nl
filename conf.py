@@ -35,11 +35,9 @@ VIEWS = {
     # Pages
     '/:slug/': {'view': 'page'},
 }
-
-PERMALINK_FORMAT = '/weblog/:year/:month/:day/:slug/index.html'
+STATIC = ['assets', ]
 DATE_FORMAT = '%Y-%m-%d %H:%M'
-OUTPUT_IGNORE = ['/css/*', '/js/*', '/fonts/*', '/images/*', 'favicon.ico',
-                 'robots.txt', 'humans.txt']
+OUTPUT_IGNORE = ['/css/*', ]
 ENTRIES_IGNORE = ["drafts/*", ]
 DISQUS_SHORTNAME = 'vlent'
 SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'

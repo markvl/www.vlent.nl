@@ -2,6 +2,4 @@
 .sass-cache
 
 # Generated output
-index.html
-*.xml
-*.css
+output
