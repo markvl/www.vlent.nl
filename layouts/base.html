@@ -7,11 +7,13 @@
       <title>{% block title %}{% endblock %}</title>
       <script type="text/javascript" src="//use.typekit.net/mkb0dbh.js"></script>
       <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-      <link media="all" href="{{ env.path + '/css/screen.css' }}" rel="stylesheet" />
-      <link media="print" href="{{ env.path + '/css/print.css' }}" rel="stylesheet" />
-      <!--[if IE]>
-      <link media="all" href="{{ env.path + '/css/ie.css' }}" rel="stylesheet" />
+      <!--[if lte IE 8]>
+        <link media="all" href="{{ env.path + '/css/screen-old-ie.css' }}" rel="stylesheet" />
       <![endif]-->
+      <!--[if gt IE 8]><!-->
+        <link media="all" href="{{ env.path + '/css/screen.css' }}" rel="stylesheet" />
+      <!--<![endif]-->
+      <link media="print" href="{{ env.path + '/css/print.css' }}" rel="stylesheet" />
       {% if 'sitemap' in env.views -%}
         <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
       {%- endif%}
