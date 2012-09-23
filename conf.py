@@ -2,8 +2,8 @@
 # This is your config file.  Please write in a valid python syntax!
 # See http://acrylamid.readthedocs.org/en/latest/conf.py.html
 
-SITENAME = 'vLent.nl'
-TAGLINE = 'Practicing software development'
+SITENAME = 'Practicing web development'
+TAGLINE = "Mark van Lent's weblog"
 WWW_ROOT = 'http://www.vlent.nl'
 
 AUTHOR = 'Mark van Lent'
