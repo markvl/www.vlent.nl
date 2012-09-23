@@ -20,34 +20,36 @@
       <link href="{{ env.path + '/' }}" rel="home" />
       <link href="{{ env.path + '/atom.xml' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} Atom Feed" />
       <!--[if lt IE 9]>
-      <script src="{{ env.path + '/js/html5.js' }}"></script>
+        <script src="{{ env.path + '/js/html5.js' }}"></script>
       <![endif]-->
     {%- endblock %}
   </head>
   <body>
-    <header role="banner">
-      <a href="{{ env.path + '/' }}">
-        <h1>{{ conf.sitename }}</h1>
-        <span id="header-separator">&mdash;</span>
-        <span id="tagline">{{ conf.tagline }}</span>
-      </a>
-    </header>
-    {%- block content -%}
-    {%- endblock -%}
-    <footer role="contentinfo">
-      {% block footer %}
-        <small id="copyright">
-          Copyright &copy; <a rel="author" href="{{ env.path + '/about/'}}">Mark van Lent</a>.
-          The articles are licensed under a
-          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-            Creative Commons Attribution 3.0 Unported License</a>.
-        </small>
-        <small id="disclaimer">
-          This is a personal weblog. The opinions expressed here
-          represent my own and not those of my employer.
-        </small>
-      {% endblock %}
-    </footer>
+    <div id="page">
+      <header role="banner">
+        <a href="{{ env.path + '/' }}">
+          <h1>{{ conf.sitename }}</h1>
+          <span id="header-separator">&mdash;</span>
+          <span id="tagline">{{ conf.tagline }}</span>
+        </a>
+      </header>
+      {%- block content -%}
+      {%- endblock -%}
+      <footer role="contentinfo">
+        {% block footer %}
+          <small id="copyright">
+            Copyright &copy; <a rel="author" href="{{ env.path + '/about/'}}">Mark van Lent</a>.
+            The articles are licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+              Creative Commons Attribution 3.0 Unported License</a>.
+          </small>
+          <small id="disclaimer">
+            This is a personal weblog. The opinions expressed here
+            represent my own and not those of my employer.
+          </small>
+        {% endblock %}
+      </footer>
+    </div>
     <script src="/js/ios-orientationchange-fix.js"></script>
   </body>
 </html>

@@ -5,6 +5,8 @@
     {{ entry.title | trim }} | {{ conf.sitename }}
   {%- elif env.type == 'tag' -%}
     {{ env.tag }} | {{conf.sitename}}
+  {%- elif env.type == 'page' -%}
+    {{ entry.title | trim }} | {{ conf.sitename }}
   {%- else -%}
     {{ conf.sitename }}
   {%- endif -%}
@@ -26,9 +28,9 @@
 
 {% block content %}
   {% if env.type == 'index' %}
-    <h1>Weblog</h1>
+    <h1>Articles</h1>
   {% elif env.type == 'tag' %}
-    <h1>Weblog entries for “{{ env.tag }}”</h1>
+    <h1>Articles for “{{ env.tag }}”</h1>
   {% endif %}
   {% for entry in env.entrylist %}
     {% include 'entry.html' %}

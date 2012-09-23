@@ -85,13 +85,15 @@ a
 // Addresses font sizes within `section` and `article` in FF4+, Chrome, S5.
 
 h1
-  +adjust-font-size-to($base-font-size * 1.4)
+  +adjust-font-size-to($base-font-size * 1.4, 1.25)
+  margin: 0
+  +leader(1)
   font-family: $header-font-family
   font-weight: 700
-  margin: 0
+
 
 h2
-  +adjust-font-size-to($base-font-size * 1.2)
+  +adjust-font-size-to($base-font-size * 1.2, 1.25)
   font-family: $header-font-family
   font-weight: 500
   margin: 0
@@ -202,12 +204,12 @@ dl, menu, ol, ul
   margin: 1em 0
 
 dd
-  margin: 0 0 0 40px
+  margin: 0 0 0 1em
 
 // Addresses paddings set differently in IE6/7.
 
 menu, ol, ul
-  padding: 0 0 0 40px
+  padding: 0 0 0 1em
 
 // Corrects list images handled incorrectly in IE7.
 

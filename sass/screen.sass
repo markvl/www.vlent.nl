@@ -6,18 +6,16 @@
 
 @import base
 @import normalize
+@import utils
 
 body
-  color: $base-font-color
+  color: $font-color
   background-color: $background-color
   padding: .5em
   +box-sizing(border-box)
 
 h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p,
   +leader(0)
-
-strong
-  font-weight: bold
 
 em
   font-style: italic
@@ -32,14 +30,25 @@ ul
   list-style-type: disc
 
 ol, ul
-  list-style-position: inside
+  list-style-position: outside
 
 li ul, li ol
-  margin-left: 1em
-
+  margin: 0 0 0 1em
 
 li
   display: list-item
+
+dt
+  font-weight: bold
+
+small
+  color: $font-color-subdued
+
+article
+  +leader(1)
+
+article a:visited
+  color: $link-visited-color
 
 header[role="banner"]
   font-family: $header-font-family
@@ -49,20 +58,20 @@ header[role="banner"]
     color: $link-color
     text-decoration: none
   h1
-    +adjust-font-size-to($base-font-size * 1.25)
-    letter-spacing: -1px
+    +adjust-font-size-to($base-font-size)
+    +leader(0)
   #header-separator
     display: none
   #tagline
-    +adjust-font-size-to($base-font-size * .9)
+    +adjust-font-size-to($base-font-size * .8)
     font-weight: 500
 
 footer[role="contentinfo"]
-  color: $accessory-font-color
+  color: $font-color-subdued
 
 aside
   +adjust-font-size-to($small-font-size)
-  color: $accessory-font-color
+  color: $font-color-subdued
 
   h2
     +adjust-font-size-to($small-font-size * 1.2)
@@ -73,7 +82,7 @@ aside
 .taglist, .publication-date
   +adjust-font-size-to($small-font-size)
   font-style: italic
-  color: $accessory-font-color
+  color: $font-color-subdued
 
 // Tables
 
@@ -82,10 +91,8 @@ table
   border-spacing: 0
   +trailer(1)
 
-  caption
-    +adjust-font-size-to($small-font-size)
-    caption-side: bottom
-    font-style: italic
+caption
+  caption-side: bottom
 
 td, th
   padding: 3px
@@ -93,7 +100,7 @@ td, th
 
 th
   font-weight: bold
-  border-bottom: 1px solid $base-font-color
+  border-bottom: 1px solid $font-color
 
 .tabular-number
   text-align: right
@@ -132,3 +139,29 @@ img
 
 img, embed, object, video
   max-width: 100%
+
+caption, figcaption
+  +adjust-font-size-to($small-font-size)
+  font-style: italic
+
+figure
+  +trailer(1)
+
+blockquote
+  position: relative
+  font-style: italic
+
+blockquote p:before
+  +adjust-font-size-to($base-font-size * 2, 1.5)
+  color: $link-color
+  content: "“"
+  left: -.5em
+  position: absolute
+
+@import adaptive
+
+.about-info
+  border-top: 1px dotted $font-color-subdued
+  border-bottom: 1px dotted $font-color-subdued
+  +padding-leader(1)
+  +trailer(1)

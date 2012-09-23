@@ -1,23 +1,18 @@
-{%- macro taglist(footer) -%}
+{%- macro taglist() -%}
   {% if env.type != 'page' and not entry.draft %}
-    {% if footer %}<footer>{% endif %}
-    <p class="taglist">
-      {% if 'tag' in env.views and entry.tags %}
-        Tagged as
-          {% for link in entry.tags | tagify -%}
-            <a href="{{ env.path + link.href }}">{{ link.title }}</a>
-            {%- if loop.revindex > 2 -%}
-              ,
-            {%- elif loop.revindex == 2 %}
-              and
-            {% endif %}
-          {% endfor %}
-        </p>
-      {% elif not entry.draft %}
-        Untagged
-      {% endif %}
-    </p>
-    {% if footer %}</footer>{% endif %}
+    {% if 'tag' in env.views and entry.tags %}
+      Tagged as
+      {% for link in entry.tags | tagify -%}
+        <a href="{{ env.path + link.href }}">{{ link.title }}</a>
+        {%- if loop.revindex > 2 -%}
+          ,
+        {%- elif loop.revindex == 2 %}
+          and
+        {% endif %}
+      {% endfor %}
+    {% elif not entry.draft %}
+      Untagged
+    {% endif %}
   {% endif %}
 {%- endmacro -%}
 <article>
@@ -33,15 +28,18 @@
       </span>
     {% endif %}
     {% if env.type == 'entry' %}
-      {{ taglist(0) }}
+      <p class="taglist">
+        {{ taglist() }}
+      </p>
+    {% elif env.type != 'page' %}
+      <span class="taglist">
+        | {{ taglist() }}
+      </span>
     {% endif %}
   </header>
   {{ entry.content }}
-  {% if env.type != 'entry' %}
-    {{ taglist(1) }}
-  {% endif %}
   {% if env.type == 'entry' and not entry.draft %}
-    <aside>
+    <aside class="about-info">
       <h2>About me</h2>
       <p>
         I am a technical consultant and Python developer. My day
@@ -55,7 +53,7 @@
         and
         <a rel="me" href="http://nl.linkedin.com/in/markvanlent">LinkedIn</a>.
       </p>
-      <p>If you find this blog interesting, you can subscribe to my <a href="/weblog/atom.xml">Atom feed<a/>.</p>
+      <p>If you find this blog interesting, you can subscribe to my <a href="/weblog/atom.xml">Atom feed</a>.</p>
     </aside>
   {% endif %}
   <div class="comments">
