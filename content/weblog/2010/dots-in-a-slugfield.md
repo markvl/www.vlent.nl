@@ -2,7 +2,7 @@
 title: Dots in a SlugField
 slug: dots-slugfield
 date: 2010-07-19 10:31
-tags: [development, django, vlent.nl]
+tags: [blog, development, django]
 ---
 
 When migrating from Plone to Django, I had problems with editing

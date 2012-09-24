@@ -2,7 +2,7 @@
 title: New start...
 slug: new-start..
 date: 2008-08-24 02:36
-tags: [vlent.nl]
+tags: [blog, ]
 ---
 
 I've finally taken the time to setup the new vlent.nl website. Plone 3

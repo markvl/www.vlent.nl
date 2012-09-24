@@ -2,7 +2,7 @@
 title: How I solved the comment spam for my Django site
 slug: how-i-solved-comment-spam-my-django-site
 date: 2010-08-30 18:33
-tags: [django]
+tags: [blog, django]
 ---
 
 After this website migrated from Plone to Django, the comment spammers

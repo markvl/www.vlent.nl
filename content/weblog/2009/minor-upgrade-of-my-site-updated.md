@@ -2,7 +2,7 @@
 title: Minor upgrade of my site - updated
 slug: minor-upgrade-of-my-site
 date: 2009-05-16 22:51
-tags: [plone, vlent.nl]
+tags: [blog, plone]
 ---
 
 Time for another small update of my site. I changed some 'back office

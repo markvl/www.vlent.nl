@@ -2,7 +2,7 @@
 title: Lines of code revisited
 slug: lines-code-revisited
 date: 2010-05-31 22:20
-tags: [django, plone, vlent.nl]
+tags: [blog, django, plone]
 ---
 
 After [a comment](http://twitter.com/HammerToe/status/15102276578) by

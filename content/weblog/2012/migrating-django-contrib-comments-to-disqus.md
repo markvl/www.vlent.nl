@@ -2,7 +2,7 @@
 title: Migrating django.contrib.comments to Disqus
 slug: migrating-djangocontribcomments-disqus
 date: 2012-09-07 13:52
-tags: [django, vlent.nl]
+tags: [blog, django]
 ---
 
 As of today I am using Disqus for comments on this site. This meant

@@ -2,7 +2,7 @@
 title: "Another migration: now running Plone 3.2.1"
 slug: another-migration-now-running-plone-3.2.1
 date: 2009-02-19 23:32
-tags: [plone, vlent.nl]
+tags: [blog, plone]
 ---
 
 A quick fix became an upgrade. :)

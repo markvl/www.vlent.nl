@@ -2,7 +2,7 @@
 title: Google Webmaster Tools
 slug: google-webmaster-tools
 date: 2010-09-01 19:49
-tags: [django, plone, vlent.nl, webmaster]
+tags: [blog, django, plone, webmaster]
 ---
 
 Google's [Webmaster Tools](http://www.google.com/webmasters/tools/)

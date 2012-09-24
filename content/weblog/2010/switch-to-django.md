@@ -3,7 +3,7 @@ title: Switch to Django
 slug: switch-django
 author: None
 date: 2010-05-30 18:25
-tags: [django, plone, vlent.nl]
+tags: [blog, django, plone]
 ---
 
 This site is now powered by Django instead of Plone. Yes, I've finally
