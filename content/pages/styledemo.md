@@ -24,7 +24,7 @@ Usually there is just one ``<h1>`` element on a page and it is used
 for the title of the page, as is the case in this page.
 
 If an article is long enough that it needs to be split in several
-sections, the ``<h2>`` element is used. This heading is clearly
+sections, the ``<h2>`` element is used. This heading is smaller
 smaller than the ``<h1>`` and is not bold. The ``<h2>`` is also used
 in lists of articles where the titles of the articles are marked up
 with an ``<h2>``.
@@ -35,8 +35,8 @@ is a lot smaller and bold. This makes it easier to determine the level
 of the heading, especially in a longer text where the ``<h2>`` and
 ``<h3>`` might not appear on the screen at the same time.
 
-The headings are set in [Museo
-Slab](https://typekit.com/fonts/museo-slab).
+The headings are set in
+[Museo Sans Condensed](https://typekit.com/fonts/museo-sans-condensed).
 
 # Grouping content
 
