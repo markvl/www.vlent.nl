@@ -3,7 +3,7 @@
 # See http://acrylamid.readthedocs.org/en/latest/conf.py.html
 
 SITENAME = 'Practicing web development'
-TAGLINE = "Mark van Lent's weblog"
+TAGLINE = "Mark van Lent’s weblog"
 WWW_ROOT = 'http://www.vlent.nl'
 
 AUTHOR = 'Mark van Lent'
