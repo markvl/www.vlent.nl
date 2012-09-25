@@ -2,6 +2,14 @@
 # This is your config file.  Please write in a valid python syntax!
 # See http://acrylamid.readthedocs.org/en/latest/conf.py.html
 
+# This is necessary since by default the encoding used by Python is
+# ASCII. The deployment command updates the OS environment with the
+# data from this file. But since the tagline contains a UTF-8
+# character, we need to make sure the default encoding is also UTF-8.
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 SITENAME = 'Practicing web development'
 TAGLINE = "Mark van Lent’s weblog"
 WWW_ROOT = 'http://www.vlent.nl'
@@ -41,3 +49,7 @@ OUTPUT_IGNORE = ['/css/*', ]
 ENTRIES_IGNORE = ["drafts/*", ]
 DISQUS_SHORTNAME = 'vlent'
 SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'
+
+DEPLOYMENT = {
+    'blog': 'rsync -rtuvz --delete $OUTPUT_DIR bhosted:~/www/new.vlent.nl',
+}
