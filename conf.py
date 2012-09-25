@@ -20,16 +20,16 @@ EMAIL = 'mark@vlent.nl'
 FILTERS = ['markdown', 'typography', 'h1']
 VIEWS = {
     # Article indexes
-    '/': {'filters': 'summarize+16', 'view': 'index',
+    '/': {'filters': 'intro', 'view': 'index',
           'pagination': '/page/:num'},
-    '/weblog/': {'filters': 'summarize+16', 'view': 'index',
+    '/weblog/': {'filters': 'intro', 'view': 'index',
           'pagination': '/weblog/page/:num'},
 
     # Articles
     '/weblog/:year/:month/:day/:slug/': {'view': 'entry'},
 
     # Tag indexes
-    '/weblog/tag/:name/': {'filters': 'summarize+16', 'view': 'tag',
+    '/weblog/tag/:name/': {'filters': 'intro', 'view': 'tag',
                     'pagination': '/weblog/tag/:name/:num'},
 
     # Atom feeds
@@ -43,6 +43,7 @@ VIEWS = {
     # Pages
     '/:slug/': {'view': 'page'},
 }
+FILTERS_DIR = 'filters/'
 STATIC = ['assets', ]
 DATE_FORMAT = '%Y-%m-%d %H:%M'
 OUTPUT_IGNORE = ['/css/*', ]
