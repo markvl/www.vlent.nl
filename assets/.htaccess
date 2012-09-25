@@ -1,0 +1,23 @@
+RewriteEngine on
+RewriteBase /
+
+# If a subdomain is missing, redirect to the www subdomain.
+RewriteCond %{HTTP_HOST} ^vlent\.nl$
+RewriteRule ^(.*) http://www.vlent.nl/$1 [R=301]
+
+# Rewrites for old content.
+Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
+Redirect permanent /weblog/2009/06/16/datetime-2009-06-16-datetime-2009-06-16/ http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+Redirect permanent /weblog/authors http://www.vlent.nl/about/
+Redirect permanent /weblog/authors/markvl http://www.vlent.nl/about/
+Redirect permanent /author/markvl http://www.vlent.nl/about/
+Redirect permanent /weblog/plone/blog_view http://www.vlent.nl/weblog/categories/plone/
+Redirect permanent /front-page http://www.vlent.nl/
+
+# Rewrite rules for Django -> Acrylamid migration.
+Redirect permanent /weblog/categories/vlentnl http://www.vlent.nl/weblog/tag/blog
+Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
+
+# Set the content type for the atom feeds
+RewriteCond %{REQUEST_URI} atom.xml
+RewriteRule .* - [T=application/atom+xml]
