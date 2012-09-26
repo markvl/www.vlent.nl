@@ -46,7 +46,10 @@ VIEWS = {
 FILTERS_DIR = 'filters/'
 STATIC = ['assets', ]
 DATE_FORMAT = '%Y-%m-%d %H:%M'
-OUTPUT_IGNORE = ['/css/*', ]
+OUTPUT_IGNORE = ['.git*', '.hg*', '.svn', '/css/*', ]
+CONTENT_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
+THEME_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
+STATIC_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
 ENTRIES_IGNORE = ["drafts/*", ]
 DISQUS_SHORTNAME = 'vlent'
 SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'
