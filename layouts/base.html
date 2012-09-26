@@ -14,9 +14,6 @@
         <link media="all" href="{{ env.path + '/css/screen.css' }}" rel="stylesheet" />
       <!--<![endif]-->
       <link media="print" href="{{ env.path + '/css/print.css' }}" rel="stylesheet" />
-      {% if 'sitemap' in env.views -%}
-        <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
-      {%- endif%}
       <link href="/favicon.ico" rel="shortcut icon" />
       <link href="/humans.txt" rel="author" />
       <link href="{{ env.path + '/' }}" rel="home" />
