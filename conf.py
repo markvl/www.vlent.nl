@@ -18,6 +18,10 @@ AUTHOR = 'Mark van Lent'
 EMAIL = 'mark@vlent.nl'
 
 FILTERS = ['markdown', 'typography', 'h1']
+DATE_FORMAT = '%Y-%m-%d %H:%M'
+DISQUS_SHORTNAME = 'vlent'
+SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'
+
 VIEWS = {
     # Article indexes
     '/': {'filters': 'intro', 'view': 'index',
@@ -43,16 +47,15 @@ VIEWS = {
     # Pages
     '/:slug/': {'view': 'page'},
 }
+
 FILTERS_DIR = 'filters/'
 STATIC = ['assets', ]
-DATE_FORMAT = '%Y-%m-%d %H:%M'
+
 OUTPUT_IGNORE = ['.git*', '.hg*', '.svn', '/css/*', ]
 CONTENT_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
 THEME_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
 STATIC_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
 ENTRIES_IGNORE = ["drafts/*", ]
-DISQUS_SHORTNAME = 'vlent'
-SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'
 
 DEPLOYMENT = {
     'blog': 'rsync -rtuvz --delete $OUTPUT_DIR bhosted:~/www/new.vlent.nl',
