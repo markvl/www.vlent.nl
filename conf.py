@@ -54,7 +54,7 @@ STATIC = ['assets', ]
 OUTPUT_IGNORE = ['.git*', '.hg*', '.svn', '/css/*', ]
 CONTENT_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
 THEME_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
-STATIC_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
+STATIC_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*', 'vL.xcf']
 ENTRIES_IGNORE = ["drafts/*", ]
 
 DEPLOYMENT = {
