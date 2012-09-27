@@ -156,10 +156,13 @@ blockquote p:before
   left: -.5em
   position: absolute
 
-@import adaptive
-
 .about-info
   border-top: 1px dotted $font-color-subdued
   border-bottom: 1px dotted $font-color-subdued
   +padding-leader(1)
   +trailer(1)
+
+// Imports that override stuff.
+
+@import adaptive
+@import print
