@@ -21,3 +21,6 @@ Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
 # Set the content type for the atom feeds
 RewriteCond %{REQUEST_URI} atom.xml
 RewriteRule .* - [T=application/atom+xml]
+
+# Custom 404 page
+ErrorDocument 404 /404.html
