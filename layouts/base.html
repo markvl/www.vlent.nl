@@ -7,6 +7,9 @@
       <title>{% block title %}{% endblock %}</title>
       <script type="text/javascript" src="//use.typekit.net/mkb0dbh.js"></script>
       <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+      <!--[if lt IE 9]>
+        <script src="{{ env.path + '/js/html5.js' }}"></script>
+      <![endif]-->
       <!--[if lte IE 8]>
         <link media="all" href="{{ env.path + '/css/screen-old-ie.css' }}" rel="stylesheet" />
       <![endif]-->
@@ -18,9 +21,6 @@
       <link href="/humans.txt" rel="author" />
       <link href="{{ env.path + '/' }}" rel="home" />
       <link href="{{ env.path + '/atom.xml' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} Atom Feed" />
-      <!--[if lt IE 9]>
-        <script src="{{ env.path + '/js/html5.js' }}"></script>
-      <![endif]-->
     {%- endblock %}
   </head>
   <body>
