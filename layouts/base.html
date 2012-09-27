@@ -30,8 +30,10 @@
           <span id="tagline">{{ conf.tagline }}</span>
         </a>
       </header>
-      {%- block content -%}
-      {%- endblock -%}
+      <div id="content">
+        {%- block content -%}
+        {%- endblock -%}
+      </div>
       <footer role="contentinfo">
         {% block footer %}
           <small id="copyright">

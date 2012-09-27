@@ -1,6 +1,27 @@
-/*
-  Welcome to Compass. Use this file to define print styles.
-  Import this file using the following HTML or equivalent:
-  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-  
+// Print stylesheet changes
 
+@media print
+
+  *
+    background: transparent !important
+    color: #000 !important
+    box-shadow: none !important
+    text-shadow: none !important
+
+  #tagline:after
+    content: " — http://www.vlent.nl"
+
+  #content
+    a
+      text-decoration: underline
+    a:after
+      content: " (" attr(href) ") "
+    header
+      a:after
+        content: ""
+
+  #disqus_thread
+    page-break-before: always
+
+  pre
+    white-space: pre-wrap
