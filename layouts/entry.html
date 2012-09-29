@@ -1,5 +1,5 @@
 {%- macro taglist() -%}
-  {% if env.type != 'page' and not entry.draft %}
+  {% if env.type != 'page' %}
     {% if 'tag' in env.views and entry.tags %}
       Tagged as
       {% for link in entry.tags | tagify -%}
@@ -38,7 +38,7 @@
     {% endif %}
   </header>
   {{ entry.content }}
-  {% if env.type == 'entry' and not entry.draft %}
+  {% if env.type == 'entry' %}
     <aside class="about-info">
       <h2>About me</h2>
       <p>
