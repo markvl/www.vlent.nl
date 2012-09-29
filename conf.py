@@ -37,9 +37,12 @@ VIEWS = {
                     'pagination': '/weblog/tag/:name/:num'},
 
     # Atom feeds
-    '/atom.xml': {'filters': ['h2', ], 'view': 'atom'},
-    '/weblog/atom.xml': {'filters': ['h2', ], 'view': 'atom'},
-    '/weblog/tag/:name/atom.xml': {'filters': ['h2', ], 'view': 'atompertag'},
+    '/atom.xml': {'filters': ['h2', ], 'view': 'atom',
+                  'num_entries': 10},
+    '/weblog/atom.xml': {'filters': ['h2', ], 'view': 'atom',
+                         'num_entries': 10},
+    '/weblog/tag/:name/atom.xml': {'filters': ['h2', ], 'view': 'atompertag',
+                                   'num_entries': 10},
 
     # Sitemap
     '/sitemap.xml': {'view': 'sitemap'},
