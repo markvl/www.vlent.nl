@@ -6,8 +6,11 @@ type: page
 
 Hi there! My name is Mark van Lent and this is my personal weblog.
 
-<img class="float-left" src="/images/mark-van-lent.png" width="150px" height="150px"
-     alt="Mark van Lent" title="Mark van Lent">
+<img class="float-left"
+     src="/images/mark-van-lent.png"
+     width="150px" height="150px"
+     alt="Mark van Lent"
+     title="Mark van Lent" />
 
 As a technical consultant and programmer for
 [Edition1](http://www.edition1.nl) I spend my days either giving
@@ -58,3 +61,15 @@ The 2012 edition of this website is more 'back to basics'. I realised
 that I don't a dynamic site at all for this weblog. So now I'm using
 [Acrylamid](https://github.com/posativ/acrylamid/) to build these
 static blog out of articles written in Markdown.
+
+# Contact
+
+If you want to get in touch with me, connect with me via (in random order):
+
+  * [Twitter](http://twitter.com/mvlent)
+  * [Google+](https://plus.google.com/110070627222617391002)
+  * [LinkedIn](http://nl.linkedin.com/in/markvanlent)
+  * [Freenode IRC](http://webchat.freenode.net/) as "markvl" in:
+    * `#django`
+    * `#plone`
+    * `#python-nl`
