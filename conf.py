@@ -54,10 +54,10 @@ VIEWS = {
 FILTERS_DIR = 'filters/'
 STATIC = ['assets', ]
 
-OUTPUT_IGNORE = ['.git*', '.hg*', '.svn', '/css/*', ]
-CONTENT_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
-THEME_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*']
-STATIC_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*', 'vL.xcf']
+OUTPUT_IGNORE += ['/css/*', ]
+CONTENT_IGNORE += ['*/.#*', ]
+THEME_IGNORE += ['*/.#*']
+STATIC_IGNORE += ['*/.#*', 'vL.xcf']
 ENTRIES_IGNORE = ["drafts/*", ]
 
 DEPLOYMENT = {
