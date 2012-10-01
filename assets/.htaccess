@@ -13,10 +13,12 @@ Redirect permanent /weblog/authors/markvl http://www.vlent.nl/about/
 Redirect permanent /author/markvl http://www.vlent.nl/about/
 Redirect permanent /weblog/plone/blog_view http://www.vlent.nl/weblog/categories/plone/
 Redirect permanent /front-page http://www.vlent.nl/
+Redirect permanent /weblog/setuptools-and-subversion-1.5 http://www.vlent.nl/weblog/2008/09/18/setuptools-and-subversion-1.5/
 
 # Rewrite rules for Django -> Acrylamid migration.
 Redirect permanent /weblog/categories/vlentnl http://www.vlent.nl/weblog/tag/blog
 Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
+Redirect permanent /var_images/ http://www.vlent.nl/images/
 
 # Set the content type for the atom feeds
 RewriteCond %{REQUEST_URI} atom.xml
