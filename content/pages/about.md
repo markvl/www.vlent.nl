@@ -58,9 +58,11 @@ complete content management system and decided to go with a more
 lightweight, Django based, website.
 
 The 2012 edition of this website is more 'back to basics'. I realised
-that I don't a dynamic site at all for this weblog. So now I'm using
-[Acrylamid](https://github.com/posativ/acrylamid/) to build these
+that I don't need a dynamic site at all for this weblog. So now I'm using
+[Acrylamid](https://github.com/posativ/acrylamid/) to build this
 static blog out of articles written in Markdown.
+
+For a more visual version of the history of this site, go to the [memory lane](/memory-lane).
 
 # Contact
 
