@@ -61,5 +61,5 @@ STATIC_IGNORE = ['.git*', '.hg*', '.svn', '*/.#*', 'vL.xcf']
 ENTRIES_IGNORE = ["drafts/*", ]
 
 DEPLOYMENT = {
-    'blog': 'rsync -rtuvz --delete $OUTPUT_DIR bhosted:~/www/new.vlent.nl',
+    'blog': 'rsync -rtuvz --delete $OUTPUT_DIR bhosted:~/www/www.vlent.nl',
 }
