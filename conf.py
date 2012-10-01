@@ -17,7 +17,7 @@ WWW_ROOT = 'http://www.vlent.nl'
 AUTHOR = 'Mark van Lent'
 EMAIL = 'mark@vlent.nl'
 
-FILTERS = ['markdown', 'typography', 'h1']
+FILTERS = ['markdown+headerid', 'typography', 'h1']
 DATE_FORMAT = '%Y-%m-%d %H:%M'
 DISQUS_SHORTNAME = 'vlent'
 SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'
