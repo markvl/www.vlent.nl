@@ -15,6 +15,10 @@
   For:  Their invaluable articles and HTML5 reference.
   URL:  http://html5doctor.com/
 
+  To:   HTML5 Boilerplate
+  For:  The best practices to solve the small issues one tends to forget.
+  URL:  http://html5boilerplate.com/
+
 
 /* SITE */
 
