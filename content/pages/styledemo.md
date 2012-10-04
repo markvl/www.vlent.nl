@@ -164,7 +164,9 @@ include an image of that logo.
 
 Using the ``<a>`` tag you can create links.
 
-First an [example of a visited link](/styledemo/) and then an [example of an unvisited link](/unvisited-link).
+First an [example of a visited link](/styledemo/) and then an <a
+href="/unvisited-link" rel="nofollow">example of an unvisited
+link</a>.
 
 ## Emphasis
 
