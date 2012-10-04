@@ -10,7 +10,7 @@ The new network-manager package in Intrepid messed up my firewall
 network at the same time. The solution for me: Gufw.
 
 When I got to the office after I
-[upgraded Ubuntu to the 8.10 release](/weblog/upgrade-ubuntu-8.04-to-8.10
+[upgraded Ubuntu to the 8.10 release](/weblog/2009/02/19/upgrade-ubuntu-8.04-to-8.10/
 "Upgrade Ubuntu 8.04 to 8.10"), I could not log in on one of our
 servers, not a single web page loaded and I wasn't even allowed to
 ping to other machines. Disconnecting the network cable and using the

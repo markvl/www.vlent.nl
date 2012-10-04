@@ -11,7 +11,7 @@ editor (Emacs) to help me interact with Git. In this blog entry I'll
 explain how I setup my work environment.
 
 Choosing a distributed version control system was
-[step one](/weblog/taking-version-control-to-the-next-level). Step two
+[step one](/weblog/2009/04/30/taking-version-control-to-the-next-level). Step two
 is incorporating it in my working life. This starts with retrieving
 and storing the source code for the projects I'm working on.
 

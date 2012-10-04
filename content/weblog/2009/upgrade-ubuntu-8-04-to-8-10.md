@@ -25,7 +25,7 @@ again would be a breeze.)
 All in all the upgrade went pretty smooth. There was just a small
 problem with upgrading the `python-setuptools` package. It probably
 went wrong because I
-[upgraded it manually a while ago](/weblog/setuptools-and-subversion-1.5
+[upgraded it manually a while ago](/weblog/2008/09/18/setuptools-and-subversion-1.5
 "Setuptools and subversion 1.5"). Uninstalling the package (`apt-get
 remove python-setuptools`) and reinstalling it again (yep: `apt-get
 install python-setuptools`) solved it. Okay, I also had to install two

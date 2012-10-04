@@ -30,7 +30,7 @@ Several forms of teaching users have been mentioned:
 -   use Selenium to illustrate actions as an addition to written documentation.
 
 Users can also be guided to do the right thing by using content rules,
-as [Joel already discussed](/weblog/real-world-intranets-joel-burton/
+as [Joel already discussed](/weblog/2008/10/08/real-world-intranets-joel-burton/
 "Real world intranets (Joel Burton)"). This could either reduce the
 need for training al together, or assist people to remember what
 taught during the training.
