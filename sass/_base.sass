@@ -15,10 +15,23 @@ $base-font-family: calluna, serif
 $header-font-family: museo-sans-condensed, sans-serif
 $mono-font-family: inconsolata, monospace
 
-// Colors
+$base-font-scale: $base-font-size / 16px
+
+// Colors --------------------------------------------------------------------
+
 $background-color: #FFF
 $font-color: #222
-$font-color-subdued: #666
 $link-color: #0C5BA3
 $link-visited-color: #4611AC
 $highlight-background-color: #EEE
+
+$font-color-subdued: transparentize($font-color, .5)
+$link-color-subdued: transparentize($link-color, .25)
+$link-visited-color-subdued: transparentize($link-visited-color, .25)
+
+
+// Layout --------------------------------------------------------------------
+
+$max-page-width: 35em
+$metadata-width: 8em
+$gutter-width: 1.414em

@@ -22,20 +22,17 @@
     {% else %}
       <h1>{{ entry.title | trim }}</h1>
     {% endif %}
-    {% if entry.type != 'page' %}
-      <span class="publication-date">
-        {% if env.type == 'entry' %}Published on {% endif %}<time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%B %d, %Y") }}</time>
-      </span>
-    {% endif %}
-    {% if env.type == 'entry' %}
-      <p class="taglist">
-        {{ taglist() }}
-      </p>
-    {% elif env.type != 'page' %}
-      <span class="taglist">
-        | {{ taglist() }}
-      </span>
-    {% endif %}
+    <div class="metadata">
+      {% if entry.type != 'page' %}
+        <span class="publication-date">
+          Published on <time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.day }}&nbsp;{{ entry.date.strftime("%B")}}, {{entry.date.year}}</time>
+        </span>
+        <span class="metadata-separator">|</span>
+        <span class="taglist">
+          {{ taglist() }}
+        </span>
+      {% endif %}
+    </div>
   </header>
   {{ entry.content }}
   {% if env.type == 'entry' %}

@@ -5,8 +5,8 @@
  *
 
 @import base
-@import normalize
 @import utils
+@import normalize
 
 body
   color: $font-color
@@ -50,6 +50,9 @@ article
 article a:visited
   color: $link-visited-color
 
+header
+  position: relative
+
 header[role="banner"]
   font-family: $header-font-family
   font-weight: 700
@@ -77,10 +80,25 @@ aside
 #copyright, #disclaimer
   display: block
 
-.taglist, .publication-date
+.metadata
   +adjust-font-size-to($small-font-size)
   font-style: italic
   color: $font-color-subdued
+  a
+    color: $link-color-subdued
+  a:visited
+    color: $link-visited-color-subdued
+.metadata-separator
+  display: none
+.taglist
+  display: block
+  +trailer(1)
+
+.tag, .index
+  .metadata-separator
+    display: inline
+  .taglist
+    display: inline
 
 // Tables
 

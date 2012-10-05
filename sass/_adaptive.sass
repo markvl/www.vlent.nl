@@ -1,8 +1,12 @@
+// Multiply the width for the media queries with $base-font-scale when
+// specified in ems. This is because they are determined for 16px fonts
+// otherwise.
+
 #page
-  max-width: 35em
+  max-width: $max-page-width
   margin: 0 auto
 
-+respond-min(40em)
++respond-min($max-page-width * $base-font-scale)
   header[role="banner"]
     overflow: auto
     h1
@@ -10,3 +14,14 @@
     #tagline
       float: right
       padding-top: .25em
+
++respond-min(($max-page-width + 2*$metadata-width + 2*$gutter-width) * $base-font-scale)
+  .entry
+    .metadata
+      position: absolute
+      left: -($metadata-width + $gutter-width)
+      width: $metadata-width
+      text-align: right
+      +adjust-font-size-to($base-font-size)
+    .taglist
+      +leader(1)
