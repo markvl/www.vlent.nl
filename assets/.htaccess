@@ -1,39 +1,94 @@
-RewriteEngine on
-RewriteBase /
+# ----------------------------------------------------------------------------
+# Rewriting
+# ----------------------------------------------------------------------------
 
-# If a subdomain is missing, redirect to the www subdomain.
-RewriteCond %{HTTP_HOST} ^vlent\.nl$
-RewriteRule ^(.*) http://www.vlent.nl/$1 [R=301]
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteBase /
 
-# Rewrites for old content Plone -> Django
-Redirect permanent /weblog/authors http://www.vlent.nl/about/
-Redirect permanent /weblog/authors/markvl http://www.vlent.nl/about/
-Redirect permanent /author/markvl http://www.vlent.nl/about/
-Redirect permanent /weblog/plone/blog_view http://www.vlent.nl/weblog/categories/plone/
-Redirect permanent /front-page http://www.vlent.nl/
-Redirect permanent /weblog/setuptools-and-subversion-1.5 http://www.vlent.nl/weblog/2008/09/18/setuptools-and-subversion-1.5/
-Redirect permanent /weblog/datetime-2009-06-16-datetime-2009-06-16 http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
-Redirect permanent /weblog/using-git-when-developing-plone-applications http://www.vlent.nl/weblog/2009/05/03/using-git-when-developing-plone-applications/
-Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10 http://www.vlent.nl/weblog/2009/02/19/upgrade-ubuntu-8.04-to-8.10/
-Redirect permanent /weblog/taking-version-control-to-the-next-level http://www.vlent.nl/weblog/2009/04/30/taking-version-control-to-the-next-level/
+  # If a subdomain is missing, redirect to the www subdomain.
+  RewriteCond %{HTTP_HOST} ^vlent\.nl$
+  RewriteRule ^(.*) http://www.vlent.nl/$1 [R=301]
 
-# Rewrites due to corrected URLs
-Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
-Redirect permanent /weblog/2009/06/16/datetime-2009-06-16-datetime-2009-06-16/ http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+  # Rewrites for old content Plone -> Django
+  Redirect permanent /weblog/authors http://www.vlent.nl/about/
+  Redirect permanent /weblog/authors/markvl http://www.vlent.nl/about/
+  Redirect permanent /author/markvl http://www.vlent.nl/about/
+  Redirect permanent /weblog/plone/blog_view http://www.vlent.nl/weblog/categories/plone/
+  Redirect permanent /front-page http://www.vlent.nl/
+  Redirect permanent /weblog/setuptools-and-subversion-1.5 http://www.vlent.nl/weblog/2008/09/18/setuptools-and-subversion-1.5/
+  Redirect permanent /weblog/datetime-2009-06-16-datetime-2009-06-16 http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+  Redirect permanent /weblog/using-git-when-developing-plone-applications http://www.vlent.nl/weblog/2009/05/03/using-git-when-developing-plone-applications/
+  Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10 http://www.vlent.nl/weblog/2009/02/19/upgrade-ubuntu-8.04-to-8.10/
+  Redirect permanent /weblog/taking-version-control-to-the-next-level http://www.vlent.nl/weblog/2009/04/30/taking-version-control-to-the-next-level/
 
-# Rewrite rules for Django -> Acrylamid migration.
-Redirect permanent /weblog/2009/05/27/ioerror-errno-28-no-space http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
-Redirect permanent /weblog/2009/05/30/ubuntu http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
-Redirect permanent /weblog/2010/09/06/locked-myself-out-root-account-ec2-ubuntu http://www.vlent.nl/weblog/2010/09/06/locked-myself-out-root-account-ec2-ubuntu-instance/
-Redirect permanent /weblog/categories/vlentnl http://www.vlent.nl/weblog/tag/blog
-Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
-Redirect permanent /var_images/ http://www.vlent.nl/images/
-Redirect permanent /weblog/topics/ http://www.vlent.nl/weblog/tag/
-Redirect permanent /static/images/favicon.ico http://www.vlent.nl/favicon.ico
+  # Rewrites due to corrected URLs
+  Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
+  Redirect permanent /weblog/2009/06/16/datetime-2009-06-16-datetime-2009-06-16/ http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
 
-# Set the content type for the atom feeds
-RewriteCond %{REQUEST_URI} atom.xml
-RewriteRule .* - [T=application/atom+xml]
+  # Rewrite rules for Django -> Acrylamid migration.
+  Redirect permanent /weblog/2009/05/27/ioerror-errno-28-no-space http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
+  Redirect permanent /weblog/2009/05/30/ubuntu http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
+  Redirect permanent /weblog/2010/09/06/locked-myself-out-root-account-ec2-ubuntu http://www.vlent.nl/weblog/2010/09/06/locked-myself-out-root-account-ec2-ubuntu-instance/
+  Redirect permanent /weblog/categories/vlentnl http://www.vlent.nl/weblog/tag/blog
+  Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
+  Redirect permanent /var_images/ http://www.vlent.nl/images/
+  Redirect permanent /weblog/topics/ http://www.vlent.nl/weblog/tag/
+  Redirect permanent /static/images/favicon.ico http://www.vlent.nl/favicon.ico
 
+  # Set the content type for the atom feeds
+  RewriteCond %{REQUEST_URI} atom.xml
+  RewriteRule .* - [T=application/atom+xml]
+</IfModule>
+
+# ----------------------------------------------------------------------------
 # Custom 404 page
+# ----------------------------------------------------------------------------
+
 ErrorDocument 404 /404.html
+
+# ----------------------------------------------------------------------
+# Gzip compression
+# ----------------------------------------------------------------------
+
+<IfModule mod_deflate.c>
+
+  # Force deflate for mangled headers developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/
+  <IfModule mod_setenvif.c>
+    <IfModule mod_headers.c>
+      SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+      RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+    </IfModule>
+  </IfModule>
+
+  # Compress all output labeled with one of the following MIME-types
+  <IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE application/atom+xml \
+                                  application/javascript \
+                                  application/json \
+                                  application/rss+xml \
+                                  application/vnd.ms-fontobject \
+                                  application/x-font-ttf \
+                                  application/xhtml+xml \
+                                  application/xml \
+                                  font/opentype \
+                                  image/svg+xml \
+                                  image/x-icon \
+                                  text/css \
+                                  text/html \
+                                  text/plain \
+                                  text/x-component \
+                                  text/xml
+  </IfModule>
+
+</IfModule>
+
+# ----------------------------------------------------------------------
+# UTF-8 encoding
+# ----------------------------------------------------------------------
+
+# Use UTF-8 encoding for anything served text/plain or text/html
+AddDefaultCharset utf-8
+
+# Force UTF-8 for a number of file formats
+AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
