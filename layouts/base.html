@@ -22,7 +22,7 @@
       <link href="{{ env.path + '/atom.xml' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} Atom Feed" />
     {%- endblock %}
   </head>
-  <body>
+  <body class="{{env.type}}">
     <div id="page">
       <header role="banner">
         <a href="{{ env.path + '/' }}">
