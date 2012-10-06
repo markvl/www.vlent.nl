@@ -66,6 +66,7 @@ ErrorDocument 404 /404.html
   <IfModule mod_filter.c>
     AddOutputFilterByType DEFLATE application/atom+xml \
                                   application/javascript \
+                                  application/x-javascript \
                                   application/json \
                                   application/rss+xml \
                                   application/vnd.ms-fontobject \
@@ -90,6 +91,7 @@ ErrorDocument 404 /404.html
   mod_gzip_item_include handler ^cgi-script$
   mod_gzip_item_include mime ^application/atom+xml
   mod_gzip_item_include mime ^application/javascript
+  mod_gzip_item_include mime ^application/x-javascript
   mod_gzip_item_include mime ^application/json
   mod_gzip_item_include mime ^application/rss+xml
   mod_gzip_item_include mime ^application/vnd.ms-fontobject
