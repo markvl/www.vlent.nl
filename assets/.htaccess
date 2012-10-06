@@ -54,7 +54,6 @@ ErrorDocument 404 /404.html
 # ----------------------------------------------------------------------
 
 <IfModule mod_deflate.c>
-
   # Force deflate for mangled headers developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/
   <IfModule mod_setenvif.c>
     <IfModule mod_headers.c>
@@ -82,7 +81,31 @@ ErrorDocument 404 /404.html
                                   text/x-component \
                                   text/xml
   </IfModule>
+</IfModule>
 
+<IfModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^application/atom+xml
+  mod_gzip_item_include mime ^application/javascript
+  mod_gzip_item_include mime ^application/json
+  mod_gzip_item_include mime ^application/rss+xml
+  mod_gzip_item_include mime ^application/vnd.ms-fontobject
+  mod_gzip_item_include mime ^application/x-font-ttf
+  mod_gzip_item_include mime ^application/xhtml+xml
+  mod_gzip_item_include mime ^application/xml
+  mod_gzip_item_include mime ^font/opentype
+  mod_gzip_item_include mime ^image/svg+xml
+  mod_gzip_item_include mime ^image/x-icon
+  mod_gzip_item_include mime ^text/css
+  mod_gzip_item_include mime ^text/html
+  mod_gzip_item_include mime ^text/plain
+  mod_gzip_item_include mime ^text/x-component
+  mod_gzip_item_include mime ^text/xml
+  mod_gzip_item_exclude mime ^image/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
 </IfModule>
 
 # ----------------------------------------------------------------------
