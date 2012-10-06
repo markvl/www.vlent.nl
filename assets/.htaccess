@@ -21,6 +21,8 @@
   Redirect permanent /weblog/using-git-when-developing-plone-applications http://www.vlent.nl/weblog/2009/05/03/using-git-when-developing-plone-applications/
   Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10 http://www.vlent.nl/weblog/2009/02/19/upgrade-ubuntu-8.04-to-8.10/
   Redirect permanent /weblog/taking-version-control-to-the-next-level http://www.vlent.nl/weblog/2009/04/30/taking-version-control-to-the-next-level/
+  Redirect permanent /weblog/test-sending-emails-while-developing http://www.vlent.nl/weblog/2009/10/03/test-sending-emails-while-developing/
+  Redirect permanent /weblog/ubuntu-jaunty-jackalope http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
 
   # Rewrites due to corrected URLs
   Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
