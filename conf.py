@@ -51,8 +51,9 @@ VIEWS = {
     '/:slug/': {'view': 'page'},
 }
 
-FILTERS_DIR = 'filters/'
+THEME = 'theme'
 STATIC = ['assets', ]
+FILTERS_DIR = 'filters/'
 
 OUTPUT_IGNORE += ['/css/*', ]
 CONTENT_IGNORE += ['*/.#*', '*/drafts/*', ]
