@@ -55,10 +55,9 @@ FILTERS_DIR = 'filters/'
 STATIC = ['assets', ]
 
 OUTPUT_IGNORE += ['/css/*', ]
-CONTENT_IGNORE += ['*/.#*', ]
+CONTENT_IGNORE += ['*/.#*', '*/drafts/*', ]
 THEME_IGNORE += ['*/.#*']
 STATIC_IGNORE += ['*/.#*', 'vL.xcf']
-ENTRIES_IGNORE = ["drafts/*", ]
 
 DEPLOYMENT = {
     'blog': 'rsync -rtuvz --delete $OUTPUT_DIR bhosted:~/www/www.vlent.nl',
