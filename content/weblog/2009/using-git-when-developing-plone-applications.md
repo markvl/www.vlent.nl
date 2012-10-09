@@ -17,7 +17,7 @@ and storing the source code for the projects I'm working on.
 
 # Git-svn
 
-On of the reasons I chose Git was the "bidirectional flow of
+One of the reasons I chose Git was the "bidirectional flow of
 changes" that will be necessary. The Git repository on my computer
 will have to pull in the changes from the Subversion
 repository. Likewise, I have to make my changes available for others
