@@ -15,7 +15,7 @@ Java, but more like
 name was chosen to ride the wave of Java's popularity. Until 1999 it
 wasn't too interesting. However, Microsoft needed XMLHttpRequest (that
 basis of what we now call Ajax) and that sparked new development. In
-2000 Google launched Gmail and used this technology to show mails in
+2004 Google launched Gmail and used this technology to show mails in
 your page without having to refresh the whole page.
 
 Problems with Javascript is that the implementation differs between
