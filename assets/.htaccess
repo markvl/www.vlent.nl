@@ -23,6 +23,8 @@
   Redirect permanent /weblog/taking-version-control-to-the-next-level http://www.vlent.nl/weblog/2009/04/30/taking-version-control-to-the-next-level/
   Redirect permanent /weblog/test-sending-emails-while-developing http://www.vlent.nl/weblog/2009/10/03/test-sending-emails-while-developing/
   Redirect permanent /weblog/ubuntu-jaunty-jackalope http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
+  Redirect permanent /weblog/getting-dates-with-plone-aaron-vanderlip http://www.vlent.nl/weblog/2008/10/09/getting-dates-with-plone-aaron-vanderlip/
+  Redirect permanent /weblog/ioerror-errno-28-no-space-left-on-device http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
 
   # Rewrites due to corrected URLs
   Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
