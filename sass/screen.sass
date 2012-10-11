@@ -32,6 +32,9 @@ ul
 ol, ul
   list-style-position: outside
 
+p + ul, p + ol
+  +leader(-1)
+
 li ul, li ol
   margin: 0 0 0 1em
 
