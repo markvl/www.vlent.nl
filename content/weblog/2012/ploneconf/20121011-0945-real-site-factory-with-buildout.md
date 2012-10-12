@@ -28,7 +28,7 @@ organisations they needed something more. Goals:
 This became [zopeskel.unis](http://pypi.python.org/pypi/zopeskel.unis). Important building blocks that are used:
 
    - `extends`
-   - `+=` (Do not mix `+=` and `=`!)
+   - `+=` (Do not mix "`+=`" and "`=`" because the latter one clears previous stuff)
    - `<=` (it will copy the content *before* the interpretation)
    - `${:_buildout_section_name_}` (gives you the name of the current section)
 
