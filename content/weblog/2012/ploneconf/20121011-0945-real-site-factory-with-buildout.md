@@ -29,7 +29,7 @@ This became [zopeskel.unis](http://pypi.python.org/pypi/zopeskel.unis). Importan
 
    - `extends`
    - `+=` (Do not mix `+=` and `=`!)
-   - `<<` (it will copy the content *before* the interpretation)
+   - `<=` (it will copy the content *before* the interpretation)
    - `${:_buildout_section_name_}` (gives you the name of the current section)
 
 The `buildout.cfg` file is almost empty, it just extends a profile. Some folders
