@@ -139,7 +139,7 @@ They used it for financial reports, court reports, end user product
 documentation, ...
 
 
-# Domen Koẑar
+# Domen Kožar
 
 There is an Ubuntu bug in the network manager since 2008. To prevent
 issues to remain open for that long, he launched
