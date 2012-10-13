@@ -10,7 +10,7 @@ Several five minute talks about various subjects.
 
 # Érico Andrei on behalf of Plone.Gov.Br
 
-Énrico is selling Brasília as the location for the Plone conference in
+Érico is selling Brasília as the location for the Plone conference in
 October 2013.
 
 
