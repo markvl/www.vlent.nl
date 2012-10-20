@@ -87,10 +87,10 @@ Tips to speed up the build:
    * Use a non-ancient zc.buildout version (1.6+)
    * Proper configuration (add "`socket-timeout = 3`" and
      "`allow-hosts = ...`" to the `[buildout]` section)
-   * Use Asko Soukka's trick: download unified installer and extract
-     that to your buildout cache. In short: have a `[download]` and
-     `[install]` part where the latter is using
-     `collective.recipe.cmd` with a `tar` command.
+   * Use Asko Soukka's trick to
+     [speed up your Plone add-on tests on Travis CI](http://datakurre.pandala.org/2012/09/speed-up-your-plone-add-on-tests-on.html):
+     download the unified installer and extract that to your buildout
+     cache.
 
 
 Nejc would like to see Travis and Jenkins go hand in hand in Plone.
