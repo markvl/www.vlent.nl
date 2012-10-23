@@ -10,21 +10,24 @@
   RewriteCond %{HTTP_HOST} ^vlent\.nl$
   RewriteRule ^(.*) http://www.vlent.nl/$1 [R=301]
 
+  # Rewrite old scheme (/weblog/<slug> to /weblog/<year>/<month>/<day>/<slug>/
+  Redirect permanent /weblog/datetime-2009-06-16-datetime-2009-06-16 http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+  Redirect permanent /weblog/integrityerror-duplicate-key-value-violates-unique-constraint/ http://www.vlent.nl/weblog/2011/05/06/integrityerror-duplicate-key-value-violates-unique-constraint/
+  Redirect permanent /weblog/ioerror-errno-28-no-space-left-on-device http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
+  Redirect permanent /weblog/setuptools-and-subversion-1.5 http://www.vlent.nl/weblog/2008/09/18/setuptools-and-subversion-1.5/
+  Redirect permanent /weblog/taking-version-control-to-the-next-level http://www.vlent.nl/weblog/2009/04/30/taking-version-control-to-the-next-level/
+  Redirect permanent /weblog/test-sending-emails-while-developing http://www.vlent.nl/weblog/2009/10/03/test-sending-emails-while-developing/
+  Redirect permanent /weblog/ubuntu-jaunty-jackalope http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
+  Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10 http://www.vlent.nl/weblog/2009/02/19/upgrade-ubuntu-8.04-to-8.10/
+  Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10-part-three-ubuntu-firefox-modifications http://www.vlent.nl/weblog/2009/02/24/upgrade-ubuntu-8.04-to-8.10-part-three-ubuntu-firefox-modifications/
+  Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10-part-two-firewall-fun/ http://www.vlent.nl/weblog/2009/02/21/upgrade-ubuntu-8.04-to-8.10-part-two-firewall-fun/
+  Redirect permanent /weblog/using-git-when-developing-plone-applications http://www.vlent.nl/weblog/2009/05/03/using-git-when-developing-plone-applications/
+
   # Rewrites for old content Plone -> Django
-  Redirect permanent /weblog/authors http://www.vlent.nl/about/
   Redirect permanent /weblog/authors/markvl http://www.vlent.nl/about/
   Redirect permanent /author/markvl http://www.vlent.nl/about/
   Redirect permanent /weblog/plone/blog_view http://www.vlent.nl/weblog/categories/plone/
   Redirect permanent /front-page http://www.vlent.nl/
-  Redirect permanent /weblog/setuptools-and-subversion-1.5 http://www.vlent.nl/weblog/2008/09/18/setuptools-and-subversion-1.5/
-  Redirect permanent /weblog/datetime-2009-06-16-datetime-2009-06-16 http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
-  Redirect permanent /weblog/using-git-when-developing-plone-applications http://www.vlent.nl/weblog/2009/05/03/using-git-when-developing-plone-applications/
-  Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10 http://www.vlent.nl/weblog/2009/02/19/upgrade-ubuntu-8.04-to-8.10/
-  Redirect permanent /weblog/taking-version-control-to-the-next-level http://www.vlent.nl/weblog/2009/04/30/taking-version-control-to-the-next-level/
-  Redirect permanent /weblog/test-sending-emails-while-developing http://www.vlent.nl/weblog/2009/10/03/test-sending-emails-while-developing/
-  Redirect permanent /weblog/ubuntu-jaunty-jackalope http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
-  Redirect permanent /weblog/getting-dates-with-plone-aaron-vanderlip http://www.vlent.nl/weblog/2008/10/09/getting-dates-with-plone-aaron-vanderlip/
-  Redirect permanent /weblog/ioerror-errno-28-no-space-left-on-device http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
 
   # Rewrites due to corrected URLs
   Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
@@ -34,6 +37,7 @@
   Redirect permanent /weblog/2009/05/27/ioerror-errno-28-no-space http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
   Redirect permanent /weblog/2009/05/30/ubuntu http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
   Redirect permanent /weblog/2010/09/06/locked-myself-out-root-account-ec2-ubuntu http://www.vlent.nl/weblog/2010/09/06/locked-myself-out-root-account-ec2-ubuntu-instance/
+  Redirect permanent /weblog/topics/zest%20software http:/www.vlent.nl/weblog/tag/zest-software
   Redirect permanent /weblog/categories/vlentnl http://www.vlent.nl/weblog/tag/blog
   Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
   Redirect permanent /var_images/ http://www.vlent.nl/images/
