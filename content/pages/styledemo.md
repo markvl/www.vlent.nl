@@ -129,15 +129,17 @@ must contain one or more terms (``<dt>``) which are followed by one or
 more definitions (``<dd>``). Note that one term may have more
 definitions and multiple terms may be related to a single definition.
 
-<dl>
-  <dt>Single term</dt>
-  <dd>Single definition</dd>
-  <dt>First term</dt>
-  <dd>Single definition</dd>
-  <dt>Single term</dt>
-  <dd>First definition</dd>
-  <dd>Second definition</dd>
-</dl>
+Single term
+:   Single definition
+
+First term
+Second term
+: Single definition
+
+Single term
+:   First definition
+:   Second definition
+
 
 ## Figures
 
@@ -199,7 +201,7 @@ Example of ``<s>``: My favourite editor is <s>Vim</s> Emacs.
 
 Example of ``<del>``:
 
-- <del>Write style demo</del>
+- ~~Write style demo~~
 - Update style demo
 
 ## Cite

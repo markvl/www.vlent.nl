@@ -57,19 +57,17 @@ font. Perhaps Pyramid provides a solution to override static files
 included in a package, but I chose to copy the `whiskers.css` file to
 another directory, modify it and have Apache serve my file.
 
-<s><p>Note that currently Whiskers has some rough edges. For
-instance: not all packages are registered properly. I am using a
-checkout of <a href="https://github.com/markvl/whiskers">my fork</a>
-for now until there is a new release where this is fixed (yes, I
-issued a <a href="https://github.com/pingviini/whiskers/pull/2">pull
-request</a>).</p></s>
+~~Note that currently Whiskers has some rough edges. For instance: not
+all packages are registered properly. I am using a checkout of
+[my fork](https://github.com/markvl/whiskers) for now until there is a
+new release where this is fixed (yes, I issued a
+[pull request](https://github.com/pingviini/whiskers/pull/2)).~~
 
-<s><p>The package view (which was shown in the second screenshot),
+~~The package view (which was shown in the second screenshot),
 currently does not sort the versions and does not hide versions that
 are not used by any buildout. I personally don't like that so I issued
-<a href="https://github.com/pingviini/whiskers/pull/3">another pull
-request</a> in the hope it will be included in a next
-release.</p></s>
+[another pull request](https://github.com/pingviini/whiskers/pull/3) in
+the hope it will be included in a next release.~~
 
 Although Whiskers may not be perfect yet, I quite like it and am happy
 that I finally took the time to set things up.
