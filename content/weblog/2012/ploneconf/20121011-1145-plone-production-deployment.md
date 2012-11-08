@@ -77,7 +77,7 @@ conservative and turn it up when possible. He also distinguishes
 between authenticated and unauthenticated users. Authenticated users
 need current information while unauthenticated users can probably get
 by with a bit older pages. As
-[Dylan Jay said yesterday](http://localhost:8000/weblog/2012/10/10/lightning-talks/#dylan-jay):
+[Dylan Jay said yesterday](/weblog/2012/10/10/lightning-talks/#dylan-jay):
 caching pages for one minute can make a huge difference.
 
 

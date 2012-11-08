@@ -6,7 +6,7 @@ tags: [plone, ploneconf]
 ---
 
 Steve McMahon
-[talked](http://localhost:8000/weblog/2012/10/11/plone-production-deployment-secrets-tricks-steve-mcmahon/)
+[talked](/weblog/2012/10/11/plone-production-deployment-secrets-tricks-steve-mcmahon/)
 about Plone specific stuff, Christian is going to talk about the stuff
 around that.
 
