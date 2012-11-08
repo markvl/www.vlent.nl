@@ -67,3 +67,6 @@ but Penelope can generate a report that can be attached as a justification of th
 Penelope will be available via
 [GitHub](http://getpenelope.github.com/) (so you can use, customise
 and improve it yourself) somewhere in the near future.
+
+[View the slides](http://www.slideshare.net/amleczko/are-you-in-a-hole-and-still-digging-or-how-to-become-an-agile-company-in-a-year-true-story)
+or [watch the video](http://www.youtube.com/watch?v=USkQOWSOn2w).

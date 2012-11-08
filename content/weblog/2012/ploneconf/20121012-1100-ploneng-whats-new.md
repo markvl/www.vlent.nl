@@ -163,3 +163,6 @@ What will be the next version, 4.4 or 5? If there is backwards
 incompatible stuff we want to include, it's probably going to be
 version 5. Then again, releasing version 5 might also 'just' be good
 for marketing reasons. In short: David also does not know yet.
+
+[View the slides](http://www.slideshare.net/davisagli/ploneng-whats-new-in-plone-42-43-and-beyond)
+or [watch the video](http://www.youtube.com/watch?v=WFSDzpP4Ueg).

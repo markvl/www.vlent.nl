@@ -106,3 +106,5 @@ Eric asks us to think about three things wrong with the code,
 community, or process of Plone. Please find someone with matching
 'things' and act upon it! What are **you** going to do to
 make Plone better this year?
+
+[View the slides](http://www.slideshare.net/esteele/the-state-of-plone-plone-conference-2012).

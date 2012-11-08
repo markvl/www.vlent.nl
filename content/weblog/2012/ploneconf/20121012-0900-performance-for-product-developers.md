@@ -77,3 +77,6 @@ to use so configuration would be easier.
 
 Want to help put this into practice? Mail to `sales` at
 `thedistillery.eu`.
+
+[View the slides](http://www.slideshare.net/MatthewWilkes/performance-for-product-developers)
+or [watch the video](http://www.youtube.com/watch?v=lX-dBMO3Q_E).

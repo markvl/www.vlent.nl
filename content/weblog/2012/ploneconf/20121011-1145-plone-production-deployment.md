@@ -163,3 +163,6 @@ How to learn this all? Have a look at the
 If there's anything that has not been documented, please add it to the
 hosting documentation. And also put a pointer to those details in the
 [deployment documentation](http://collective-docs.readthedocs.org/en/latest/deployment/).
+
+[View the slides](http://www.slideshare.net/plonesteve/plone-deployment-ploneconf-edition)
+or [watch the video](http://www.youtube.com/watch?v=vii5X7PQanc).

@@ -53,3 +53,6 @@ version pins. (You can for instance use
 versions for a product.)
 
 You can use zopeskel.unis as an example for your own setup.
+
+[View the slides](http://encolpe.degoute.free.fr/conferences/PloneConf%202012%20-%20Building%20a%20site%20factory%20with%20Plone)
+or [watch the video](http://www.youtube.com/watch?v=EFEf6QvV7Bo).

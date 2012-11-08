@@ -72,3 +72,6 @@ Ideas for Plone:
      PDFs, ..., from the existing content.
    - How can we include microformats and schema.org in a Plone site?
    - There is no Python library to connect with RESTful services.
+
+[View the slides](http://encolpe.degoute.free.fr/conferences/PloneConf%202012%20-%20Ways%20to%20investigate/)
+or [watch the video](http://www.youtube.com/watch?v=GV4W8tgwMSg).

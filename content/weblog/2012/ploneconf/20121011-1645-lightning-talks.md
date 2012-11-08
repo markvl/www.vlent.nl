@@ -148,3 +148,5 @@ fix free software one bug at a time. It currently only supports
 bitcoins because paying is hard and bitcoins made it easier.
 
 Multiple pledgers per issue are possible.
+
+[Watch the video](http://www.youtube.com/watch?v=8JkmimHP8yw).

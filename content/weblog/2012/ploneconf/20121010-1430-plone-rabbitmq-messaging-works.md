@@ -38,4 +38,5 @@ Example code:
 [collective.zamqpdemo](https://github.com/datakurre/collective.zamqpdemo),
 [chatbehavior](https://github.com/datakurre/chatbehavior)
 
-The [slides of this talk](http://goo.gl/RDYZc) are available.
+[View the slides](http://www.slideshare.net/datakurre/plone-rabbit-mq-and-messaging-that-just-works)
+or [watch the video](http://www.youtube.com/watch?v=yfPG09nd0N8).

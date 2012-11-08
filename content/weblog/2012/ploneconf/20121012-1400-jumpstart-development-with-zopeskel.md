@@ -69,3 +69,5 @@ Tips:
      templates and they might be useful for others: use the `templer`
      namespace; for your own project/infrastructure specific
      templates, use your company's namespace.
+
+[View the slides](http://www.slideshare.net/cewing/jumpstart-your-development-with-zopeskel-14719067).

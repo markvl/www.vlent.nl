@@ -82,3 +82,6 @@ available for Python as well in the next few months.
 Since Cloud9 in open source, you can fork the
 [GitHub repository](https://github.com/ajaxorg/cloud9) and contribute
 if you want to. Or join Cloud9 since they are hiring.
+
+[View the slides](http://www.slideshare.net/janjongboom/all-out-on-the-cloud-ploneconf-2012)
+or [watch the video](http://www.youtube.com/watch?v=TXc4MB4LVus).

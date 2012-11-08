@@ -116,3 +116,6 @@ Note that Templer currently still depends on Paster and uses Cheeta
 templates. [Crushinator](https://github.com/jjmojojjmojo/Crushinator)
 wants to solve these problems. The only dependency would be a package
 for the templating language you want to use for your templates.
+
+[View the slides](http://www.slideshare.net/cewing/zopeskel-the-past-present-and-future)
+or [watch the video](http://www.youtube.com/watch?v=vrneRhD2_8U).

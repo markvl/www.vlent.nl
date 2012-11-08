@@ -101,3 +101,6 @@ Advantages of Travis CI:
    - Can also be used for non-plone packages (simple Python libraries).
    - It's cool to do public CI for company owned public packages. This
      way others can contribute and see if their build succeeds
+
+[View the slides](http://www.slideshare.net/zupo/travis-ci-fun-and-easy-ci-for-your-plone-packages)
+or [watch the video](http://www.youtube.com/watch?v=HsGLLGeXFOU).

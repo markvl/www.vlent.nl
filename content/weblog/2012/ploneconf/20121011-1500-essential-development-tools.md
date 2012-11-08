@@ -82,3 +82,6 @@ sauna.reload.
 Finally: see
 [collective.exampledevtools](https://github.com/collective/collective.exampledevtools)
 for more details.
+
+[View the slides](http://www.slideshare.net/kaceeleong/plone-conf-2012-essential-dev-tools)
+or [watch the video](http://www.youtube.com/watch?v=JojegotBiF4).

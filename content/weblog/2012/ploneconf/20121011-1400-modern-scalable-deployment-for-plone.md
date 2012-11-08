@@ -129,3 +129,6 @@ until someone can solve the problem.
 You can read the book "The practice of system and network
 administration" (Limoncelli et.al.). Gocept also has
 [documentation](http://gocept.net/doc/) you can check out.
+
+[View the slides](http://www.slideshare.net/theuni/modern-scalable-deployment-for-plone)
+or [watch the video](http://www.youtube.com/watch?v=VfmDx6BdOwQ).

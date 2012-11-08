@@ -65,3 +65,7 @@ Good hints:
      package directly.
    - Customisations *always* belong in your own policy package.
    - Local customisations *will* be lost with the next version of the customised package.
+
+
+[View the slides](http://www.slideshare.net/ajung/pragmatic-plone-projects-14668236)
+or [watch the video](http://www.youtube.com/watch?v=I1b_j6j3jvc).
