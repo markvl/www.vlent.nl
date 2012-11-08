@@ -1,5 +1,5 @@
 ---
-title: Lightning talks
+title: Lightning talks (Wednesday)
 slug: lightning-talks
 date: 2012-10-10 16:45
 tags: [plone, ploneconf]
