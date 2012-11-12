@@ -96,3 +96,5 @@ server (like passwords).
 Maurits presented a couple of useful packages. See his
 [presentation on GitHub](https://github.com/mauritsvanrees/talks/blob/master/fivepackages.rst)
 for the details.
+
+[Watch the video](http://www.youtube.com/watch?v=ZluAfljEv0Q).

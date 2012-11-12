@@ -114,8 +114,9 @@ Solving problems in plone package at a time:
    - [sevabot](https://github.com/opensourcehacker/sevabot): A Skype
      bot.
 
-*Mark: When the video of this lightning talk becomes available online,
- it's definitely worth watching it!*
+*[Mark: The
+ [video of this lightning talk](http://www.youtube.com/watch?v=BlLSWmOFmwg&t=24m53s)
+ is definitely worth watching.]*
 
 
 # Franco Pellegrini
@@ -199,3 +200,5 @@ e.g. [Italy](http://plone.it/),
 all look different. But by using a bar at the top of the page which
 links to other Plone sites in the world, we can unite those sites and
 make it easier to discover them.
+
+[Watch the video](http://www.youtube.com/watch?v=BlLSWmOFmwg).
