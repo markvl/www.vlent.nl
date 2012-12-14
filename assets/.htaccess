@@ -11,17 +11,32 @@
   RewriteRule ^(.*) http://www.vlent.nl/$1 [R=301]
 
   # Rewrite old scheme (/weblog/<slug> to /weblog/<year>/<month>/<day>/<slug>/
+  Redirect permanent /weblog/a-simple-plone-setup-on-amazon-ec2-and-s3-david-bain http://www.vlent.nl/weblog/2008/10/09/a-simple-plone-setup-on-amazon-ec2-and-s3-david-bain/
+  Redirect permanent /weblog/content-migration-quantum-leap-vitaliy-podoba http://www.vlent.nl/weblog/2008/10/10/content-migration-quantum-leap-vitaliy-podoba/
   Redirect permanent /weblog/datetime-2009-06-16-datetime-2009-06-16 http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+  Redirect permanent /weblog/deliverance-theming-decoupled-ian-bicking http://www.vlent.nl/weblog/2008/10/09/deliverance-theming-decoupled-ian-bicking/
+  Redirect permanent /weblog/delivering-egg-based-applications-with-zc.buildout-using-a-distributed-model-tarek-ziade http://www.vlent.nl/weblog/2008/10/10/delivering-egg-based-applications-with-zc.buildout-using-a-distributed-model-tarek-ziade/
+  Redirect permanent /weblog/distributed-version-control-systems-presentation http://www.vlent.nl/weblog/2010/02/25/distributed-version-control-systems-presentation/
+  Redirect permanent /weblog/getting-dates-with-plone-aaron-vanderlip http://www.vlent.nl/weblog/2008/10/09/getting-dates-with-plone-aaron-vanderlip/
+  Redirect permanent /weblog/git-in-action-feature-branch-after-the-fact http://www.vlent.nl/weblog/2009/05/20/git-in-action-feature-branch-after-the-fact/
   Redirect permanent /weblog/integrityerror-duplicate-key-value-violates-unique-constraint/ http://www.vlent.nl/weblog/2011/05/06/integrityerror-duplicate-key-value-violates-unique-constraint/
+  Redirect permanent /weblog/introduction-z3c-forms-stephan-richter http://www.vlent.nl/weblog/2008/10/10/introduction-z3c-forms-stephan-richter/
   Redirect permanent /weblog/ioerror-errno-28-no-space-left-on-device http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
+  Redirect permanent /weblog/minor-upgrade-of-my-site http://www.vlent.nl/weblog/2009/05/16/minor-upgrade-of-my-site/
+  Redirect permanent /weblog/new-start.. http://www.vlent.nl/weblog/2008/08/24/new-start../
+  Redirect permanent /weblog/plone-and-multimedia-publishing-audio-and-video-content-with-plone-nate-aune http://www.vlent.nl/weblog/2008/10/10/plone-and-multimedia-publishing-audio-and-video-content-with-plone-nate-aune/
+  Redirect permanent /weblog/ploneformgen-past-present-future-steve-mcmahon http://www.vlent.nl/weblog/2008/10/10/ploneformgen-past-present-future-steve-mcmahon/
+  Redirect permanent /weblog/real-world-intranets-joel-burton http://www.vlent.nl/weblog/2008/10/08/real-world-intranets-joel-burton/
   Redirect permanent /weblog/setuptools-and-subversion-1.5 http://www.vlent.nl/weblog/2008/09/18/setuptools-and-subversion-1.5/
   Redirect permanent /weblog/taking-version-control-to-the-next-level http://www.vlent.nl/weblog/2009/04/30/taking-version-control-to-the-next-level/
   Redirect permanent /weblog/test-sending-emails-while-developing http://www.vlent.nl/weblog/2009/10/03/test-sending-emails-while-developing/
   Redirect permanent /weblog/ubuntu-jaunty-jackalope http://www.vlent.nl/weblog/2009/05/30/ubuntu-jaunty-jackalope/
+  Redirect permanent /weblog/unit-testing-useful http://www.vlent.nl/weblog/2009/11/05/unit-testing-useful/
   Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10 http://www.vlent.nl/weblog/2009/02/19/upgrade-ubuntu-8.04-to-8.10/
   Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10-part-three-ubuntu-firefox-modifications http://www.vlent.nl/weblog/2009/02/24/upgrade-ubuntu-8.04-to-8.10-part-three-ubuntu-firefox-modifications/
   Redirect permanent /weblog/upgrade-ubuntu-8.04-to-8.10-part-two-firewall-fun/ http://www.vlent.nl/weblog/2009/02/21/upgrade-ubuntu-8.04-to-8.10-part-two-firewall-fun/
   Redirect permanent /weblog/using-git-when-developing-plone-applications http://www.vlent.nl/weblog/2009/05/03/using-git-when-developing-plone-applications/
+  Redirect permanent /weblog/why-plone-works-well-for-large-government-agencies-ken-wasetis http://www.vlent.nl/weblog/2008/10/08/why-plone-works-well-for-large-government-agencies-ken-wasetis/
 
   # Rewrites for old content Plone -> Django
   Redirect permanent /weblog/authors/markvl http://www.vlent.nl/about/
