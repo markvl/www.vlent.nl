@@ -4,7 +4,8 @@ permalink: /contact/
 type: page
 ---
 
-If you want to get in touch with me, connect with me via (in random order):
+If you want to get in touch with me, connect with me via (in random
+order):
 
   * [Twitter](http://twitter.com/mvlent)
   * [Google+](https://plus.google.com/110070627222617391002)
@@ -13,3 +14,4 @@ If you want to get in touch with me, connect with me via (in random order):
     * `#django`
     * `#plone`
     * `#python-nl`
+  * Send an email to "mark" at this domain name.
