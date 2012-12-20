@@ -6,6 +6,7 @@
   max-width: $max-page-width
   margin: 0 auto
 
+// Wide enough to split the banner in two parts.
 +respond-min($max-page-width * $base-font-scale)
   header[role="banner"]
     overflow: auto
@@ -15,6 +16,7 @@
       float: right
       padding-top: .25em
 
+// Wide enough to contain an additional column with metadata.
 +respond-min(($max-page-width + 2*$metadata-width + 2*$gutter-width) * $base-font-scale)
   .entry
     .metadata
