@@ -58,17 +58,28 @@ header
 
 header[role="banner"]
   font-family: $header-font-family
-  font-weight: 700
-  border-bottom: 1px solid $link-color
   a, a:visited
     color: $link-color
     text-decoration: none
+    font-weight: 700
   h1
     +adjust-font-size-to($base-font-size * 1.4, 1.25)
     +leader(0)
   #tagline
     +adjust-font-size-to($base-font-size)
     font-weight: 500
+  nav
+    clear: both
+    border-top: 1px solid $link-color
+    +adjust-font-size-to($small-font-size)
+    a, a:visited
+      font-weight: 500
+  ul
+    padding-left: 0
+  li
+    display: inline
+    margin-right: 2.5%
+
 
 footer[role="contentinfo"]
   color: $font-color-subdued
