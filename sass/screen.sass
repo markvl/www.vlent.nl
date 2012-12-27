@@ -171,7 +171,7 @@ img
 img, embed, object, video
   max-width: 100%
 
-caption, figcaption
+caption, figcaption, .dygraph-label
   +adjust-font-size-to($small-font-size)
   font-style: italic
 
@@ -193,6 +193,10 @@ blockquote p:before
   border-top: 1px dotted $font-color-subdued
   border-bottom: 1px dotted $font-color-subdued
   +padding-leader(1)
+  +trailer(1)
+
+.graph
+  width: 100%
   +trailer(1)
 
 // Imports that override stuff.
