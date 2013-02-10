@@ -25,16 +25,16 @@ SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</
 VIEWS = {
     # Article indexes
     '/': {'filters': 'intro', 'view': 'index',
-          'pagination': '/page/:num'},
+          'pagination': '/page/:num/'},
     '/weblog/': {'filters': 'intro', 'view': 'index',
-          'pagination': '/weblog/page/:num'},
+          'pagination': '/weblog/page/:num/'},
 
     # Articles
-    '/weblog/:year/:month/:day/:slug/': {'view': 'entry'},
+    '/weblog/:year/:month/:day/:slug/': {'views': ['entry', 'draft']},
 
     # Tag indexes
     '/weblog/tag/:name/': {'filters': 'intro', 'view': 'tag',
-                    'pagination': '/weblog/tag/:name/:num'},
+                    'pagination': '/weblog/tag/:name/:num/'},
 
     # Atom feeds
     '/atom.xml': {'filters': ['h2', ], 'view': 'atom',

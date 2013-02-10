@@ -39,12 +39,12 @@
     {% if env.next or env.prev %}
       <div class="pagination">
         {% if env.next is not none %}
-          <a href="{{ env.path ~ env.next ~ '/' }}" class="pagination-newer">
+          <a href="{{ env.path ~ env.next }}" class="pagination-newer">
             « Newer
           </a>
         {% endif %}
         {% if env.prev %}
-          <a href="{{ env.path ~ env.prev ~ '/' }}" class="pagination-older">
+          <a href="{{ env.path ~ env.prev }}" class="pagination-older">
             Older »
           </a>
         {% endif %}
