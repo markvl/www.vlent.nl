@@ -4,4 +4,5 @@ Markdown==2.1.1
 smartypants==1.6.0.3
 translitcodec==0.3
 wsgiref==0.1.2
--e git+git@github.com:markvl/acrylamid.git#egg=acrylamid
+#-e git+git@github.com:markvl/acrylamid.git#egg=acrylamid
+acrylamid==0.6.0
