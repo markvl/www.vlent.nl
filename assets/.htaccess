@@ -48,6 +48,7 @@
   Redirect permanent /author/markvl http://www.vlent.nl/about/
   Redirect permanent /weblog/plone/blog_view http://www.vlent.nl/weblog/categories/plone/
   Redirect permanent /front-page http://www.vlent.nl/
+  Redirect permanent /content/weblog/ http://www.vlent.nl/weblog/
 
   # Rewrites due to corrected URLs
   Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
