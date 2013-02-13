@@ -195,6 +195,19 @@ blockquote p:before
   width: 100%
   +trailer(1)
 
+// Archive view
+
+.archive-year
+  +leader(1)
+
+.archive-article
+  +leader(.5)
+  a:visited
+    color: $link-visited-color
+
+.archive #content
+  +trailer(2)
+
 // Imports that override stuff.
 
 @import adaptive

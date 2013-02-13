@@ -21,7 +21,7 @@
   {%- if env.type == 'tag' -%}
     <link href="{{ env.route + '/atom.xml' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} {{ env.tag}} Atom Feed" />
   {%- endif %}
-  {% if env.type in ['tag', 'index'] or (env.type == 'entry' and entry.draft) %}
+  {% if env.type in ['tag', 'index', 'archive'] or (env.type == 'entry' and entry.draft) %}
     <meta name="robots" content="noindex" />
   {%- endif -%}
 {% endblock %}

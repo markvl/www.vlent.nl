@@ -32,6 +32,11 @@ VIEWS = {
     # Articles
     '/weblog/:year/:month/:day/:slug/': {'views': ['entry', 'draft']},
 
+    # Archive views
+    '/weblog/:year/': {'view': 'archive'},
+    '/weblog/:year/:month/': {'view': 'archive'},
+    '/weblog/:year/:month/:day/': {'view': 'archive'},
+
     # Tag indexes
     '/weblog/tag/:name/': {'filters': 'intro', 'view': 'tag',
                     'pagination': '/weblog/tag/:name/:num/'},
