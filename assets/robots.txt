@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: */134*000
 Allow: /
 
 Sitemap: http://www.vlent.nl/sitemap.xml
