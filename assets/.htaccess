@@ -21,6 +21,7 @@
   Redirect permanent /weblog/distributed-version-control-systems-presentation http://www.vlent.nl/weblog/2010/02/25/distributed-version-control-systems-presentation/
   Redirect permanent /weblog/getting-dates-with-plone-aaron-vanderlip http://www.vlent.nl/weblog/2008/10/09/getting-dates-with-plone-aaron-vanderlip/
   Redirect permanent /weblog/git-in-action-feature-branch-after-the-fact http://www.vlent.nl/weblog/2009/05/20/git-in-action-feature-branch-after-the-fact/
+  Redirect permanent /weblog/hybrid-vigor-plone-salesforce-integration-andrew-burkhalter http://www.vlent.nl/weblog/2008/10/09/hybrid-vigor-plone-salesforce-integration-andrew-burkhalter/
   Redirect permanent /weblog/integrityerror-duplicate-key-value-violates-unique-constraint/ http://www.vlent.nl/weblog/2011/05/06/integrityerror-duplicate-key-value-violates-unique-constraint/
   Redirect permanent /weblog/introduction-z3c-forms-stephan-richter http://www.vlent.nl/weblog/2008/10/10/introduction-z3c-forms-stephan-richter/
   Redirect permanent /weblog/ioerror-errno-28-no-space-left-on-device http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
@@ -48,11 +49,12 @@
   Redirect permanent /author/markvl http://www.vlent.nl/about/
   Redirect permanent /weblog/plone/blog_view http://www.vlent.nl/weblog/categories/plone/
   Redirect permanent /front-page http://www.vlent.nl/
-  Redirect permanent /content/weblog http://www.vlent.nl/weblog
+  Redirect permanent /weblog/weblog/blog_view/ http://www.vlent.nl/weblog/
 
   # Rewrites due to corrected URLs
   Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
   Redirect permanent /weblog/2009/06/16/datetime-2009-06-16-datetime-2009-06-16/ http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+  Redirect permanent /weblog/2009/06/16/ http://www.vlent.nl/weblog/2009/06/
 
   # Rewrite rules for Django -> Acrylamid migration.
   Redirect permanent /weblog/2009/05/27/ioerror-errno-28-no-space http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
@@ -61,9 +63,14 @@
   Redirect permanent /weblog/topics/zest%20software http:/www.vlent.nl/weblog/tag/zest-software
   Redirect permanent /weblog/categories/vlentnl http://www.vlent.nl/weblog/tag/blog
   Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
+  Redirect permanent /weblog/tag/osx/ http://www.vlent.nl/weblog/tag/apple/
   Redirect permanent /var_images/ http://www.vlent.nl/images/
   Redirect permanent /weblog/topics/ http://www.vlent.nl/weblog/tag/
   Redirect permanent /static/images/favicon.ico http://www.vlent.nl/favicon.ico
+
+  # Rewrite for some of the links Google tries to index from (what it seems)
+  # the GitHub repo for this site.
+  Redirect permanent /content/weblog http://www.vlent.nl/weblog
 
   # Stubborn feeds. Although rerouting them to an atom feed isn't really playing nice,
   # these feeds have been defunct for a number of years now yet are still accessed.
