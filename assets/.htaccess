@@ -74,13 +74,16 @@
 
   # Stubborn feeds. Although rerouting them to an atom feed isn't really playing nice,
   # these feeds have been defunct for a number of years now yet are still accessed.
-  Redirect permanent /weblog/weblog/RSS/ http://www.vlent.nl/weblog/atom.xml
-  Redirect permanent /weblog/weblog/RSS http://www.vlent.nl/weblog/atom.xml
-  Redirect permanent /weblog/plone/RSS/ http://www.vlent.nl/weblog/tag/plone/atom.xml
-  Redirect permanent /weblog/plone/RSS http://www.vlent.nl/weblog/tag/plone/atom.xml
+  Redirect permanent /weblog/weblog/RSS/ http://www.vlent.nl/weblog/feed.atom
+  Redirect permanent /weblog/weblog/RSS http://www.vlent.nl/weblog/feed.atom
+  Redirect permanent /weblog/plone/RSS/ http://www.vlent.nl/weblog/tag/plone/feed.atom
+  Redirect permanent /weblog/plone/RSS http://www.vlent.nl/weblog/tag/plone/feed.atom
+
+  # Redirect the old atom feeds to the new form
+  RewriteRule ^(.*)/atom.xml http://www.vlent.nl/$1/feed.atom [R=301]
 
   # Set the content type for the atom feeds
-  RewriteCond %{REQUEST_URI} atom.xml
+  RewriteCond %{REQUEST_URI} feed.atom
   RewriteRule .* - [T=application/atom+xml]
 </IfModule>
 

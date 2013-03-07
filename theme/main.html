@@ -19,7 +19,7 @@
     <meta name="keywords" content="{{ entry.tags | join(', ') }}" />
   {%- endif -%}
   {%- if env.type == 'tag' -%}
-    <link href="{{ env.route + '/atom.xml' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} {{ env.tag}} Atom Feed" />
+    <link href="{{ env.route + '/feed.atom' }}" type="application/atom+xml" rel="alternate" title="{{ conf.sitename }} {{ env.tag}} Atom Feed" />
   {%- endif %}
   {% if env.type in ['tag', 'index', 'archive'] or (env.type == 'entry' and entry.draft) %}
     <meta name="robots" content="noindex" />
@@ -31,6 +31,13 @@
     <h1>Articles</h1>
   {% elif env.type == 'tag' %}
     <h1>Articles for “{{ env.tag }}”</h1>
+    {% if env.type == 'tag' %}
+      <aside>
+        <p>If you are interested in this topic, you can also subscribe to the
+          <a href="{{ env.route + '/feed.atom' }}">{{ env.tag }} Atom feed</a>.
+        </p>
+      </aside>
+    {% endif %}
   {% endif %}
   {% for entry in env.entrylist %}
     {% include 'entry.html' %}
@@ -52,11 +59,4 @@
       <div class="clearfix"></div>
     {% endif %}
   {%- endif  %}
-  {% if env.type == 'tag' %}
-    <aside>
-      <p>If you are interested in this topic, you can also subscribe to the {{ env.tag }}
-        <a href="{{ env.route + '/atom.xml' }}">Atom feed</a>.
-      </p>
-    </aside>
-  {% endif %}
 {% endblock %}
