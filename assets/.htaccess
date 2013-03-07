@@ -82,7 +82,7 @@
   Redirect permanent /weblog/plone/RSS http://www.vlent.nl/weblog/tag/plone/feed.atom
 
   # Redirect the old atom feeds to the new form
-  RewriteRule ^(.*)/atom.xml http://www.vlent.nl/$1/feed.atom [R=301]
+  RewriteRule ^(.*)atom.xml http://www.vlent.nl/$1feed.atom [R=301]
 
   # Set the content type for the atom feeds
   RewriteCond %{REQUEST_URI} feed.atom
