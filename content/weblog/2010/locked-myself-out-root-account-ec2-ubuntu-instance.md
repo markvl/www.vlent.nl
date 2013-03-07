@@ -50,7 +50,7 @@ again:
 6.  Edit the `sudoers` file.
 7.  Unmount the device.
 8.  Detach the volume.
-9.  Attach the volume to old instance on `/dev/sdba1`.
+9.  Attach the volume to old instance on `/dev/sda1`.
 10. Boot old instance.
 11. Link the old instance back to the elastic IP address.
 12. Start breathing again.
