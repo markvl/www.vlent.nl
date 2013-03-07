@@ -11,10 +11,10 @@
   RewriteRule ^(.*) http://www.vlent.nl/$1 [R=301]
 
   # Rewrite old scheme (/weblog/<slug> to /weblog/<year>/<month>/<day>/<slug>/
-  Redirect permanent /weblog/2008/10/10/controlling-chaos-mike-robinson http://www.vlent.nl/weblog/2008/10/09/controlling-chaos-mike-robinson/
   Redirect permanent /weblog/a-simple-plone-setup-on-amazon-ec2-and-s3-david-bain http://www.vlent.nl/weblog/2008/10/09/a-simple-plone-setup-on-amazon-ec2-and-s3-david-bain/
   Redirect permanent /weblog/birds-of-a-feather-session-how-to-train-people-to-use-plone/ http://www.vlent.nl/weblog/2008/10/11/birds-of-a-feather-session-how-to-train-people-to-use-plone/
   Redirect permanent /weblog/content-migration-quantum-leap-vitaliy-podoba http://www.vlent.nl/weblog/2008/10/10/content-migration-quantum-leap-vitaliy-podoba/
+  Redirect permanent /weblog/controlling-chaos-mike-robinson http://www.vlent.nl/weblog/2008/10/09/controlling-chaos-mike-robinson/
   Redirect permanent /weblog/datetime-2009-06-16-datetime-2009-06-16 http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
   Redirect permanent /weblog/deliverance-theming-decoupled-ian-bicking http://www.vlent.nl/weblog/2008/10/09/deliverance-theming-decoupled-ian-bicking/
   Redirect permanent /weblog/delivering-egg-based-applications-with-zc.buildout-using-a-distributed-model-tarek-ziade http://www.vlent.nl/weblog/2008/10/10/delivering-egg-based-applications-with-zc.buildout-using-a-distributed-model-tarek-ziade/
@@ -52,9 +52,10 @@
   Redirect permanent /weblog/weblog/blog_view/ http://www.vlent.nl/weblog/
 
   # Rewrites due to corrected URLs
-  Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
-  Redirect permanent /weblog/2009/06/16/datetime-2009-06-16-datetime-2009-06-16/ http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+  Redirect permanent /weblog/2008/10/10/controlling-chaos-mike-robinson http://www.vlent.nl/weblog/2008/10/09/controlling-chaos-mike-robinson/
   Redirect permanent /weblog/2009/06/16/ http://www.vlent.nl/weblog/2009/06/
+  Redirect permanent /weblog/2009/06/16/datetime-2009-06-16-datetime-2009-06-16/ http://www.vlent.nl/weblog/2009/06/17/datetime-2009-06-16-datetime-2009-06-16/
+  Redirect permanent /weblog/2011/06/20/deployment-knowledge-sharing-session-release-manag/ http://www.vlent.nl/weblog/2011/06/20/deployment-knowledge-sharing-session/
 
   # Rewrite rules for Django -> Acrylamid migration.
   Redirect permanent /weblog/2009/05/27/ioerror-errno-28-no-space http://www.vlent.nl/weblog/2009/05/27/ioerror-errno-28-no-space-left-on-device/
@@ -64,6 +65,7 @@
   Redirect permanent /weblog/categories/vlentnl http://www.vlent.nl/weblog/tag/blog
   Redirect permanent /weblog/categories/ http://www.vlent.nl/weblog/tag/
   Redirect permanent /weblog/tag/osx/ http://www.vlent.nl/weblog/tag/apple/
+  Redirect permanent /weblog/tag/zest%20software http://www.vlent.nl/weblog/tag/zest-software/
   Redirect permanent /var_images/ http://www.vlent.nl/images/
   Redirect permanent /weblog/topics/ http://www.vlent.nl/weblog/tag/
   Redirect permanent /static/images/favicon.ico http://www.vlent.nl/favicon.ico
