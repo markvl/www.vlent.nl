@@ -14,6 +14,9 @@
       <!--[if lte IE 8]>
         <link media="all" href="{{ env.path + '/css/screen-old-ie.css' }}" rel="stylesheet" />
       <![endif]-->
+      <!--[if lte IE 7]>
+        <script src="lte-ie7.js"></script>
+      <![endif]-->
       <!--[if gt IE 8]><!-->
         <link media="all" href="{{ env.path + '/css/screen.css' }}" rel="stylesheet" />
       <!--<![endif]-->
@@ -45,7 +48,7 @@
           <small id="copyright">
             Copyright &copy; <a rel="author" href="{{ env.path + '/about/'}}">Mark van Lent</a>.
             The articles themselves are licensed under a
-            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+            <a data-icon="&#xe000;" rel="license" href="http://creativecommons.org/licenses/by/3.0/">
               Creative Commons Attribution 3.0 Unported
               License</a>. The comments are copyrighted by their respective
               commenters.
