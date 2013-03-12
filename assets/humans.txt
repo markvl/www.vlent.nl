@@ -26,6 +26,7 @@
   Standards:   HTML5, CSS3, Atom 1.0
   Language:    English
   Services:    TypeKit fonts, Disqus comments
+  Icon font:   IcoMoon - Essential Pack
   Tools:       Acrylamid, Sass, Compass
   IDE:         Emacs
 
