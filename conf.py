@@ -67,5 +67,5 @@ STATIC_IGNORE += ['.#*', 'vL.xcf']
 
 DEPLOYMENT = {
     'blog': 'rsync -rtuvz --delete $OUTPUT_DIR bhosted:~/www/www.vlent.nl',
-    'clean': 'rm -rf output/index.html output/sitemap.xml output/atom.xml output/weblog output/page',
+    'clean': 'rm -rf output/index.html output/sitemap.xml output/feed.atom output/weblog output/page',
 }
