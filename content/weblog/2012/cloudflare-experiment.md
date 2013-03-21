@@ -4,8 +4,6 @@ date: 2012-12-27 22:04
 tags: [blog, development]
 ---
 
-<script src="/js/dygraph-combined.js"></script>
-
 For about a month I have served this website using the CloudFlare free
 plan. This article describes what I observed.
 
@@ -98,6 +96,7 @@ it was 0.21 seconds and for CloudFlare it was 0.14 seconds. The
 average response time is also comparable (the lower lines in the graph
 below). The longest transactions however, differed a bit more.
 
+<script src="/js/dygraph-combined.js"></script>
 <div id="avg-max-transaction-time" class="graph"></div>
 <script type="text/javascript">
   g = new Dygraph(
