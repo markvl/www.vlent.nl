@@ -84,11 +84,15 @@ header[role="banner"]
       font-weight: 500
       margin-right: 2.5%
 
-footer[role="contentinfo"]
+footer
   color: $font-color-subdued
 
 aside
+  +padding-leader(1)
+  +trailer(1)
   +adjust-font-size-to($small-font-size)
+  border-top: 1px dotted $font-color-subdued
+  border-bottom: 1px dotted $font-color-subdued
   color: $font-color-subdued
 
   h2
@@ -191,12 +195,6 @@ blockquote p:before
   content: "“"
   left: -.5em
   position: absolute
-
-.about-info
-  border-top: 1px dotted $font-color-subdued
-  border-bottom: 1px dotted $font-color-subdued
-  +padding-leader(1)
-  +trailer(1)
 
 .graph
   width: 100%
