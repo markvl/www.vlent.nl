@@ -12,14 +12,14 @@ Hi there! My name is Mark van Lent and this is my personal weblog.
      alt="Mark van Lent"
      title="Mark van Lent" />
 
-As a technical consultant and programmer for
+As a technical consultant and developer for
 [Edition1](http://www.edition1.nl) I spend my days either giving
 customers advice about their website, or actually implementing their
 sites. Most of these websites are based on
-[SwordFish](http://www.swordfish.nl/), a content management system
-built using [Plone](http://plone.org/), or the web framework
+[SwordFish](http://www.swordfish.nl/)---a content management system
+built using [Plone](http://plone.org/)---or
 [Django](http://www.djangoproject.com/). Lucky me: both are written in
-[Python](http://www.python.org/), my favorite programming language.
+[Python](http://www.python.org/), my favourite programming language.
 
 My weblog is (almost exclusively) about the things I come across while
 working on projects. As a result most entries are related to
@@ -29,8 +29,11 @@ developing (web) applications.
 
 During my Computer Science study at the Delft University of
 Technology, I had to use a number of programming languages, ranging
-from for instance Assembler for the PDP-11 and C, to Java. During this
-time I had jobs that required me to write in PHP and ColdFusion.
+from, for instance, Assembler (for the
+[PDP-11](https://en.wikipedia.org/wiki/PDP-11)) and
+[Modula-2](https://en.wikipedia.org/wiki/Modula-2), to C and
+Java. In the mean while I had part-time jobs that required me to write
+in PHP and ColdFusion. I also dabbled in Perl and [LaTeX](http://www.latex-project.org/).
 
 While writing my master's thesis in 2004 someone gave me a book about
 Python with the words “you might also like this language.” And I did!
@@ -40,33 +43,37 @@ writing scripts to automate some tasks, I decided to make writing
 Python code my day job.
 
 That's how in January 2007 I ended up with Zest Software where I got
-introduced to the Zope and Plone world and since 2009 I also got to do
-Django projects. As of February 2011 I'm an employee of Edition1 and
-the technical lead for SwordFish, the CMS we use to build for most of
-our projects.
+introduced to the world of Zope and Plone. Since 2009 I also worked on
+several Django projects. As of February 2011 I'm an employee of
+Edition1 and the technical lead for SwordFish.
 
 # This site
 
-The evolution of this website reflects my personal development. It
-started in the Nineties as a static HTML site listing my bookmarks. It
-was already a PHP site when I got the vlent.nl domain in 2003.
+The evolution of this website roughly reflects my personal development
+on the web. It started in the Nineties as a static HTML site that
+listed my bookmarks. When I got the vlent.nl domain in 2003 it had
+already been upgraded to a PHP site.
 
 A couple of years later, in 2008, I migrated to Plone to
-[eat my own dog food](http://en.wikipedia.org/wiki/Eating_your_own_dog_food). In
-2010 I changed my mind again and figured that a blog doesn't need a
-complete content management system and decided to go with a more
-lightweight, Django based, website.
+[eat my own dog food](http://en.wikipedia.org/wiki/Eating_your_own_dog_food). Two
+years later I changed my mind again and figured that a blog doesn't
+need a complete content management system and decided to go with a
+more lightweight, Django based, website.
 
-The 2012 edition of this website is more 'back to basics'. I realised
-that I don't need a dynamic site at all for this weblog. So now I'm using
-[Acrylamid](https://github.com/posativ/acrylamid/) to build this
-static blog out of articles written in Markdown.
+The 2012 edition of this website is more 'back to basics.' I realised
+that I do not even need a dynamic site at all for this weblog. So now
+I'm using [Acrylamid](https://github.com/posativ/acrylamid/) to build
+this static blog out of articles written in Markdown. And if you are
+interested: the source used to generate this site can be found in a
+[GitHub repository](https://github.com/markvl/www.vlent.nl).
 
-For a more visual version of the history of this site, go to the [memory lane](/memory-lane).
+For a more visual version of the history of this site, go to the
+[memory lane](/memory-lane).
 
 # Contact
 
-If you want to get in touch with me, connect with me via (in random order):
+If you want to get in touch with me, connect with me via (in random
+order):
 
 <ul class="no-bullets">
   <li data-icon="&#xe001;"> <a href="http://twitter.com/mvlent">Twitter</a></li>
