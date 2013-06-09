@@ -30,14 +30,12 @@
   {% if env.type == 'index' %}
     <h1>Articles</h1>
   {% elif env.type == 'tag' %}
-    <h1>Articles for “{{ env.tag }}”</h1>
-    {% if env.type == 'tag' %}
-      <aside>
-        <p>If you are interested in this topic, you can also subscribe to the
-          <a data-icon="&#xe005;" href="{{ env.route + '/feed.atom' }}">{{ env.tag }} Atom feed</a>.
-        </p>
-      </aside>
-    {% endif %}
+    <h1>Articles tagged as “{{ env.tag }}”</h1>
+    <aside>
+      <p>If you are interested in this topic, you can also subscribe to the
+        <a data-icon="&#xe005;" href="{{ env.route + '/feed.atom' }}">“{{ env.tag }}” Atom feed</a>.
+      </p>
+    </aside>
   {% endif %}
   {% for entry in env.entrylist %}
     {% include 'entry.html' %}
