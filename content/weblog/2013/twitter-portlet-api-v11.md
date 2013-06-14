@@ -40,7 +40,7 @@ least make the Twitter API wrapper compatible.
 
 The bad news is that just upgrading python-twitter is not enough. You
 still need to give it some keys (consumer key, consumer secret,
-etcetera) to get data from Twitter. Otherwise, you'll see these kind
+et cetera) to get data from Twitter. Otherwise, you'll see these kind
 of messages in you logs:
 
     TwitterError: [{u'message': u'Bad Authentication data', u'code': 215}]
@@ -60,6 +60,10 @@ Unfortunately this involves more work and time than we could spend at
 the moment with customers waiting for their home page to look good
 again.
 
+**Update (2013-06-14):
+[collective.twitter.accounts](https://pypi.python.org/pypi/collective.twitter.accounts)
+probably provides everything we'd need. Thanks for the tip Héctor!**
+
 # The quick workaround
 
 So instead of doing it the proper way, we decided to create a small
@@ -73,3 +77,45 @@ call the Twitter API.
 Obviously this package will not fulfil all needs (and I'm not really
 proud of it) but for our use cases it should be enough for now. At
 least until there is a better solution available.
+
+## Why I chose this solution
+
+*(This section was added on 2013-06-14 after the question why it was
+easier to create this package than contribute to
+collective.twitterportlet. A very fair question.)*
+
+As I already stated, this is not an optimal solution and I'm not
+really proud of it. So why did I still go ahead with it? There are
+several reasons.
+
+First of all, even if I would have liked to contribute, the
+[PyPI page of collective.twitterportlet](https://pypi.python.org/pypi/collective.twitterportlet/)
+does not list a publicly available repository. Looking around on the
+[collective repo on GitHub](https://github.com/collective) also did
+not turn up anything. I did find a
+[repo with the same name](https://github.com/muellert/collective.twitterportlet)
+but saw no relation between the owner of the repo and the owner of the
+package.
+
+Furthermore, even if I had found a repository, contributing to the
+original package would have delayed this fix. My current solution does
+not provide a fix for every use case of the package. For instance, you
+cannot have two portlets showing different accounts. But building that
+proper solution (and effectively replicating the functionality of
+[collective.twitter.accounts](https://pypi.python.org/pypi/collective.twitter.accounts))
+would have taken more time and I needed a fix for our customers sooner
+rather than later.
+
+(My focus was on fixing collective.twitterportlet rather than
+replacing it. As a result I failed to look around more and did not
+know about collective.twitter.accounts until Héctor commented on this
+article. Otherwise I would have tried to have
+collective.twitterportlet use collective.twitter.accounts, instead of
+reinventing the wheel.)
+
+So I was fully aware that edition1.twitterportletfix is not a
+permanent solution. That is why I tried to make sure that you can
+cleanly uninstall the package. Once there is a better solution
+available---or you decide to replace collective.twitterportlet
+completely---you should be able to uninstall the fix and not leave a
+trace.
