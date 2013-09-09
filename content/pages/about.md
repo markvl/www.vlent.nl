@@ -12,28 +12,19 @@ Hi there! My name is Mark van Lent and this is my personal weblog.
      alt="Mark van Lent"
      title="Mark van Lent" />
 
-As a technical consultant and developer for
-[Edition1](http://www.edition1.nl) I spend my days either giving
-customers advice about their website, or actually implementing their
-sites. Most of these websites are based on
-[SwordFish](http://www.swordfish.nl/)---a content management system
-built using [Plone](http://plone.org/)---or
-[Django](http://www.djangoproject.com/). Lucky me: both are written in
-[Python](http://www.python.org/), my favourite programming language.
-
-My weblog is (almost exclusively) about the things I come across while
-working on projects. As a result most entries are related to
-developing (web) applications.
+On this weblog I (almost exclusively) write about the things I come
+across while coding. As a result most articles are related to
+developing web applications.
 
 # Python, Plone and Django
 
 During my Computer Science study at the Delft University of
-Technology, I had to use a number of programming languages, ranging
-from, for instance, Assembler (for the
-[PDP-11](https://en.wikipedia.org/wiki/PDP-11)) and
-[Modula-2](https://en.wikipedia.org/wiki/Modula-2), to C and
-Java. In the mean while I had part-time jobs that required me to write
-in PHP and ColdFusion. I also dabbled in Perl and [LaTeX](http://www.latex-project.org/).
+Technology, I used a number of programming languages like Assembler
+(for the [PDP-11](https://en.wikipedia.org/wiki/PDP-11)),
+[Modula-2](https://en.wikipedia.org/wiki/Modula-2), but also the more
+commonly used languages like C and Java. Part-time jobs and hobby lead
+me to code in ColdFusion, Perl, PHP and
+[LaTeX](http://www.latex-project.org/).
 
 While writing my master's thesis in 2004 someone gave me a book about
 Python with the words “you might also like this language.” And I did!
@@ -42,10 +33,15 @@ After solving a couple of
 writing scripts to automate some tasks, I decided to make writing
 Python code my day job.
 
-That's how in January 2007 I ended up with Zest Software where I got
-introduced to the world of Zope and Plone. Since 2009 I also worked on
-several Django projects. As of February 2011 I'm an employee of
-Edition1 and the technical lead for SwordFish.
+That's how in January 2007 I ended up with
+[Zest Software](http://zestsoftware.nl/) where I got introduced to the
+world of [Zope](http://zope.org/) and
+[Plone](http://plone.org/). Since 2009 I also worked on several
+[Django](https://www.djangoproject.com/) projects. Between February
+2011 and July 2013 I was an employee of
+[Edition1](http://www.edition1.nl/) and the technical lead for their
+Plone based content management system, SwordFish. As of August 2013 I
+am a developer at [Fox-IT](https://www.fox-it.com/nl/).
 
 # This site
 
@@ -62,8 +58,8 @@ more lightweight, Django based, website.
 
 The 2012 edition of this website is more 'back to basics.' I realised
 that I do not even need a dynamic site at all for this weblog. So now
-I'm using [Acrylamid](https://github.com/posativ/acrylamid/) to build
-this static blog out of articles written in Markdown. And if you are
+I'm using [Acrylamid](http://posativ.org/acrylamid/) to build this
+static blog out of articles written in Markdown. And if you are
 interested: the source used to generate this site can be found in a
 [GitHub repository](https://github.com/markvl/www.vlent.nl).
 
@@ -79,13 +75,5 @@ order):
   <li data-icon="&#xe001;"> <a href="http://twitter.com/mvlent">Twitter</a></li>
   <li data-icon="&#xe002;"> <a href="https://plus.google.com/110070627222617391002">Google+</a></li>
   <li data-icon="&#xe003;"> <a href="http://nl.linkedin.com/in/markvanlent">LinkedIn</a></li>
-  <li data-icon="&#xe00a;">
-    <a href="http://webchat.freenode.net/">Freenode IRC</a>  as "markvl" in:
-    <ul>
-      <li><code>#django</code></li>
-      <li><code>#plone</code></li>
-      <li><code>#python-nl</code></li>
-    </ul>
-  </li>
   <li data-icon="&#xe006;"> Send an email to "mark" at this domain name.</li>
 </ul>
