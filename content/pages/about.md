@@ -77,3 +77,21 @@ order):
   <li data-icon="&#xe003;"> <a href="http://nl.linkedin.com/in/markvanlent">LinkedIn</a></li>
   <li data-icon="&#xe006;"> Send an email to "mark" at this domain name.</li>
 </ul>
+
+## PGP
+
+If you want to send me an email and want to encrypt it, you can use my
+public [PGP](http://en.wikipedia.org/wiki/Pretty_Good_Privacy) key to
+do so. You can:
+
+   * Have PGP/GnuPG import it from a key server, e.g “`gpg --recv-keys
+     0x2144528D88110619`”.
+   * Download [the key from this site](/0x2144528D88110619.key) and import it,
+     e.g. “`wget -qO- http://www.vlent.nl/0x2144528D88110619.key | gpg --import`“.
+
+Either way, make sure that the downloaded key has this fingerprint:
+
+    1FFA 3F2D 26D6 B7FB AED7  FE5F 2144 528D 8811 0619
+
+(To see the fingerprint, use e.g. “`gpg --fingerprint
+0x2144528D88110619`”.)
