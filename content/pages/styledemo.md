@@ -44,19 +44,16 @@ The headings are set in
 
 Because this is a weblog, most of the content will be contained in
 paragraphs, using the ``<p>`` element. Normal paragraphs are set in
-18px [Calluna](https://typekit.com/fonts/calluna). I have chosen this
-(serif) font because I liked the appearance and it has lowercase
-numbers (which I'm really fond of). The fact that the font has been
-created by a fellow Dutchman,
-[Jos Buivenga](http://www.exljbris.com/), made it even more special.
+18px [FF Tisa Pro](https://typekit.com/fonts/ff-tisa-web-pro). I have chosen this
+(serif) font mainly because I liked the appearance.
 
-Another important reason is that Calluna is a complete family. This
-means I can use e.g. **bold** to increase the importance of text
-(using ``<strong>``) and *italic* to put emphasis on other text (using
-the ``<em>`` element). Should it be necessary, I can even combine them
-to _**bold italic**_. Having separate fonts means that the result
-looks better than when the browser tries to fake them. In other words,
-I can
+Another important reason is that FF Tisa Pro is a complete
+family. This means I can use e.g. **bold** to increase the importance
+of text (using ``<strong>``) and *italic* to put emphasis on other
+text (using the ``<em>`` element). Should it be necessary, I can even
+combine them to _**bold italic**_. Having separate fonts means that
+the result looks better than when the browser tries to fake them. In
+other words, I can
 [say no to faux bold](http://www.alistapart.com/articles/say-no-to-faux-bold/).
 
 ## Code
