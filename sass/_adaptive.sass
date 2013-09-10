@@ -32,3 +32,8 @@
       +adjust-font-size-to($base-font-size)
     .taglist
       +leader(1)
+
+// Small screens, smaller fonts
++respond-max($min-page-width * $base-font-scale)
+  $base-line-height: 22px
+  +establish-baseline(17px)
