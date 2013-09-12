@@ -41,6 +41,7 @@ something with more colour and I created a new theme based on the
 
 I started working on a new look in the second half of 2011 but that
 turned out to become a completely new site using
-[Acrylamid](https://github.com/posativ/acrylamid/):
+[Acrylamid](https://github.com/posativ/acrylamid/). When it went live on
+October 1<sup>st</sup> in 2012, it looked like this:
 
 ![Acrylamid, 2012--?](/images/vlent/2012-acrylamid.png)
