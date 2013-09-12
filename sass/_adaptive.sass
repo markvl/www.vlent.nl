@@ -16,10 +16,9 @@
       float: right
       padding-top: .25em
     nav
-      text-align: center
-      a
-        margin-left: 1em
-        margin-right: 1em
+      text-align: right
+      ul
+        +trailer(0)
 
 // Wide enough to contain an additional column with metadata.
 +respond-min(($max-page-width + 2*$metadata-width + 2*$gutter-width) * $base-font-scale)

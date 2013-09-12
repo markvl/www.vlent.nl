@@ -31,9 +31,11 @@
           <span id="tagline">{{ conf.tagline }}</span>
         </a>
         <nav role="navigation">
-          <a href="{{ env.path + '/weblog/' }}">&lt;articles&gt;</a>
-          <a href="{{ env.path + '/about/' }}">&lt;about&gt;</a>
-          <a href="{{ env.path + '/about/#contact' }}">&lt;contact&gt;</a>
+          <ul>
+            <li><a href="{{ env.path + '/' }}">home</a></li>
+            <li><a href="{{ env.path + '/about/' }}">about</a></li>
+            <li><a href="{{ env.path + '/about/#contact' }}">contact</a></li>
+          </ul>
         </nav>
       </header>
       <div id="content" role="main">

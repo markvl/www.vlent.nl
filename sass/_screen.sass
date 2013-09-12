@@ -73,9 +73,15 @@ header[role="banner"]
     border-top: 1px solid $link-color
     padding-left: 0
     +adjust-font-size-to($small-font-size)
+    ul
+      padding-left: 0
+    li
+      display: inline
+    li + li:before
+      color: $link-color
+      content: "| "
     a, a:visited
       font-weight: 500
-      margin-right: 2.5%
 
 footer
   color: $font-color-subdued
