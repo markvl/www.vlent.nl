@@ -72,9 +72,9 @@ If you want to get in touch with me, connect with me via (in random
 order):
 
 <ul class="no-bullets">
-  <li data-icon="&#xe001;"> <a href="http://twitter.com/mvlent">Twitter</a></li>
+  <li data-icon="&#xe001;"> <a href="https://twitter.com/mvlent">Twitter</a></li>
   <li data-icon="&#xe002;"> <a href="https://plus.google.com/110070627222617391002">Google+</a></li>
-  <li data-icon="&#xe003;"> <a href="http://nl.linkedin.com/in/markvanlent">LinkedIn</a></li>
+  <li data-icon="&#xe003;"> <a href="https://nl.linkedin.com/in/markvanlent">LinkedIn</a></li>
   <li data-icon="&#xe006;"> Send an email to "mark" at this domain name.</li>
 </ul>
 
@@ -87,7 +87,7 @@ do so. You can:
    * Have PGP/GnuPG import it from a key server, e.g “`gpg --recv-keys
      0x2144528D88110619`”.
    * Download [the key from this site](/0x2144528D88110619.key) and import it,
-     e.g. “`wget -qO- http://www.vlent.nl/0x2144528D88110619.key | gpg --import`“.
+     e.g. “`wget -qO- https://www.vlent.nl/0x2144528D88110619.key | gpg --import`”.
 
 Either way, make sure that the downloaded key has this fingerprint:
 

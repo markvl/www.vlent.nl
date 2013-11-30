@@ -1,7 +1,7 @@
 # www.vlent.nl
 
 This repository contains the code and content of my personal website:
-[www.vlent.nl](http://www.vlent.nl). This incarnation of the site is
+[www.vlent.nl](https://www.vlent.nl). This incarnation of the site is
 built with [Acrylamid](https://github.com/posativ/acrylamid/) and
 [Compass](http://compass-style.org/).
 

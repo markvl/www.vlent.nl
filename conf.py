@@ -12,7 +12,7 @@ sys.setdefaultencoding('utf-8')
 
 SITENAME = 'Practicing web development'
 TAGLINE = "Mark van Lent’s weblog"
-WWW_ROOT = 'http://www.vlent.nl'
+WWW_ROOT = 'https://www.vlent.nl'
 
 AUTHOR = 'Mark van Lent'
 EMAIL = 'mark@vlent.nl'

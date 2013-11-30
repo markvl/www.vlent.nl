@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.vlent.nl/sitemap.xml
+Sitemap: https://www.vlent.nl/sitemap.xml
