@@ -1,5 +1,5 @@
 ---
-title: Using PyCharm with a Django in a Buildout
+title: Using PyCharm with Django in a Buildout
 date: 2014-05-08 22:26:00
 tags: [django]
 ---
