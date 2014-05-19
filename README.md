@@ -46,8 +46,8 @@ to do this is by using
 this is installed you can use ``gem install`` and the Gems will be
 installed in your virtualenv library directory.
 
-    $ gem install sass --version="3.2.12"
-    $ gem install compass --version="0.13.alpha.10"
+    $ gem install sass --version="3.3.7"
+    $ gem install compass --version="1.0.0.alpha.19"
 
 (Note that these are the minimal versions this site needs at the
 moment. It is also assumed you already cloned the repository, as
