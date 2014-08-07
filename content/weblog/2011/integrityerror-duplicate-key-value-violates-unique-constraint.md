@@ -2,7 +2,7 @@
 title: "IntegrityError: duplicate key value violates unique constraint"
 slug: integrityerror-duplicate-key-value-violates-unique-constraint
 date: 2011-05-06 12:00
-tags: [development, django]
+tags: [development, django, postgres]
 ---
 
 A tale of how I learned about PostgreSQL sequence generators the hard

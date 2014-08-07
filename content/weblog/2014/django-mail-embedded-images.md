@@ -1,7 +1,7 @@
 ---
 title: Sending emails with embedded images in Django
 date: 2014-01-15 21:53
-tags: [django]
+tags: [django, email, images]
 ---
 
 Django offers useful classes to easily send email. It is also easy to

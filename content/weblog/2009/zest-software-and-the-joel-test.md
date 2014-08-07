@@ -1,7 +1,7 @@
 ---
 title: Zest Software and The Joel Test
 date: 2009-07-10 10:00
-tags: [development, zest software]
+tags: [development, opinion, zest software]
 ---
 
 A couple of years ago, Joel Spolsky wrote "The Joel Test". Let's see

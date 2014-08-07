@@ -2,7 +2,7 @@
 title: Modern scalable deployment for Plone (Christian Theune)
 slug: modern-scalable-deployment-for-plone-christian-theune
 date: 2012-10-11 14:00
-tags: [plone, ploneconf]
+tags: [devops, plone, ploneconf]
 ---
 
 Steve McMahon

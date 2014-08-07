@@ -2,7 +2,7 @@
 title: "Deliverance: Theming Decoupled (Ian Bicking)"
 slug: deliverance-theming-decoupled-ian-bicking
 date: 2008-10-09 21:23
-tags: [plone, ploneconf, ploneconf2008]
+tags: [css, html, plone, ploneconf, ploneconf2008]
 ---
 
 Deliverance can be used to theme a site without having to have any

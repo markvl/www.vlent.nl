@@ -2,7 +2,7 @@
 title: "Book review: Plone 3 Intranets"
 slug: book-review-plone-3-intranets
 date: 2010-09-13 08:31
-tags: [plone, webmaster]
+tags: [book, plone, webmaster]
 ---
 
 One of the latest Plone books from Packt Publishing is

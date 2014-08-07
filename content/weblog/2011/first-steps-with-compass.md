@@ -2,7 +2,7 @@
 title: First steps with Compass
 slug: first-steps-compass
 date: 2011-10-11 21:10
-tags: [development, django, plone]
+tags: [css, development, django, plone, tools]
 ---
 
 A [lightning talk](http://maurits.vanrees.org/weblog/archive/2011/09/plone-gebruikersdag#lightning-talks)

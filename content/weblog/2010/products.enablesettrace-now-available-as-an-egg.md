@@ -2,7 +2,7 @@
 title: Products.enablesettrace now available as an egg!
 slug: products.enablesettrace-now-as-an-egg
 date: 2010-04-02 21:19
-tags: [development, plone]
+tags: [development, plone, tools]
 ---
 
 The summary: as of today, you no longer need to checkout

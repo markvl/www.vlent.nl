@@ -2,7 +2,7 @@
 title: "Plone Production Deployment: Secrets & Tricks (Steve McMahon)"
 slug: plone-production-deployment-secrets-tricks-steve-mcmahon
 date: 2012-10-11 11:45
-tags: [plone, ploneconf]
+tags: [devops, plone, ploneconf]
 ---
 
 A special version of this talk: no secrets or tricks. It discusses the

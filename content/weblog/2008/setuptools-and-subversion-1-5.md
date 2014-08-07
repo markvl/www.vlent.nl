@@ -2,7 +2,7 @@
 title: Setuptools and subversion 1.5
 slug: setuptools-and-subversion-1.5
 date: 2008-09-18 11:06
-tags: [plone, python, subversion]
+tags: [plone, python, subversion, tools]
 ---
 
 Setuptools doesn't seem to like subversion 1.5

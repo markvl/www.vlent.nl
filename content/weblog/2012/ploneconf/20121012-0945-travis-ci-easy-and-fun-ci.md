@@ -2,7 +2,7 @@
 title: "Travis CI: easy and fun CI for your Plone packages (Nejc Zupan)"
 slug: travis-ci-easy-and-fun-ci-for-your-plone-packages-nejc-zupan
 date: 2012-10-12 09:45
-tags: [plone, ploneconf]
+tags: [plone, ploneconf, testing]
 ---
 
 A talk about Travis CI: hosted continuous integration for the open

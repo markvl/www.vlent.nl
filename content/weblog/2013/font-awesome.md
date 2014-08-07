@@ -1,7 +1,7 @@
 ---
 title: Font Awesome to PNG
 date: 2013-10-27 17:09
-tags: [development, python]
+tags: [development, icons, python]
 ---
 
 A site I'm working on uses

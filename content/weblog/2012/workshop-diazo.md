@@ -1,6 +1,6 @@
 ---
 title: Workshop: Theming with Diazo
-tags: [development, plone]
+tags: [css, development, html, plone, xslt]
 date: 2012-12-14 20:30
 ---
 

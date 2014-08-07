@@ -1,7 +1,7 @@
 ---
 title: Whiskers behind SSL
 date: 2013-01-15 22:44
-tags: [devops, django, plone]
+tags: [devops, django, https, plone, tools]
 ---
 
 Since April 2012

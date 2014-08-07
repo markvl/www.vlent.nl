@@ -2,7 +2,7 @@
 title: "Unit testing: useful?"
 slug: unit-testing-useful
 date: 2009-11-05 11:31
-tags: [development, testing]
+tags: [development, opinion, testing]
 ---
 
 Today I read two articles about the usefulness of unit testing. Here

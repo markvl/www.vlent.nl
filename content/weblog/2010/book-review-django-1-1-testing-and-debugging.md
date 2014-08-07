@@ -2,7 +2,7 @@
 title: "Book review: Django 1.1 Testing and Debugging"
 slug: book-review-django-11-testing-and-debugging
 date: 2010-06-20 15:05
-tags: [development, django]
+tags: [book, development, django, testing]
 ---
 
 In April Packt published

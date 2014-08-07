@@ -2,7 +2,7 @@
 title: Essential development tools (Kim Chee Leong)
 slug: essential-development-tools-kim-chee-leong
 date: 2012-10-11 15:00
-tags: [plone, ploneconf]
+tags: [development, plone, ploneconf]
 ---
 
 Kim shows us a collection of tools that can be useful during

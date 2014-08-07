@@ -1,7 +1,7 @@
 ---
 title: OCSP Stapling in Nginx
 date: 2014-04-19 23:39:00
-tags: [devops]
+tags: [devops, https, nginx, ocsp]
 ---
 
 The Heartbleed bug triggered a review of the configuration of my own

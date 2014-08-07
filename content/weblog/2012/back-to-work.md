@@ -2,7 +2,7 @@
 title: Back to work
 slug: back-work
 date: 2012-01-04 14:57
-tags: [development, plone]
+tags: [development, plone, tools]
 ---
 
 Thanks to a

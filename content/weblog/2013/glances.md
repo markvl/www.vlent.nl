@@ -1,7 +1,7 @@
 ---
 title: Glances
 date: 2013-04-10 11:45
-tags: [devops]
+tags: [devops, python, tools]
 ---
 
 Since I keep forgetting the name of this monitoring tool, I decided to

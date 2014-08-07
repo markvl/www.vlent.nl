@@ -1,7 +1,7 @@
 ---
 title: Using PyCharm with Django in a Buildout
 date: 2014-05-08 22:26:00
-tags: [django]
+tags: [buildout, development, django, tools]
 ---
 
 To introduce a coworker to our project and Django in general, I

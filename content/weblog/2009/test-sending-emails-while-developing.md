@@ -2,7 +2,7 @@
 title: Test sending emails while developing
 slug: test-sending-emails-while-developing
 date: 2009-10-03 12:14
-tags: [development, django, plone, python, testing]
+tags: [development, django, plone, python, testing, tools]
 ---
 
 I frequently have to send emails from web applications. But before I

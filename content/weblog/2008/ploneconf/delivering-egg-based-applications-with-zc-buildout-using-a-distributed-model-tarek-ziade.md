@@ -2,7 +2,7 @@
 title: Delivering egg-based applications with zc.buildout, using a distributed model (Tarek Ziadé)
 slug: delivering-egg-based-applications-with-zc.buildout-using-a-distributed-model-tarek-ziade
 date: 2008-10-10 19:32
-tags: [plone, ploneconf, ploneconf2008]
+tags: [buildout, plone, ploneconf, ploneconf2008, tools]
 ---
 
 A talk about working with packages, zc.buildout and managing the

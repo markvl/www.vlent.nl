@@ -2,7 +2,7 @@
 title: Change the workflow of a content type to "(Default)"
 slug: change-workflow-content-type-default
 date: 2011-02-08 11:04
-tags: [plone, ]
+tags: [development, plone]
 ---
 
 Today I wanted to set the workflow for the content type File to

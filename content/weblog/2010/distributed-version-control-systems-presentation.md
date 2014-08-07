@@ -2,7 +2,7 @@
 title: Distributed Version Control Systems (presentation)
 slug: distributed-version-control-systems-presentation
 date: 2010-02-25 06:42
-tags: [development, git]
+tags: [development, git, tools]
 ---
 
 On 19 February I held a presentation for my colleagues about

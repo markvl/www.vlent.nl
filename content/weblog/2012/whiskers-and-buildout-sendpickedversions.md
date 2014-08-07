@@ -2,7 +2,7 @@
 title: Whiskers and buildout.sendpickedversions
 slug: whiskers-and-buildoutsendpickedversions
 date: 2012-04-27 14:01
-tags: [devops, django, plone]
+tags: [devops, django, plone, tools]
 ---
 
 Last year I participated in a

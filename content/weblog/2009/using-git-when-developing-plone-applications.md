@@ -2,7 +2,7 @@
 title: Using Git when developing Plone applications
 slug: using-git-when-developing-plone-applications
 date: 2009-05-03 10:20
-tags: [git, plone]
+tags: [git, plone, tools]
 ---
 
 While I'm enthusiastic about Git, I still have to communicate with

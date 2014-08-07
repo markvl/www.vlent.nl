@@ -2,7 +2,7 @@
 title: Using a jQuery plugin in Django admin and getting a “$().foo is not a function” or “Object ... has no method foo” error?
 slug: jquery-plugin-django-admin-foo-not-function-error-or-object-has-no-method-foo
 date: 2011-11-07 21:52
-tags: [development, django]
+tags: [development, django, jquery]
 ---
 
 Are you using a jQuery plugin, for instance

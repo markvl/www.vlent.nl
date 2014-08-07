@@ -2,7 +2,7 @@
 title: RelStorage and PostgreSQL
 slug: relstorage-and-postgresql
 date: 2010-09-25 11:13
-tags: [development, plone]
+tags: [development, plone, postgres]
 ---
 
 After a bit of experimentation I've succeeded in moving an existing

@@ -2,7 +2,7 @@
 title: Thoughts on mobile development
 slug: thoughts-mobile-development
 date: 2012-01-11 08:54
-tags: [design, development, plone]
+tags: [css, design, development, html, opinion, plone]
 ---
 
 For years web development was quite predictable. The resolution of the

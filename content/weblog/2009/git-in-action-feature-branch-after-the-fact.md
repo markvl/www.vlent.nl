@@ -2,7 +2,7 @@
 title: Git in action (feature branch after the fact)
 slug: git-in-action-feature-branch-after-the-fact
 date: 2009-05-20 08:59
-tags: [git]
+tags: [git, tools]
 ---
 
 This blog entry is about a real life example of how the flexibility of

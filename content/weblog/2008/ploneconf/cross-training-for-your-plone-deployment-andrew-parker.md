@@ -2,7 +2,7 @@
 title: Cross-training for your Plone deployment (Andrew Parker)
 slug: cross-training-for-your-plone-deployment-andrew-paker
 date: 2008-10-09 17:12
-tags: [plone, ploneconf, ploneconf2008]
+tags: [devops, plone, ploneconf, ploneconf2008]
 ---
 
 Best practices for Plone deployment.

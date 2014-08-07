@@ -2,7 +2,7 @@
 title: How to have a real site factory with buildout (Encolpe Degoute)
 slug: how-to-have-real-site-factory-with-buildout-encolpe-degoute
 date: 2012-10-11 09:45
-tags: [plone, ploneconf]
+tags: [buildout, plone, ploneconf]
 ---
 
 How to deploy tens of sites that are not really identical but share the

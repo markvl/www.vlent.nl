@@ -2,7 +2,7 @@
 title: "Fabric: easy deployment"
 slug: fabric-easy-deployment
 date: 2010-09-27 09:27
-tags: [development, devops, django, plone]
+tags: [development, devops, django, plone, tools]
 ---
 
 Initially I was a bit sceptic about

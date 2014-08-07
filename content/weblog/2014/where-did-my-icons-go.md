@@ -1,7 +1,7 @@
 ---
 title: Where did my icons go?
 date: 2014-07-11 21:54:00
-tags: [development]
+tags: [css, development, html, icons, svg]
 ---
 
 When I was experimenting with an SVG sprite to replace my current icon
