@@ -46,20 +46,17 @@ to do this is by using
 this is installed you can use ``gem install`` and the Gems will be
 installed in your virtualenv library directory.
 
-    $ gem install sass --version="3.3.7"
-    $ gem install compass --version="1.0.0.alpha.19"
+    $ gem install sass --version="3.4.7"
+    $ gem install compass --version="1.0.1"
 
 (Note that these are the minimal versions this site needs at the
 moment. It is also assumed you already cloned the repository, as
 described in the Acrylamid section.)
 
 Using this version of compass means that you'll get the warning to
-install the gem `rb-inotify`, which has a dependency on the `ffi`
-gem. To install these gems you'll need to have the `ruby-dev` package
-installed if you are running Ubuntu. When that is the case, you can
-install the `rb-inotify` gem:
-
-    $ gem install rb-inotify
+install the gem `ffi` will be installed. To install this gem you'll
+need to have the `ruby-dev` package installed if you are running
+Ubuntu.
 
 If you now reload the site, the CSS should be in place and the site
 should look pretty. :)
