@@ -45,8 +45,7 @@ am a developer at [Fox-IT](https://www.fox-it.com/nl/).
 
 # This site
 
-The evolution of this website roughly reflects my personal development
-on the web. It started in the Nineties as a static HTML site that
+This website started in the Nineties as a static HTML site that
 listed my bookmarks. When I got the vlent.nl domain in 2003 it had
 already been upgraded to a PHP site.
 
