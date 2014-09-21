@@ -67,15 +67,13 @@ For a more visual version of the history of this site, go to the
 
 # Contact
 
-If you want to get in touch with me, connect with me via (in random
-order):
+If you want to get in touch with me, you can use (in random order):
 
-<ul class="no-bullets">
-  <li data-icon="&#xe001;"> <a href="https://twitter.com/mvlent">Twitter</a></li>
-  <li data-icon="&#xe002;"> <a href="https://plus.google.com/+MarkvanLent/">Google+</a></li>
-  <li data-icon="&#xe003;"> <a href="https://nl.linkedin.com/in/markvanlent">LinkedIn</a></li>
-  <li data-icon="&#xe006;"> Send an email to "mark" at this domain name.</li>
-</ul>
+  * [Twitter](https://twitter.com/mvlent)
+  * [Google+](https://plus.google.com/+MarkvanLent/)
+  * [LinkedIn](https://nl.linkedin.com/in/markvanlent)
+
+Or you can send an email to "mark" at this domain name.
 
 ## PGP
 

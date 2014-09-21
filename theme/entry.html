@@ -35,25 +35,6 @@
     </div>
   </header>
   {{ entry.content }}
-  {% if env.type == 'entry' %}
-    <aside role="complementary">
-      <h2>About me</h2>
-      <p>
-        I am a (Python) developer. In my day job I mainly use Django,
-        but in the past I have worked mostly with Plone. On this
-        website I like to share my thoughts and findings for others to
-        learn from and/or enjoy. You can find out more
-        <a rel="author" class="read-more" data-icon="&#xe007;" href="/about/">about me</a> on this website.
-        You can also find me on
-        <a rel="author" data-icon="&#xe001;" href="https://twitter.com/mvlent">Twitter</a>,
-        <a rel="author" data-icon="&#xe002;" href="https://plus.google.com/110070627222617391002">Google+</a>,
-        <a rel="author" data-icon="&#xe003;" href="https://nl.linkedin.com/in/markvanlent">LinkedIn</a>
-        and
-        <a rel="author" data-icon="&#xe004;" href="https://github.com/markvl">GitHub</a>.
-      </p>
-      <p>If you find this blog interesting, you can subscribe to its <a data-icon="&#xe005;" href="/weblog/feed.atom">Atom feed</a>.</p>
-    </aside>
-  {% endif %}
   <div class="comments">
     {%- if conf.disqus_shortname and env.type == 'entry' and not entry.draft %}
       <div id="disqus_thread"></div>
@@ -77,4 +58,9 @@
       </a>
     {% endif -%}
   </div>
+  {% if env.type == 'entry' %}
+    <aside role="complementary">
+      <p>If you find this blog interesting, you can subscribe to its <a data-icon="&#xe005;" href="/weblog/feed.atom">Atom feed</a>.</p>
+    </aside>
+  {% endif %}
 </article>
