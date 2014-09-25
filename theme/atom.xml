@@ -20,7 +20,7 @@
     <name>{{ conf.author }}</name>
     <uri>{{ conf.www_root + '/about/' }}</uri>
   </author>
-  <rights>Copyright © Mark van Lent, Creative Commons Attribution 3.0 Unported License</rights>
+  <rights>Copyright © Mark van Lent, Creative Commons Attribution 4.0 International License.</rights>
   <title>{{ conf.sitename | escape }}</title>
   <subtitle>{{ conf.tagline | escape }}</subtitle>
   <id>tag:{{ env.netloc + env.path }},2010-02-04:{{ env.route }}</id>
