@@ -95,9 +95,9 @@ how to do it via Haystack.
 
 # Djapian
 
-An article by Nizam Sayeed about
-[full text search in Django](http://www.nomadjourney.com/2009/05/full-text-search-across-multiple-django-models-using-djapian/)
-sent me in the direction of
+An article by Nizam Sayeed on his blog
+[Nomad Journey](http://www.nomadjourney.com/) about full text search
+in Django (original link is missing) sent me in the direction of
 [Djapian](http://code.google.com/p/djapian/). And judging by the
 subversion logs of the code, it's still actively developed.
 

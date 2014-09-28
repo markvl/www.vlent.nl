@@ -84,7 +84,7 @@ Let's start with the resources:
 
 Measuring the speed is less straightforward. Although I've got the
 feeling that the site is more responsive, I used
-[ApacheBench](http://httpd.apache.org/docs/2.3/programs/ab.html) to
+[ApacheBench](http://httpd.apache.org/docs/2.4/programs/ab.html) to
 get some numbers. But before going to the results, a quick
 disclaimer. I do not pretend this is representative at all. I do not
 claim this test is in any way scientific. It's merely a way to get a

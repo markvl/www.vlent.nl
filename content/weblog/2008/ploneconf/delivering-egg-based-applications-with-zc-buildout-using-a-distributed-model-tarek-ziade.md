@@ -26,9 +26,7 @@ my_package` to get your software and install it.
 
 Setuptools is the de facto standard in the Plone community. But it is
 also broken since it inherits from distutils. The future of packaging
-is unclear at the moment. There will be a
-[sprint](http://www.openplans.org/projects/plone-conference-2008-dc/distribute)
-about it though.
+is unclear at the moment.
 
 Problems with packaging:
 
@@ -147,7 +145,7 @@ Suggestion:
 - `dev.cfg` (extends `buildout.cfg`)
 - `prod.cfg` (extends `buildout.cfg`)
 
-[At Zest we use [another setup](http://reinout.vanrees.org/weblog/versions-buildout)
+[At Zest we use [another setup](http://reinout.vanrees.org/weblog/2007/12/27/buildout-development-production-strategy.html)
 by the way.]
 
 # Part 3: Application lifecycle

@@ -11,7 +11,7 @@ development.
 When you want to get started with Plone development, you need to know
 where to get help:
 
-   - [collective-docs.readthedocs.org](http://collective-docs.readthedocs.org/)
+   - ~~collective-docs.readthedocs.org~~ (update 2014-08-08: link not working anymore)
    - Search via [DuckDuckGo](http://duckduckgo.com/),
      [Google](http://www.google.com),
      [Stack Overflow](http://stackoverflow.com/questions/tagged/plone)

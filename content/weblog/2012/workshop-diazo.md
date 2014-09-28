@@ -27,8 +27,9 @@ additional level of abstraction to the stack. To put it differently:
 Diazo offers an interface between the developers and the designers,
 while keeping a clear separation of responsibility. Because the
 developer does not have to transform the HTML from the designer into
-([TAL](http://wiki.zope.org/ZPT/TAL)) templates, this also removes a
-step from the process where normally errors can creep in.
+([TAL](http://docs.zope.org/zope2/zope2book/AppendixC.html))
+templates, this also removes a step from the process where normally
+errors can creep in.
 
 Diazo can be put in front of your existing website; the technology
 used for the website does not matter. The existing website is still

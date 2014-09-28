@@ -36,7 +36,7 @@ tags directories.) There is plenty git-svn documentation out there, so
 I won't describe it any further here. For more information see for
 example
 [the man page](http://www.kernel.org/pub/software/scm/git/docs/git-svn.html),
-[blog](http://flavio.castelli.name/howto_use_git_with_svn)
+[blog](http://flavio.castelli.name/2007/09/04/howto_use_git_with_svn/)
 [entries](http://www.viget.com/extend/effectively-using-git-with-subversion/)
 or [google](http://www.google.com/search?q=git+svn).
 
@@ -56,11 +56,10 @@ collects all the products with the svn:externals property, there are
 options...
 
 Personally I use the `git-svn-clone-externals` script that can be
-found on github. To be precise, I use the
-[fork by Paul J Stevens](http://github.com/pjstevns/git-svn-clone-externals/tree/master). By
-starting this script in the root directory of the Git repository (in
-my case the buildout directory) it finds the products in `src` and
-clones each of them.
+found on GitHub. To be precise, I use the fork by
+[Paul J Stevens](http://github.com/pjstevns/). By starting this script
+in the root directory of the Git repository (in my case the buildout
+directory) it finds the products in `src` and clones each of them.
 
 Since I have a couple of buildouts with more than five products as
 svn:externals, I got tired of manually making sure all changes in them
@@ -83,11 +82,11 @@ way to work with staged changes. And this is a feature I really
 started to like and use.
 
 To make a long story short: I switched to
-[Magit](http://philjackson.github.com/magit/) for the
-moment. Although it took me a while to get used to the key bindings, I
-actually really like it! It allows me to work with Git from Emacs and
-the command line in a similar fashion. Actions taken in one of them do
-not get in the way of the other.
+[Magit](http://magit.github.io/) for the moment. Although it took me a
+while to get used to the key bindings, I actually really like it! It
+allows me to work with Git from Emacs and the command line in a
+similar fashion. Actions taken in one of them do not get in the way of
+the other.
 
 I'm not completely settled yet, but I do love working with Git. I hope
 to be able to use it on more and more projects.

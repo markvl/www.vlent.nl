@@ -7,9 +7,8 @@ tags: [plone, ploneconf, ploneconf2008]
 
 An overview of Plone4ArtistsCalendar, targeted at integrators.
 
-[Plone4ArtistsCalendar](http://plone4artists.org/products/plone4artistscalendar)
-was a big monolith at the beginning, but it has be refactored to have
-a more modular design:
+Plone4ArtistsCalendar was a big monolith at the beginning, but it has
+be refactored to have a more modular design:
 
 - dateable.chronos: the user interface (provides calendar views, calls
   event providers, reusable outside p4a)
@@ -49,6 +48,3 @@ e.g. add a viewlet to the calendar views. There is no need to subtype
 anything. A piece of ZCML and a page template could be enough to do
 the job. (Depending on the complexity of the content of the viewlet
 obviously.)
-
-There will be a sprint about this topic:
-[Dateable and Calendaring](http://www.openplans.org/projects/plone-conference-2008-dc/dateable-and-calendaring).

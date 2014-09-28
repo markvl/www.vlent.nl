@@ -59,13 +59,13 @@ which one is the best solution for me?
 
 ## Mercurial
 
-[Mercurial](http://www.selenic.com/mercurial/wiki/) (or hg) is one of
-the contestants. But since there is little to no chance of convincing
-all my coworkers to switch from svn, I need to be able to talk to our
+[Mercurial](http://mercurial.selenic.com/) (or "hg") is one of the
+contestants. But since there is little to no chance of convincing all
+my coworkers to switch from svn, I need to be able to talk to our
 Subversion repository. There is set of scripts to do this, called
 [hgsvn](http://pypi.python.org/pypi/hgsvn), but as the project page
-states, it has the limitation that <q>there is no straightforward way to
-push back changes to the SVN repository.</q>
+states, it has the limitation that <q>there is no straightforward way
+to push back changes to the SVN repository.</q>
 [Other options](http://www.selenic.com/mercurial/wiki/index.cgi/WorkingWithSubversion)
 also seem very laborious. This is a showstopper for me.
 

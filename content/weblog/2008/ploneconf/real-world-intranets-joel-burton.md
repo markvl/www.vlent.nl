@@ -77,5 +77,3 @@ Theming
 Deployment
 
 - Single sign on can be very useful for intranets.
-
-See [http://plonebootcamps.com/resources/intranets.pdf/view](http://plonebootcamps.com/resources/intranets.pdf/view) for the handouts of the presentation.

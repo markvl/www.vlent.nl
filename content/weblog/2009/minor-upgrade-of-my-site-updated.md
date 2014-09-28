@@ -30,7 +30,7 @@ For the latter I added the
 [QuillsEnabled](http://pypi.python.org/pypi/Products.QuillsEnabled)
 product to the mix. I was thinking about creating a tag cloud and then
 I read Jon Stahl's
-[blog entry](http://blogs.onenw.org/jon/archives/2009/05/01/squall-perfect-plone-blogging-with-scrawl-quills/)
+[blog entry](http://jstahl.org/archives/2009/05/01/squall-perfect-plone-blogging-with-scrawl-quills/)
 about a combination of QuillsEnabled and
 [Scrawl](http://pypi.python.org/pypi/Products.Scrawl), which he dubbed
 "Squall". His instructions were really clear and it worked quite well.

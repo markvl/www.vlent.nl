@@ -9,7 +9,7 @@ Deliverance can be used to theme a site without having to have any
 knowlegde of Plone.
 
 After
-[installing Deliverance](http://deliverance.openplans.org/quickstart.html),
+[installing Deliverance](http://pythonhosted.org/Deliverance/quickstart.html),
 you can use paster to create a Deliverance project. Deliverance uses
 "rules" to fetch HTML from a source and place it in the theme you
 create. The source site doesn't have to be a Plone site by the way. It
@@ -28,5 +28,5 @@ doesn't know anything about the content. Reordering is possible,
 hiding certain elements is also possible. Still, you regularly have to
 dive into the underlying framework (Plone) to change the end result.
 
-See the [Deliverance documentation](http://deliverance.openplans.org/)
+See the [Deliverance documentation](http://pythonhosted.org/Deliverance/)
 for more information.

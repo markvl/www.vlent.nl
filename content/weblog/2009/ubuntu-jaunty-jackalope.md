@@ -77,11 +77,8 @@ On Intrepid I solved this already by having a file called
 
     options hid pb_fnmode=2
 
-Apparently this didn't work anymore. Neither did the solutions I
-[initially](http://dancingpenguinsoflight.com/2009/01/fixing-the-function-keys-on-the-apple-keyboard-in-ubuntu/)
-[found](http://nardusg.blogspot.com/2009/03/apple-keyboard-on-ubuntukubuntu-jaunty.html).
-[Brian K. White](http://tipotheday.com/2008/04/30/slim-aluminum-apple-keyboard-with-ubuntu-hardy-heron/#comment-2085)
-on the other hand presented a solution that worked for me.
+Apparently this didn't work anymore. Brian K. White on the other hand
+presented a solution that worked for me.
 
 I've now got `/etc/modprobe.d/hid_apple.conf` with this line:
 

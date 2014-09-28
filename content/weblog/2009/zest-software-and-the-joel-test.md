@@ -15,7 +15,7 @@ irresponsible" and "sloppy", I though it was fun to see how we at
 [Zest](http://zestsoftware.nl) rate.
 
 We mainly use agile development to create
-[buildout](http://plone.org/documentation/tutorial/buildout) based
+[buildout](http://www.buildout.org/) based
 [Plone](http://plone.org) applications. In answering the questions,
 I'll focus on those type of projects.
 

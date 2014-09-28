@@ -76,7 +76,7 @@ Japanese language is supported (using MeCab).
 
 They reimplemented [CorkboardMe](http://corkboard.me/) in Plone for
 use on an intranet:
-[collective.noticeboard](https://github.com/starzel/collective.noticeboard).
+[collective.noticeboard](https://github.com/collective/collective.noticeboard).
 It is currently in a personal repository but it will be moved to the
 collective mid November once it is finished.
 
@@ -143,7 +143,7 @@ documentation, ...
 
 There is an Ubuntu bug in the network manager since 2008. To prevent
 issues to remain open for that long, he launched
-[fundhub.org](https://fundhub.org/) today. It's a crowdfunding site to
+[fundhub.org](http://fundhub.org/) today. It's a crowdfunding site to
 fix free software one bug at a time. It currently only supports
 bitcoins because paying is hard and bitcoins made it easier.
 

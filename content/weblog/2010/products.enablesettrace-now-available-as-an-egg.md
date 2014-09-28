@@ -14,7 +14,7 @@ As a Plone developer you still sometimes have to deal with Script
 even times you want to break into the debugger in one of those
 scripts. Up until now, you needed to do a subversion checkout of the
 Products.enablesettrace product from the
-[Zope svn repo](http://svn.zope.org/repos/main/Products.enablesettrace/trunk/). Not
+[Zope svn repo](http://svn.zope.org/Products.enablesettrace/trunk/). Not
 a problem as such, but it does feel a bit old-fashioned. Especially
 given the fact that Plone is fully egg-based since version 3.2
 (February 2009).

@@ -41,12 +41,12 @@ Simple tricks:
 - Chained forms (required hidden fields at the moment)
 - Turn fields on and off based on the context (e.g. hide fields for
   anonymous users)
-- [SQL CRU(D)](http://plone.org/products/ploneformgen/documentation/tutorial/sql-crud)
+- [SQL CRU(D)](http://plone.org/products/ploneformgen/documentation-obsolete/tutorial/sql-crud)
 
 Amazing tricks:
 
-- [Javascript/CSS injection](http://plone.org/products/ploneformgen/documentation/how-to/installing-a-javascript-event-handler-in-a-form)
-- [Highly customized thanks pages](http://plone.org/products/ploneformgen/documentation/how-to/customizing-an-individual-thanks-page)
+- [Javascript/CSS injection](http://plone.org/products/ploneformgen/documentation-obsolete/how-to/installing-a-javascript-event-handler-in-a-form)
+- [Highly customized thanks pages](http://plone.org/products/ploneformgen/documentation-obsolete/how-to/customizing-an-individual-thanks-page)
 - Posting to the outside world
 - Creating content (Steve will create a tutorial on this subject)
 
@@ -69,9 +69,7 @@ Things PFG needs/Steve wants to use:
 - [Cross-site request forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) protection
 
 Steve would like more people to be involved in the development. You
-are more than welcome to join
-[the sprint](http://www.openplans.org/projects/plone-conference-2008-dc/ploneformgen)
-and translations are also needed.
+are more than welcome to join the sprint and translations are also needed.
 
 The vertical presentation of the fields is in many cases not the
 layout one needs. However, since PFG uses the Plone form framework,

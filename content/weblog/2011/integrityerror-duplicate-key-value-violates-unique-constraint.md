@@ -27,7 +27,7 @@ address.)
 
 I decided to create two different models (Adress and BillingAddress)
 which both inherrit from an
-[abstract base class](http://docs.djangoproject.com/en/1.2/topics/db/models/#abstract-base-classes)
+[abstract base class](http://docs.djangoproject.com/en/1.6/topics/db/models/#abstract-base-classes)
 (BaseAddress). The Profile model changed to use these models:
 
     class Profile(models.Model):
@@ -73,7 +73,7 @@ Django has a nice
 abstracts away all kinds of stuff you don't want to be bothered
 with. For instance: unless specified differently, a model has an
 AutoField named `id` which is an
-[auto-incrementing primary key](http://docs.djangoproject.com/en/1.2/ref/models/instances/#auto-incrementing-primary-keys). And,
+[auto-incrementing primary key](http://docs.djangoproject.com/en/1.6/ref/models/instances/#auto-incrementing-primary-keys). And,
 as specified in the documentation, "[t]here's no way to tell what the
 value of an ID will be before you call `save()`, because that value is
 *calculated by your database*, not by Django." (Emphasis added by me.)

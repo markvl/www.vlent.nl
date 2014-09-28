@@ -9,7 +9,7 @@ Are you using a jQuery plugin, for instance
 [jQuery UI](http://jqueryui.com), to spice up the Django admin site?
 Then you might get either an error like "foo is not a function"
 ([Firebug](http://getfirebug.com/)) or "Object ... has no method foo"
-([Chrome Developer Tools](http://code.google.com/intl/en/chrome/devtools/)). Confused
+([Chrome Developer Tools](https://developer.chrome.com/devtools/index)). Confused
 because `foo` should be defined in the plugin? Don't worry, the
 solution is simple.
 

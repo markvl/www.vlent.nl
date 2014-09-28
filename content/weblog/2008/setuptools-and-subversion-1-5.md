@@ -27,13 +27,13 @@ I was finished in no time. This prevents the scrambled eggs
 The second task was a bit more labour intensive (albeit just
 slightly). First I had to unpin the version of setuptools in the
 buildout configuration. However, since there is no egg available on
-pypi at the moment with a fix, buildout still uses an unpatched
-version. But I didn't like the idea of inserting a find-link in the
-buildout. The simple solution was to download
-[the egg](http://www.jaraco.com/ASP/eggs/setuptools-0.6c8_svn15fix.egg)
-and put it in my eggs directory. (On a sidenote: I use a single egg
-directory for all my Plone instances on my development machine. This
-makes this solution viable.)
+[PyPI](https://pypi.python.org/pypi) at the moment with a fix,
+buildout still uses an unpatched version. But I didn't like the idea
+of inserting a find-link in the buildout configuration. The simple
+solution was to download an egg which contained a fix and put it in my
+`eggs` directory. (On a sidenote: I use a single egg directory for all
+my Plone instances on my development machine. This makes this solution
+viable.)
 
 I'm not completely happy with the current situation, but at least I
 can continue working. Let's hope a fixed version of setuptools will be

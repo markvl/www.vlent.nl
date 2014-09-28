@@ -19,7 +19,7 @@ Having said that, there is generic material available. In random order
 
 -   [A User's Guide to Plone](http://www.plonebook.info/)
 -   [Documentation plone.org](http://plone.org/documentation)
--   [plone.tv](http://plone.tv)
+-   ~~plone.tv~~ (does not exist anymore)
 -   [LearnPlone](http://learnplone.org/)
 
 Several forms of teaching users have been mentioned:

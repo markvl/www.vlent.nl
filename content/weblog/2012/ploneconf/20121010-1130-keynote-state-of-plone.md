@@ -43,7 +43,8 @@ year a new Windows installer was created. This one is much more native
 for Windows users. And it uses the same base buildout as other
 installers. This makes switching platforms a lot easier. Other
 approaches are also investigated: [Bitnami](http://bitnami.org/),
-[Turnkey](http://www.turnkeylinux.org/), [Ploud](https://ploud.com/).
+[Turnkey](http://www.turnkeylinux.org/),
+[Ploud](http://www.enfoldsystems.com/ploud).
 
 
 In the area of quality assurance: a lot of tickets in Trac have been
