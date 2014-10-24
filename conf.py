@@ -19,6 +19,7 @@ EMAIL = 'mark@vlent.nl'
 
 FILTERS = ['markdown+headerid+delins+def_list', 'typography', 'h1']
 DATE_FORMAT = '%Y-%m-%d %H:%M'
+DISQUS_KEY = '2YTzu4nyYHHawjrkEMP8Vi8SL5wMH7p6AR77ad6pdMc59tODvp7eIC705ZvhR6rh'
 DISQUS_SHORTNAME = 'vlent'
 SUMMARIZE_LINK = '<span>&#8230; <a href="%s" class="continue">Continue reading</a></span>'
 
