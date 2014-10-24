@@ -32,8 +32,16 @@
   {% elif env.type == 'tag' %}
     <h1>Articles tagged as “{{ env.tag }}”</h1>
     <aside>
-      <p>If you are interested in this topic, you can also subscribe to the
-        <a data-icon="&#xe005;" href="{{ env.route + '/feed.atom' }}">“{{ env.tag }}” Atom feed</a>.
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="feed" viewBox="0 0 32 32">
+          <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM10 24c-1.105 0-2-0.895-2-2s0.895-2 2-2 2 0.895 2 2-0.895 2-2 2zM15.5 24c0-4.136-3.364-7.5-7.5-7.5v-3c5.79 0 10.5 4.71 10.5 10.5h-3zM21.5 24c0-3.606-1.404-6.996-3.954-9.546s-5.94-3.954-9.546-3.954v-3c4.407 0 8.551 1.716 11.667 4.833s4.833 7.26 4.833 11.667h-3z"></path>
+        </symbol>
+      </svg>
+      <p>
+        If you are interested in this topic, you can also subscribe to the
+        <svg class="icon"><use xlink:href="#feed" /></svg>
+        <a href="{{ env.route + '/feed.atom' }}">“{{ env.tag }}” Atom
+        feed</a>.
       </p>
     </aside>
   {% endif %}
