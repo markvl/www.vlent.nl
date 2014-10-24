@@ -332,7 +332,6 @@ input
 // 3. Removes excess padding in IE7.
 //    Known issue: excess padding remains in IE6.
 
-// 4. Addresses `appearance` set to `searchfield` in S5, Chrome.
 // 5. Addresses `box-sizing` set to `border-box` in S5, Chrome (include `-moz`
 //    to future-proof).
 
@@ -349,9 +348,6 @@ input
     // 3
   &[type="search"]
     -webkit-appearance: textfield
-    // 4
-    -moz-box-sizing: content-box
-    -webkit-box-sizing: content-box
     // 5
     box-sizing: content-box
     &::-webkit-search-cancel-button, &::-webkit-search-decoration
