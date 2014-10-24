@@ -144,7 +144,7 @@ and sysadmins to build, ship, and run distributed applications.</q>
 
 Docker allows you to launch containers to run your applications
 in. These containers are based on images and these images can either
-be existing images (e.g. from [Docker Hub](https://hub.docker.com/) or
+be existing images (e.g. from [Docker Hub](https://hub.docker.com/)) or
 custom made images.
 
 Using Docker is different from using a virtual machine because it does
