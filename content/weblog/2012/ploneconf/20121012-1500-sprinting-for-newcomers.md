@@ -1,6 +1,6 @@
 ---
-title: Sprinting for newcomers (Sjoerd van Elferen)
-slug: sprinting-for-newcomers-sjoerd-van-elferen
+title: Sprinting for newcomers
+slug: sprinting-for-newcomers
 date: 2012-10-12 15:00
 tags: [plone, ploneconf]
 ---
