@@ -24,11 +24,11 @@
     {%- endblock %}
   </head>
   <body class="{{env.type}}">
-    <div id="page">
+    <div class="page">
       <header role="banner">
         <a href="{{ env.path + '/' }}">
           <h1>{{ conf.sitename }}</h1>
-          <span id="tagline">{{ conf.tagline }}</span>
+          <span class="tagline">{{ conf.tagline }}</span>
         </a>
         <nav role="navigation">
           <ul>
@@ -44,7 +44,7 @@
       </main>
       <footer role="contentinfo">
         {% block footer %}
-          <small id="copyright">
+          <small class="copyright">
             Copyright &copy; <a rel="author" href="{{ env.path + '/about/'}}">Mark van Lent</a>.
             The articles are licensed under a
             <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
@@ -52,11 +52,11 @@
             License</a>. The comments are copyrighted by their
             respective commenters.
           </small>
-          <small id="disclaimer">
+          <small class="disclaimer">
             This is a personal weblog. The opinions expressed here
             represent my own, unless stated otherwise.
           </small>
-          <small id="contact-info">
+          <small class="contact-info">
             You can also find me on
             <a rel="author" href="https://twitter.com/mvlent">Twitter</a>,
             <a rel="author" href="https://plus.google.com/+MarkvanLent/">Google+</a>,
