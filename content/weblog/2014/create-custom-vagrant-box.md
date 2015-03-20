@@ -136,7 +136,24 @@ Although you can argue whether the current virtual machine is a "bare
 minimum required for Vagrant", it'll do for my purposes. So it was time
 to package it.
 
-    $ vagrant package --base "lubuntu 14.04 desktop amd64"
+Since this is a box where I'll want the GUI by default, I created a
+`Vagrantfile`:
+
+    Vagrant.configure("2") do |config|
+      config.vm.provider "virtualbox" do |vb|
+        # Don't boot with headless mode
+        vb.gui = true
+      end
+    end
+
+(By including this file in the box, see the next command, this little
+piece of configuration is loaded when the box is used. It will be
+first in the
+[load order](http://docs.vagrantup.com/v2/vagrantfile/#load-order).)
+
+Then I executed the following commands:
+
+    $ vagrant package --base "lubuntu 14.04 desktop amd64" --vagrantfile Vagrantfile
     $ vagrant box add lubuntu-14.04-desktop-amd64 package.box
 
 The first command creates a `package.box` file from the virtual
@@ -152,22 +169,16 @@ environment by creating an initial `Vagrantfile`, just as normal.
 
     $ vagrant init lubuntu-14.04-desktop-amd64
 
-I made sure that the GUI is enabled, by uncommenting this section of the `Vagrantfile`:
-
-    config.vm.provider :virtualbox do |vb|
-      # Don't boot with headless mode
-      vb.gui = true
-    end
-
-(I also edited the file to use the Puppet provisioner. But that is
-beyond the scope of this article.)
-
 The last step:
 
     $ vagrant up
 
 
 ![Using the new box](/images/vagrant-use-new-box.png)
+
+(Note that I edited the final Vagrantfile in the project directory to
+use the Puppet provisioner. But that is beyond the scope of this
+article.)
 
 
 # More information
@@ -209,3 +220,6 @@ and install the `virtualbox-4.3` package, which provides version
 4.3.20 (at the time of writing). After creating a new base box with
 this version of VirtualBox, Vagrant could mount the shared folders
 properly.
+
+**Edited on 2015-03-20** to add the packaging of the `Vagrantfile`
+  with the box.
