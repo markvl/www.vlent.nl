@@ -82,7 +82,7 @@ the
 in my Nginx setup:
 
     ssl_stapling on;
-    ssl_stapling_file path/to/file_with_ocsp_response
+    ssl_stapling_file path/to/file_with_ocsp_response;
 
 This---in itself---is not a problem. However, what I did not realise
 was that the file with the OCSP response needed to be *updated*
@@ -115,7 +115,7 @@ stapling, for example with this configuration:
 
     ssl_stapling on;
     ssl_stapling_verify on;
-    ssl_trusted_certificate /path/to/cert_chain.pem
+    ssl_trusted_certificate /path/to/cert_chain.pem;
     resolver 8.8.8.8 8.8.4.4 valid=300s;
     resolver_timeout 5s;
 
