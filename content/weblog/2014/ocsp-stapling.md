@@ -152,4 +152,4 @@ And finally this: not all clients check whether a certificate is
 revoked or not. For instance in Chrome the
 [online revocation check is disabled by default](https://www.imperialviolet.org/2012/02/05/crlsets.html). But
 that is a completely different side of this story. There's only so
-much humble web server can do.
+much a humble web server can do.
