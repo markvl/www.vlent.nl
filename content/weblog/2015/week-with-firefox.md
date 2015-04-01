@@ -1,5 +1,6 @@
 ---
 title: A week with Firefox instead of Chromium
+date: 2015-04-01 14:26:00
 tags: tools
 ---
 
