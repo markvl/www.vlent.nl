@@ -80,6 +80,11 @@ the files are already in the right directory (`src/package` in my case):
            mv "$GIT_INDEX_FILE.new" "$GIT_INDEX_FILE"
           ' HEAD
 
+(Note that
+[according to Frederik](http://stackoverflow.com/questions/13060356/git-log-shows-very-little-after-doing-a-read-tree-merge/13060513#comment44550628_13060513)
+you have to replace the `\t` in the `sed` command with `Ctrl-V + tab` when
+using OS X.)
+
 You can now verify that everything is still all-right, the history is
 preserved and all files are located in the new directory.
 
