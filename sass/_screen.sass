@@ -4,8 +4,11 @@ body
   padding: .5em 2.5% .5em 2.5%
   box-sizing: border-box
 
-h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, header + p
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p
   +leader(.25)
+
+main h1
+  +trailer(.75)
 
 h1 em, h2 em, h3 em, h4 em, h5 em, h6 em
   font-style: normal
@@ -70,10 +73,10 @@ header[role="banner"]
     text-decoration: none
     font-weight: 700
   h1
-    +adjust-font-size-to($base-font-size * 1.4, 1.25)
+    +adjust-font-size-to($base-font-size * 1.2, 1.25)
     +leader(0)
   .tagline
-    +adjust-font-size-to($base-font-size)
+    +adjust-font-size-to($base-font-size * .9)
     font-weight: 500
   nav
     clear: both
@@ -109,7 +112,9 @@ aside
 
 .metadata
   +adjust-font-size-to($small-font-size)
-  font-style: italic
+  +trailer(.25)
+  font-family: $header-font-family
+  font-style: normal
   color: $font-color-subdued
   a
     color: $link-color-subdued

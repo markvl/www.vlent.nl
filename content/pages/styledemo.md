@@ -36,7 +36,7 @@ of the heading, especially in a longer text where the ``<h2>`` and
 ``<h3>`` might not appear on the screen at the same time.
 
 The headings are set in
-[Museo Sans Condensed](https://typekit.com/fonts/museo-sans-condensed).
+[Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro).
 
 # Grouping content
 
@@ -44,10 +44,10 @@ The headings are set in
 
 Because this is a weblog, most of the content will be contained in
 paragraphs, using the ``<p>`` element. Normal paragraphs are set in
-18px [FF Tisa Pro](https://typekit.com/fonts/ff-tisa-web-pro). I have chosen this
-(serif) font mainly because I liked the appearance.
+[Noticia Text](https://fonts.google.com/specimen/Noticia+Text).
+have chosen this font mainly because I liked the appearance.
 
-Another important reason is that FF Tisa Pro is a complete
+Another important reason is that Noticia Text is a complete
 family. This means I can use e.g. **bold** to increase the importance
 of text (using ``<strong>``) and *italic* to put emphasis on other
 text (using the ``<em>`` element). Should it be necessary, I can even
@@ -61,7 +61,7 @@ other words, I can
 As this is a technical weblog, pieces of code are often part of the
 articles. They can be included in two separate ways: inline in a
 paragraph and as a preformatted chunk of text. For both, the font
-[Inconsolata](https://typekit.com/fonts/inconsolata) is used.
+[Inconsolata](https://fonts.google.com/specimen/Inconsolata) is used.
 
 For code that needs to be displayed in a normal sentence, as
 demonstrated earlier, use the ``<code>`` element. For preformatted text,
