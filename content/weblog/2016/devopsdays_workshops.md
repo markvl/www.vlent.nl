@@ -82,7 +82,7 @@ components during the workshop.
 After getting Kibana up and running, we used its console to interact
 with Elasticsearch.
 
-![Philipp Krenn talking about Kibana](/images/going_elastic_philipp_krenn.jpg)
+![Philipp Krenn talking about Kibana](/images/devopsdays2016_going_elastic_philipp_krenn.jpg)
 
 Internal information can be queried via the "`_cat`" API, e.g. "`GET
 /_cat/health`" (Note that you can always add the "`?v`" parameter to
