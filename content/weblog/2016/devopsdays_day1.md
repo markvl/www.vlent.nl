@@ -374,7 +374,7 @@ communication to inform and encourage decision making.
 
 Break Brooks' Law with a DevOps culture.
 
-The sheets of this talk: [bit.ly/brooks-dod](http://bit.ly/brooks-dod)
+Jason published [the sheets of this talk](https://drive.google.com/file/d/0B1IHl71JwnxFb1J2cE5uaWJOTGc/view).
 
 
 ## The importance of 'why' for software operations --- Pavel Chunyayev (Levi9)
