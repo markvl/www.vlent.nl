@@ -191,7 +191,17 @@ Some stats:
 
 We talked about microservices and a microimages, but is the platform also micro?
 
-![Picture of a platform with a lot of attached concepts, e.g. security, discovery, etc.](/images/devopsdays2016_microservices_in_production.jpg)
+<figure>
+  <img src="/images/devopsdays2016_microservices_in_production.jpg"
+       alt="Picture of a platform with a lot of attached concepts, e.g. security, discovery, etc." />
+  <figcaption>
+    Taken from the <a
+    href="http://resources.codeship.com/webinars/running-microservices-in-production">How
+    to Build, Test & Deploy Docker Images when Running Microservices
+    in Production</a> webinar since I failed to make a readable photo
+    during Daniëls presentation on DevOpsDays.
+  </figcaption>
+</figure>
 
 With all of the attached concepts, like security, monitoring,
 scheduling, etc, you have an elephant as a platform to run your
