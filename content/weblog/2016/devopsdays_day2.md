@@ -6,6 +6,9 @@ tags: [devops, tools]
 
 My notes from the second day of DevOpsDays Amsterdam 2016.
 
+The livestream can be found at
+[http://livestream.com/accounts/20260359/devopsdays-amsterdam-2016/videos/128292707](http://livestream.com/accounts/20260359/devopsdays-amsterdam-2016/videos/128292707).
+
 
 
 # What we’re learning about burnout and how a DevOps culture can help --- Ken Mugrage (ThoughtWorks)
