@@ -69,5 +69,7 @@ STATIC_IGNORE += ['.#*', 'vL.xcf']
 DEPLOYMENT = {
     'bhosted': 'rsync -rtuvz --delete $OUTPUT_DIR bhosted:~/www/www.vlent.nl',
     'atlanta': 'rsync -rtuvz --delete $OUTPUT_DIR atlanta:/var/www/www.vlent.nl/html',
+    'knuth': 'rsync -rtuvz --delete $OUTPUT_DIR knuth:/var/www/www.vlent.nl/html',
+    'new': 'rsync -rtuvz --delete $OUTPUT_DIR knuth:/var/www/new.vlent.nl/html',
     'clean': 'rm -rf output/index.html output/sitemap.xml output/feed.atom output/weblog output/page',
 }

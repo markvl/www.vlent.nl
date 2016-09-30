@@ -39,40 +39,9 @@
     {% if conf.disqus_shortname and not entry.draft %}
       <div class="comments">
          <button class="show-comments">Show comments</button>
-        <div id="disqus_thread"></div>
-        <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
-        <script>
-          var disqus_public_key = "{{ conf.disqus_key }}";
-          var disqus_shortname = "{{ conf.disqus_shortname }}";
-          var disqus_url = "{{ conf.www_root + entry.permalink }}";
-          var disqus_identifier = "{{ entry.permalink }}";
-          var thread_identifier = "ident:" + disqus_identifier;
-
-          $.ajax({
-              type: 'GET',
-              url: 'https://disqus.com/api/3.0/threads/set.jsonp',
-              data: { api_key: disqus_public_key, forum: disqus_shortname, thread: thread_identifier },
-              cache: false,
-              dataType: 'jsonp',
-              success: function(result) {
-                  if (result.response.length === 1) {
-                      btnText = 'Show comments (' + result.response[0].posts + ')';
-                      $('.show-comments').html(btnText);
-                  }
-              }
-          });
-
-          $('.show-comments').on('click', function() {
-              $.ajaxSetup({cache:true});
-              $.getScript('//' + disqus_shortname + '.disqus.com/embed.js');
-              $.ajaxSetup({cache:false});
-              $(this).remove();
-          });
-
-          if(/\#comment/.test(location.hash)){
-              $('.show-comments').trigger('click');
-          }
-        </script>
+        <div id="disqus_thread" data-pub-key="{{ conf.disqus_key }}" data-shortname="{{ conf.disqus_shortname }}"></div>
+        <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="/js/comments.js"></script>
         <noscript>
           <p>Please enable JavaScript to view the <a href="{{ env.protocol }}://disqus.com/?ref_noscript">comments powered by Disqus.</a></p>
         </noscript>
@@ -80,7 +49,7 @@
     {% endif -%} {# show comments? #}
 
     <aside role="complementary">
-      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
         <symbol id="feed" viewBox="0 0 32 32">
           <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM10 24c-1.105 0-2-0.895-2-2s0.895-2 2-2 2 0.895 2 2-0.895 2-2 2zM15.5 24c0-4.136-3.364-7.5-7.5-7.5v-3c5.79 0 10.5 4.71 10.5 10.5h-3zM21.5 24c0-3.606-1.404-6.996-3.954-9.546s-5.94-3.954-9.546-3.954v-3c4.407 0 8.551 1.716 11.667 4.833s4.833 7.26 4.833 11.667h-3z"></path>
         </symbol>
