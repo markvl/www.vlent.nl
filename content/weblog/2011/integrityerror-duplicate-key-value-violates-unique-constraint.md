@@ -27,7 +27,7 @@ address.)
 
 I decided to create two different models (Adress and BillingAddress)
 which both inherrit from an
-[abstract base class](http://docs.djangoproject.com/en/1.6/topics/db/models/#abstract-base-classes)
+[abstract base class](https://docs.djangoproject.com/en/dev/topics/db/models/#abstract-base-classes)
 (BaseAddress). The Profile model changed to use these models:
 
     class Profile(models.Model):
