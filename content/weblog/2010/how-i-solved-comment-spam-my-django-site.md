@@ -13,12 +13,11 @@ displaying the comment form below the blog entries, the problem of the
 spam seems to be solved. While this wasn't my goal, it *is* a nice
 side effect.
 
-It appears that the initial comment system (I'm using
-[Django's comment framework](https://docs.djangoproject.com/en/1.6/ref/contrib/comments/))
-was more interesting for comment spammers than the implementation of
-comments on my old Plone site was. I think this is because there is a
-URL field on the form now. And if the URL is present, the name of the
-commenter becomes a link to that URL.
+It appears that the initial comment system (I'm using Django's comment
+framework) was more interesting for comment spammers than the
+implementation of comments on my old Plone site was. I think this is
+because there is a URL field on the form now. And if the URL is
+present, the name of the commenter becomes a link to that URL.
 
 Since I saw that coming, I am using a similar setup as in
 [Practical Django Projects](http://apress.com/book/view/9781590599969):
