@@ -4,7 +4,7 @@ date: 2016-11-16
 tags: [django, security]
 ---
 
-Dan Poirier wrote an article on the Cactus Group blog about common web
+Dan Poirier wrote an article on the Caktus Group blog about common web
 site security vulnerabilities. In it he talked about the CSRF
 protection in Django. Although he is right about a CSRF token having
 to be part of the POST request, this is not the entire story.
