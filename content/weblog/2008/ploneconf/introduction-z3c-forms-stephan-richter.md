@@ -92,5 +92,4 @@ Extensions:
 
 Additional information:
 
-- This talk: [http://svn.zope.org/z3c.talk/trunk/](http://svn.zope.org/z3c.talk/trunk/)
 - [http://pypi.python.org/pypi/z3c.form](http://pypi.python.org/pypi/z3c.form)

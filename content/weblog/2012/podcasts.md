@@ -23,11 +23,11 @@ Anyway, here's the list in alphabetic order:
    general.
  * [The Big Web Show](http://5by5.tv/bigwebshow) is about everything
    web that matters.
- * [The Non Breaking Space Show](http://nonbreakingspace.tv/):
+ * [Non Breaking Space Show](https://goodstuff.fm/nbsp/):
    interviews with the web’s best and brightest.
- * [The Web Ahead](http://5by5.tv/webahead) is weekly podcast about
+ * [The Web Ahead](http://thewebahead.net/) is weekly podcast about
    changing technologies and the future of the web.
- * [This Developer's Life](http://thisdeveloperslife.com/): stories
+ * [This Developer's Life](http://nonbreakingspace.tv/):http://thisdeveloperslife.com/): stories
    about developers and their lives.
 
 I have listened to a number of other podcasts over the years, but

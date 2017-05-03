@@ -82,7 +82,7 @@ way to work with staged changes. And this is a feature I really
 started to like and use.
 
 To make a long story short: I switched to
-[Magit](http://magit.github.io/) for the moment. Although it took me a
+[Magit](https://magit.vc/) for the moment. Although it took me a
 while to get used to the key bindings, I actually really like it! It
 allows me to work with Git from Emacs and the command line in a
 similar fashion. Actions taken in one of them do not get in the way of

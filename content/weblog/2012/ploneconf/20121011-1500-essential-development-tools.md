@@ -15,7 +15,7 @@ where to get help:
    - Search via [DuckDuckGo](http://duckduckgo.com/),
      [Google](http://www.google.com),
      [Stack Overflow](http://stackoverflow.com/questions/tagged/plone)
-     or the [Plone mailing lists](http://plone.org/support/lists)
+     or the [Plone mailing lists](http://lists.plone.org/mailman/listinfo)
    - IRC (`#plone` on Freenode)
    - [Plone books](http://plone.org/documentation/books)
 

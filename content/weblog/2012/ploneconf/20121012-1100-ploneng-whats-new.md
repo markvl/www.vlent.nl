@@ -154,7 +154,7 @@ Interesting PLIPs David would like to see:
 David asks us to get involved in building the next version of Plone:
 
   - Review PLIPs to aid the FT by giving feedback on a PLIP. (See
-    [dev.plone.org/roadmap](http://dev.plone.org/roadmap)) for
+    [the Plone roadmap](https://plone.org/roadmap) for
     the PLIPs.)
   - Champion a PLIP: take responsibility to make a PLIP happen
     (coordinate developers, make sure things are moving along).

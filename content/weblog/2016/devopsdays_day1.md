@@ -6,9 +6,6 @@ tags: [devops, tools]
 
 My notes from the first day of DevOpsDays Amsterdam 2016.
 
-The livestream can be found at
-[http://livestream.com/accounts/20260359/devopsdays-amsterdam-2016/videos/128186700](http://livestream.com/accounts/20260359/devopsdays-amsterdam-2016/videos/128186700).
-
 
 
 # Opening welcome

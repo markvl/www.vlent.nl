@@ -72,7 +72,7 @@ articles (entries), pages, (paginated) lists of articles, tags and feeds.
 Acrylamid provides an easy way to import content from e.g. an Atom
 feed. This was great since I already provided feeds on the previous
 version of my site (using
-[django-atompub](http://django-atompub.googlecode.com/)). So
+[django-atompub](https://code.google.com/archive/p/django-atompub/)). So
 all I needed to do on the Django side was to add was a feed that
 listed *all* articles. (Note that I already
 [migrated from django.contrib.comments to Disqus](/weblog/2012/09/07/migrating-djangocontribcomments-disqus/)).

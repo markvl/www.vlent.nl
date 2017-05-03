@@ -28,7 +28,7 @@ Yes! I cannot even imagine working without it. We mainly use
 [Subversion](http://subversion.tigris.org/) but some of us are (or
 have been) experimenting with other source control software, like
 [Bazaar](http://bazaar-vcs.org/) , [Git](http://git-scm.com/) and
-[Mercurial](http://mercurial.selenic.com/wiki/).
+[Mercurial](https://www.mercurial-scm.org/).
 
 # 2. Can you make a build in one step?
 

@@ -79,7 +79,7 @@ the full version. If that option is even available!
 Instead of having a separate mobile site, you can use
 [responsive web design](http://www.alistapart.com/articles/responsive-web-design/). With
 this approach you use
-[css media queries](http://css-tricks.com/6731-css-media-queries/) to
+[css media queries](https://css-tricks.com/css-media-queries/) to
 change the layout of the page, while serving the same HTML and the
 same content. In other words: you don't necessarily care about the
 type of device your visitor is using, you set the rules on how things
