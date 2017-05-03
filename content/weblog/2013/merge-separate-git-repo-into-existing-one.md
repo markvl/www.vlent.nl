@@ -99,7 +99,11 @@ Add the `<package>` clone as a remote:
 
 Next, merge the new remote:
 
-    $ git merge package/master
+    $ git merge --allow-unrelated-histories package/master
+
+(Updated on 2017-05-03 to add `--allow-unrelated-histories`, which is
+needed since Git 2.9. Thanks to Josef, Maurits and Duncan for pointing
+this out.)
 
 Cleanup time: you can remove the temporary `<package>` remote:
 
