@@ -65,11 +65,7 @@ Four pillars of effective DevOps:
 The four pillars all help with creating connections. But here comes
 the same quote again:
 
-<blockquote>
-  <p>
-    Tools will not fix a broken culture.
-  </p>
-</blockquote>
+> Tools will not fix a broken culture.
 
 A couple of the things that worked for Etsy to create connections:
 
@@ -279,11 +275,7 @@ How to improve your own resilience:
   - Reduce input (you don't have to be "on" every moment of the day).
   - Meditate.
 
-<blockquote>
-  <p>
-    If it doesn't challenge you, it won't change you.
-  </p>
-</blockquote>
+> If it doesn't challenge you, it won't change you.
 
 Adopt learning behaviours, build on your resilience. Include aspects
 like how we feel about our work into your retrospectives.
@@ -307,21 +299,25 @@ Case studies:
   - Gitlab earlier this year
   - Level 3
 
-Commonalities: things going wrong during crisis because of running 'arbitrary' code in production.
+Commonalities: things going wrong during crisis because of running
+'arbitrary' code in production.
 
 ![Matthew Simons: single points of failure ](/images/devopsdays2017_matthew_simons.jpg)
 
-We (humans) are the single point of failure. People don't scale. Manual processes don't scale.
+We (humans) are the single point of failure. People don't
+scale. Manual processes don't scale.
 
-<blockquote class="twitter-tweet" data-lang="en">
-  <p lang="en" dir="ltr">
-      Ops lock-in: When your organization cannot innovate faster than your ops team will allow or willing to support.
+<blockquote>
+  <p>
+    Ops lock-in: When your organization cannot innovate faster than
+    your ops team will allow or willing to support.<br />
+    &mdash; Kelsey Hightower (@kelseyhightower)
+    <a href="https://twitter.com/kelseyhightower/status/849362711565791235">April 4, 2017</a>
   </p>
-  &mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/849362711565791235">4 April 2017</a>
 </blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Code is safe(r). By moving to operations as code or crisis response as code, things that impact production are safe.
+Code is safe(r). By moving to operations as code or crisis response as
+code, things that impact production are safe.
 
 Common components:
 
@@ -375,7 +371,8 @@ Tools you can consider:
 
 <blockquote>
   <p>
-    Think big, start small. But most of all, start---Simon Sinek
+    Think big, start small. But most of all, start<br />
+    &mdash; Simon Sinek
   </p>
 </blockquote>
 
@@ -411,7 +408,8 @@ decisions. Hard choices are hard because there is no 'best' option.
 Tips to make good choices:
 
   - Avoid stress (under stress the fight-or-flight mode is activated)
-  - Try to avoid perfection (in hard choices there is probably no perfect solution)
+  - Try to avoid perfection (in hard choices there is probably no
+    perfect solution)
 
 There are several forms of biases. Possible solutions to overcome these:
 
@@ -427,11 +425,7 @@ There are several forms of biases. Possible solutions to overcome these:
     - Evaluate the current situation as if it was just another option.
     - Create a culture of failure.
 
-<blockquote>
-  <p>
-    Hard decisions are chances to decide what we want to be.
-  </p>
-</blockquote>
+> Hard decisions are chances to decide what we want to be.
 
 Tip to avoid group thinking when making decisions in a group: each
 person writes his/her idea down and discussion afterwards.

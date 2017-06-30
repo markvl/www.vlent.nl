@@ -172,12 +172,8 @@ because it was easier.  At Schuberg Philis they actually use Terraform
 to manage their cluster(s). Note that you can use a flag and then
 `kops` will spit out Terraform code.
 
-<blockquote>
-  <p>
-    If you are worried about your pods going down gracefully,
-    you are doing your pods wrong.
-  </p>
-</blockquote>
+> If you are worried about your pods going down gracefully,
+> you are doing your pods wrong.
 
 If your application depends on long running processes: don't use
 Kubernetes. Use the right tool for the right application.
