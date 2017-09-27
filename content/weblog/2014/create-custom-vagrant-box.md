@@ -1,7 +1,7 @@
 ---
 title: How to create a custom Vagrant box
 date: 2014-12-19 11:01
-tags: devops, tools
+tags: [devops, tools, virtualbox, vagrant]
 ---
 
 This is a description of how I created a custom Vagrant box starting

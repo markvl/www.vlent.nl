@@ -2,7 +2,7 @@
 title: Locked myself out of root account on EC2 Ubuntu instance
 slug: locked-myself-out-root-account-ec2-ubuntu-instance
 date: 2010-09-06 10:27
-tags: [devops, ubuntu]
+tags: [devops, ec2, ubuntu]
 ---
 
 This is a short recap of how I managed to lock myself out of the root
