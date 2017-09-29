@@ -33,6 +33,8 @@ Important takeaway: tools will not fix your broken culture. The
 tooling hype is not helping. Stop looking at the hype and start
 thinking about what matters: how can we help the business go forward?
 
+[Video on of this talk on YouTube](https://www.youtube.com/watch?v=4_cqgwXfgus)
+
 
 # Keynote: Building Bridges with Effective DevOps --- Katherine Daniels (former: Etsy, future: Travis CI)
 
@@ -113,9 +115,10 @@ Call to action:
 
 Resources:
 
-  - [Slides](https://speakerdeck.com/kdaniels/building-bridges-with-effective-devops-3)
+  - Slides: [Speaker Deck](https://speakerdeck.com/kdaniels/building-bridges-with-effective-devops-3) and [PDF](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Katherine_Daniels-Building_Bridges_with_Effective_Devops.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=nYzN9gClbEw)
   - The book Katherine co-wrote: [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do)
-  - [Empathy: The Essence of DevOps](https://medium.com/@jeffsussna/empathy-the-essence-of-devops-572ed2a7f42b).
+  - [Empathy: The Essence of DevOps](https://medium.com/@jeffsussna/empathy-the-essence-of-devops-572ed2a7f42b)
 
 
 # Start-up Culture at Scale --- Matthew Slane (Skyscanner)
@@ -167,6 +170,11 @@ What has changed for Skyscanner:
   - Communication is hard, which is normal for a big organisation but
     the structure Skyscanner is using makes it even harder.
 
+Resources:
+
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Matthew_Slane-Start-up_Culture_at_Scale.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=tFZ1K3pyLfQ)
+
 
 # DevSecOps: Security at DevOps Speed --- Ilkka Turunen (Sonatype)
 
@@ -184,7 +192,6 @@ you rather be during a zombie apocalypse? A castle or a shed which has
 security measures bolted on?
 
 ![Ilkka Turunen talks about the domains of security](/images/devopsdays2017_ilkka_turunen.jpg)
-
 
 However, in our industry we are on the opposite side. We spend quite a
 bit on countermeasures instead of going back to the basics and
@@ -209,8 +216,10 @@ Other tips:
  - Know what you run (applications, OS packages, libraries) and where
    you run it.
 
-Reading material:
+Resources:
 
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Ilkka_Turunen-DevSecOps_Security_at_Devops_Speed.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=GxrWr9flU3E)
   - The Sonatype [2017 DevSecOps Community Survey](https://www.sonatype.com/2017survey)
   - The GitHub repo [Awesome DevSecOps](https://github.com/devsecops/awesome-devsecops)
 
@@ -282,6 +291,8 @@ like how we feel about our work into your retrospectives.
 
 Resources:
 
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Hannah_Foxwell-Resilient_Systems_Require_Resilient_People.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=HjWmKnUHL20)
   - [humanops.com](http://www.humanops.com/)
   - [resilienceresearch.org](http://resilienceresearch.org/)
 
@@ -343,6 +354,10 @@ Summary:
   - Don't be a single point of failure.
   - Do it for you!
 
+Resources:
+
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Matthew_Simons-Terminal_Velocity.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=g9l2IQCzVqY)
 
 # Ignites
 
@@ -430,7 +445,9 @@ There are several forms of biases. Possible solutions to overcome these:
 Tip to avoid group thinking when making decisions in a group: each
 person writes his/her idea down and discussion afterwards.
 
-[Slides](https://www.slideshare.net/NETWAYS/how-to-make-good-and-difficult-decisions)
+Resources:
+
+  - Slides: [SlideShare](https://www.slideshare.net/NETWAYS/how-to-make-good-and-difficult-decisions) and [PDF](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Bernd_Erk-How_To_Make_Good_and_Difficult_Decisions.pdf)
 
 
 # How to do HumanOps --- David Mytton (Server Density)
@@ -456,6 +473,10 @@ Twelve principles:
   12. Humans > systems.
 
 More information on [humanops.com](http://www.humanops.com/)
+
+Resources:
+
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/David_Mytton-How-to-do-Humanops.pdf)
 
 
 # Operations in Jip-en-Janneke taal --- Jonathan Lukkien (bol.com)

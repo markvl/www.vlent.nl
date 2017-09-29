@@ -69,6 +69,11 @@ You can implement DevOps practices without the business or system
 knowing what DevOps is. Feed your knowledge and experience back into
 the system and help others by doing so.
 
+Resources:
+
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Jody_Wolfborn-Adapt_or_Die.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=Rxv9oOMY8HU)
+
 
 # Practical tips for defending web applications in the age of agile/DevOps --- Zane Lackey (Signal Sciences)
 
@@ -184,6 +189,11 @@ impossible goal) to having a focus on continuous visibility and
 feedback, and providing capabilities to make developers/DevOps teams
 security self sufficient.
 
+Resources:
+
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Zane_Lacker-Practical_Tips_For_Defending_Web_Applications_In_The_Age_Of_Agile_Devops.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=Mae2iXUA7a4)
+
 
 # Data-driven incident reviews --- Jason Yee (Datadog)
 
@@ -267,7 +277,8 @@ address later.
 
 Resources:
 
-  - [Slides](https://drive.google.com/file/d/0B1IHl71JwnxFeF81cUFTRzJqN1U/view)
+  - Slides: [PDF (Google Drive)](https://drive.google.com/file/d/0B1IHl71JwnxFeF81cUFTRzJqN1U/view) and [PDF (DevOpsDays)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Jason_Yee-Data-driven_postmortems.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=SuYBXBa3T1w)
   - [Postmortem template](https://docs.google.com/document/d/1A8paeWbiPJBSVjj3yXhtygxtZk7r76H8g5DzFCzwZgE/edit)
   - [The Infinite Hows (or, the Dangers Of The Five Whys)](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/)
 
@@ -415,3 +426,8 @@ Summary:
   - Move security left (part of the process, not afterthought).
 
 The slides contain a bunch of interesting links on the last page.
+
+Resources:
+
+  - [Slides (PDF)](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Peter_Souter-Secret_Management_in_the_world_of_Infrastructure_as_Code.pdf)
+  - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=N_FpvLcdUpw)
