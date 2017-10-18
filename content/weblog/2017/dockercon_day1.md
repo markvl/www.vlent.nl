@@ -78,8 +78,6 @@ There was a contest to create the smallest Docker container that
 printed out "Hello world". The result was an image of only 64
 kilobyte.
 
-> Containers in a VM can perform better than just a VM.
-
 Security is about more than just isolation. For instance: where did
 the images come from, are they up to date, how do you deal with
 sensitive data and/or passwords?
