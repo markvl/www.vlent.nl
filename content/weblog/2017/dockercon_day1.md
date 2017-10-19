@@ -29,6 +29,13 @@ This way you can still use the same tools and workflow while being
 able to choose between Swarm and Kubernetes. It also means you can
 still use your `docker-compose.yml` files.
 
+**Update 2017-10-19:** I now understand that Docker CE will only
+include Kubernetes in Docker for Windows and Docker for Mac because
+those platforms use LinuxKit. Docker is not clear on how/when
+Kubernetes will supported on Linux.
+
+![Kubernetes supported in Docker CE for Windows and Mac](/images/dockerconeu17_kubernetes_win_mac.jpg)
+
 
 # Hacked! Run time security for containers --- Gianluca Borello (Sysdig)
 
