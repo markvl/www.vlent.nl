@@ -36,14 +36,14 @@ thinking about what matters: how can we help the business go forward?
 [Video on of this talk on YouTube](https://www.youtube.com/watch?v=4_cqgwXfgus)
 
 
-# Keynote: Building Bridges with Effective DevOps --- Katherine Daniels (former: Etsy, future: Travis CI)
+# Keynote: Building Bridges with Effective DevOps --- Ryn Daniels (former: Etsy, future: Travis CI)
 
 According to research, after 10 years in the industry ('mid career'),
 56% of the women left have the industry.
 
 There are six causes for burnout identified by Dr. Christina Maslach:
 disconnection of workload, control, rewards, fairness, values or
-community. Katherine adds "disconnection of the industry itself" to
+community. Ryn adds "disconnection of the industry itself" to
 that list. Some possible causes: being the only women in ops, being
 the only ops engineer in a company. In general: feeling like being
 "the only one".
@@ -51,7 +51,7 @@ the only ops engineer in a company. In general: feeling like being
 Breaking down silos is not only good for companies but also for
 people.
 
-![Katherine Daniels speaking about DevOps being about creating connections](/images/devopsdays2017_katherine_daniels.jpg)
+![Ryn Daniels speaking about DevOps being about creating connections](/images/devopsdays2017_ryn_daniels.jpg)
 
 Four pillars of effective DevOps:
 
@@ -115,9 +115,9 @@ Call to action:
 
 Resources:
 
-  - Slides: [Speaker Deck](https://speakerdeck.com/kdaniels/building-bridges-with-effective-devops-3) and [PDF](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Katherine_Daniels-Building_Bridges_with_Effective_Devops.pdf)
+  - Slides: [Speaker Deck](https://speakerdeck.com/kdaniels/building-bridges-with-effective-devops-3) and [PDF](https://assets.devopsdays.org/events/2017/amsterdam/presentations/Ryn_Daniels-Building_Bridges_with_Effective_Devops.pdf)
   - [Video on of this talk on YouTube](https://www.youtube.com/watch?v=nYzN9gClbEw)
-  - The book Katherine co-wrote: [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do)
+  - The book Ryn co-wrote: [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do)
   - [Empathy: The Essence of DevOps](https://medium.com/@jeffsussna/empathy-the-essence-of-devops-572ed2a7f42b)
 
 
