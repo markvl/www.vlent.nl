@@ -70,7 +70,6 @@ For a more visual version of the history of this site, go to the
 If you want to get in touch with me, you can use (in random order):
 
   * [Twitter](https://twitter.com/mvlent)
-  * [Google+](https://plus.google.com/+MarkvanLent/)
   * [LinkedIn](https://nl.linkedin.com/in/markvanlent)
 
 Or you can send an email to "mark" at this domain name.
