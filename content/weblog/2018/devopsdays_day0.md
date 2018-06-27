@@ -1,7 +1,7 @@
 ---
 title: Devopsdays Amsterdam 2018: workshops
 date: 2018-06-27
-tags: [devops, docker, go, kubernetes, ...]
+tags: [devops, docker, elastic, go, kubernetes]
 ---
 
 Just like the previous couple of years, devopsdays Amsterdam started
