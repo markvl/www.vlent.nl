@@ -1,7 +1,7 @@
 ---
 title: DockerCon EU 2017: day one
 date: 2017-10-17
-tags: [devops, docker, security, tools]
+tags: [conference, devops, docker, security, tools]
 ---
 
 These are my notes of my first day at DockerCon.

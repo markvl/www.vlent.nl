@@ -1,7 +1,7 @@
 ---
 title: DevOpsDays Amsterdam 2017: day two
 date: 2017-06-30
-tags: [devops, humanops]
+tags: [conference, devops, humanops]
 ---
 
 These are the notes I took on the second conference day of DevOpsDays

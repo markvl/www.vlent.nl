@@ -1,7 +1,7 @@
 ---
 title: Devopsdays Amsterdam 2018: reflection
 date: 2018-07-04
-tags: [devops, docker, elastic, go, kubernetes]
+tags: [conference, devops, docker, elastic, go, kubernetes, opinion]
 ---
 
 About a week has past since devopsdays Amsterdam. Time to write down

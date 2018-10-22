@@ -1,7 +1,7 @@
 ---
 title: DevOpsDays Amsterdam 2016: workshops
 date: 2016-06-29
-tags: [devops, tools]
+tags: [conference, devops, tools]
 ---
 
 

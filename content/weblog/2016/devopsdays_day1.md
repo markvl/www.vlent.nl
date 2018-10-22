@@ -1,7 +1,7 @@
 ---
 title: DevOpsDays Amsterdam 2016: Day One
 date: 2016-06-30
-tags: [devops, tools]
+tags: [conference, devops, tools]
 ---
 
 My notes from the first day of DevOpsDays Amsterdam 2016.

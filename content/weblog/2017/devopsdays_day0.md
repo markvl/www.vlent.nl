@@ -1,7 +1,7 @@
 ---
 title: DevOpsDays Amsterdam 2017: day zero (workshops)
 date: 2017-06-28
-tags: [ansible, devops, docker, kubernetes, openshift, tools]
+tags: [ansible, conference, devops, docker, kubernetes, openshift, tools]
 ---
 
 Before the regular DevOpsDays kicked off, there was a day filled with workshops.

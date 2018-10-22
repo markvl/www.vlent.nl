@@ -1,7 +1,7 @@
 ---
 title: DockerCon EU 2017: day two
 date: 2017-10-18
-tags: [devops, docker, tools]
+tags: [conference, devops, docker, tools]
 ---
 
 These are my notes of my second day at DockerCon.
