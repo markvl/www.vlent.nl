@@ -2,7 +2,7 @@
 title: Open Source Summit Europe 2018: day one
 slug: open-source-summit-europe-day-one
 date: 2018-10-22
-tags: [conference, devops, logging, monitoring, tools]
+tags: [cloud, conference, devops, logging, monitoring, serverless, tools]
 ---
 
 The first day of the Open Source Summit Europe 2018.

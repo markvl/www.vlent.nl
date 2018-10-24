@@ -1,7 +1,7 @@
 ---
 title: Devopsdays Amsterdam 2018: day one
 date: 2018-06-28
-tags: [cloud native, conference, consul, devops, security]
+tags: [cloud, cloud native, conference, consul, devops, security]
 ---
 
 After the workshops from

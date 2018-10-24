@@ -1,7 +1,7 @@
 ---
 title: Open Source Summit Europe 2018: day two
 date: 2018-10-23
-tags: [conference, devops, security]
+tags: [cloud, conference, devops, security]
 ---
 
 Another set of notes taken at the Open Source Summit Europe 2018.

@@ -1,7 +1,7 @@
 ---
 title: Devopsdays Amsterdam 2018: day two
 date: 2018-06-29
-tags: [conference, devops]
+tags: [cloud, conference, devops, monitoring, tools]
 ---
 
 The second, and last, day of talks of devopsdays in Amsterdam this year.

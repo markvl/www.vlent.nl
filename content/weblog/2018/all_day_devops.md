@@ -1,7 +1,7 @@
 ---
 title: All Day DevOps conference
 date: 2018-10-17
-tags: [conference, devops, security]
+tags: [conference, devops, monitoring, security]
 ---
 
 [All Day DevOps](https://www.alldaydevops.com/) is a 24 hours long, online
