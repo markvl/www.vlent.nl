@@ -1,8 +1,0 @@
-Jinja2==2.6
-Mako==1.0.0
-Markdown==2.5.1
-smartypants==1.8.6
-translitcodec==0.3
-wsgiref==0.1.2
-#-e git+git@github.com:markvl/acrylamid.git#egg=acrylamid
-acrylamid==0.7.10
